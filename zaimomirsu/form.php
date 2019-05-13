@@ -1,8 +1,8 @@
 <?php 
-$sum = "5000"; $period = "10";
+$sum = "1000"; $period = "7";
 if(isset($_GET['amount'])) 
 {  
-    if($_GET['amount'] >= "200" || $_GET['amount'] <= "15000")
+    if($_GET['amount'] >= "600" || $_GET['amount'] <= "10000")
         $sum = $_GET['amount'];
 }
 
@@ -14,7 +14,7 @@ if(isset($_POST['period']))
 
 if(isset($_POST['amount'])) 
 {  
-    if($_POST['amount'] >= "200" || $_POST['amount'] <= "15000")
+    if($_POST['amount'] >= "600" || $_POST['amount'] <= "10000")
         $sum = $_POST['amount'];
 }
 
@@ -57,28 +57,25 @@ if(isset($_SERVER['HTTP_REFERER'])){
     $ad_id = '4';
 }
 ?>
+<style>
+.hidden {
+    display: none !important;
+}
+</style>
 <main class="ex-form">
     <div class="container">
-        <h1 class="text-center" id="form-steps">До одобрения кредита вас отделяют всего 3 шага</h1>
+        <h1 class="text-center" id="form-steps">До одобрения займа вас отделяют всего 1 шаг</h1>
         <div class="row justify-content-center text-center">
             <div class="col-lg-6">
                 <ul class="ex-tab-steps ">
                     <li class="ex-step-counter ex-step-active">
-                        <figure></figure>
-                        <p><br></p>
-                    </li>
-                    <li class="ex-step-counter ex-step-active">
-                        <figure>Паспортные данные</figure>
-                        <p><br></p>
-                    </li>
-                    <li class="ex-step-counter ex-step-active">
-                        <figure></figure>
+                        <figure>Ваши данные</figure>
                         <p><br></p>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <!-- <div class="row justify-content-center">
             <div class="col-xl-8 ">
                 <div class="ex-calc-block">
                     <div class="ex-wrapper">
@@ -108,7 +105,7 @@ if(isset($_SERVER['HTTP_REFERER'])){
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
     </div>
     <div class="ex-bg-form">
         <div class="container">
@@ -120,6 +117,7 @@ if(isset($_SERVER['HTTP_REFERER'])){
                 <input type="hidden" name="ad_id" value="<?=$ad_id?>">
                 <input type="hidden" id="amount" name="amount" value="<?php echo $sum;?>"/>
                 <input type="hidden" id="period" name="period" value="<?php echo $period;?>"/>
+                <input type="hidden" name="fingerprint" id="fingerprint" value="">
                 <div class="tab-content">
                     <div id="firstStep" class="tab-pane active">
                         <?php require 'form1.php';?>

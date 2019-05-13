@@ -214,7 +214,7 @@ function Unloader(){
 $(document).ready(function(){
     if(typeof window.obUnloader != 'object')
     {
-        window.obUnloader = new Unloader();
+        //window.obUnloader = new Unloader();
     }
 	
 	$('a').click(function(){if(typeof window.obUnloader != 'undefined') window.obUnloader.resetUnload();});

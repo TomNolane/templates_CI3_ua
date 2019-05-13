@@ -23,7 +23,7 @@
 	<hr>
 	<div class="row">
 		<div class="col-xs-12 text-center">
-			<small>Самый быстрый и простой способ получить деньги в любой точке РФ!</small>
+			<small>Самый быстрый и простой способ получить деньги в любой точке Украины!</small>
 		</div>
 	</div>
 </div>
@@ -83,7 +83,7 @@
 	<hr>
 	<div class="row">
 		<div class="col-xs-12 text-center">
-			<small>Онлайн займы в любой точке РФ!</small>
+			<small>Онлайн займы в любой точке Украины!</small>
 		</div>
 	</div>
 </div-->
