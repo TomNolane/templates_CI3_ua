@@ -65,6 +65,56 @@ if ($this->uri->segment(1) == 'robots.txt'){
             $my_title = 'Safezaim Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
             $description = 'Safezaim осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
             break;
+        case 'hot-zaimn':
+        case 'hot-zaimk':
+        case 'hot-zaimq':
+        case 'hot-zaimg':
+        case 'hot-zaimw':
+            $main = 'hot-zaim';
+            $link = 'https://pxl.leads.su/click/5d6299df6f55ce669eb09a9dd4faa111'.$prefix;
+            $my_title = 'Hot-zaim Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
+            $description = 'Hot-zaim осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
+            break;
+        case 'mazillan':
+        case 'mazillak':
+        case 'mazillaq':
+        case 'mazillag':
+        case 'mazillaw':
+            $main = 'mazilla';
+            $link = 'https://track.leadbrothers.co/sensor/5cab1427ae2aeb2f45cdfb66'.$prefix;
+            $my_title = 'Mazilla Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
+            $description = 'Mazilla осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
+            break;
+        case 'visamen':
+        case 'visamek':
+        case 'visameq':
+        case 'visameg':
+        case 'visamew':
+            $main = 'visame';
+            $link = 'https://track.leadbrothers.co/sensor/5ccfedf78a5da55786a735ad'.$prefix;
+            $my_title = 'Mazilla Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
+            $description = 'Mazilla осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
+            break;
+        case 'creditkasan':
+        case 'creditkasak':
+        case 'creditkasaq':
+        case 'creditkasag':
+        case 'creditkasaw':
+            $main = 'creditkasa';
+            $link = 'https://pxl.leads.su/click/c54b20898c2c6b8f3c0259e4d4f25084'.$prefix;
+            $my_title = 'Creditkasa Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
+            $description = 'Creditkasa осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
+            break;
+        case 'credilon':
+        case 'credilok':
+        case 'crediloq':
+        case 'credilog':
+        case 'credilow':
+            $main = 'credilo';
+            $link = 'https://track.leadbrothers.co/sensor/5ccfefbc8a5da55786a735b0'.$prefix;
+            $my_title = 'Credilo Лучший Онлайн Сервис На Украине по Подбору Выгодных Займов'; 
+            $description = 'Credilo осуществляет посреднические услуги между клиентом, который хочет получить деньги в заём, и кредитным учреждением, чья деятельность лицензирована';
+            break;
         default:
             $main = 'dinero';
             $link = 'https://pxl.leads.su/click/f8575011212d4ad48b894d278b8c2ad8'.$prefix;

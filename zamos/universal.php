@@ -226,7 +226,7 @@ li > a {
                                                     data-original="/templates/zamos/img/universal/<?=$main?>_logo.png"
                                                      data-hook-clogo="coverlogo"></a>
                                               <div class="t338__title t-title t-title_xxs" style="" >
-                                                <div style="text-align: center;font-size:52px;text-shadow: 1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000" data-customstyle="yes">Вам одобрено 20000 рублей после заявки.<br> Жмите получить деньги.<br>
+                                                <div style="text-align: center;font-size:52px;text-shadow: 1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000" data-customstyle="yes">Вам одобрено 4000 гривен после заявки.<br> Жмите получить деньги.<br>
                                                         <span class="typed-cursor">|</span><br></div>
                                             </div>  
                                             <div class="t338__buttonwrapper click_offer" style="text-align: center;"><a href="<?=$link?>"
@@ -270,7 +270,7 @@ li > a {
                                                 data-animate-style="fadeinleft" data-animate-group="yes" style="transition-delay: 0.5s;"
                                                 >
                                                 
-                                                <div style="font-size:52px;" data-customstyle="yes"><span style="font-size: 33px;text-shadow:1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000"><br>Вам одобрено 20000 рублей после заявки. <br>Жмите получить деньги.</span><br><span style="font-size: 42px;">
+                                                <div style="font-size:52px;" data-customstyle="yes"><span style="font-size: 33px;text-shadow:1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000"><br>Вам одобрено 4000 гривен после заявки. <br>Жмите получить деньги.</span><br><span style="font-size: 42px;">
                                                  </span></div>
                                                             
                                             </div>
@@ -378,8 +378,7 @@ enable_page_level_ads: true
             data-animationappear="off" data-record-type="598" data-bg-color="#f5f5f5">
             <!-- T598 -->
          
-
-<?php if($this->uri->segment(2) != 'webbankir') { ?>
+ 
             <div class="t598">
 
 
@@ -518,8 +517,7 @@ enable_page_level_ads: true
                 </div>
                 <?php } ?> 
             </div>
-
-    <?php } ?>
+ 
            
             <script>
                 $(document).on('click','.click_offer',function(){
@@ -641,7 +639,7 @@ enable_page_level_ads: true
     <?php } ?>
     </script> 
     <!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
+<script  >
 (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
 m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
 (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
