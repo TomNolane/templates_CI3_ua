@@ -60,6 +60,10 @@
                 </div>
             </div>
         </div>
+
+        <div class="ex-why-zaim adsence_about_desctop">
+            <div class="container">
+                
          <!-- zaimomir.su -->
         <ins class="adsbygoogle"
             style="display:block"
@@ -69,9 +73,8 @@
             data-full-width-responsive="true"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-        <div class="ex-why-zaim">
-            <div class="container">
+        </script>                
+                
                 <div class="row  text-center">
                     <div class="col-lg-3 col-md-6 ">
                         <div class="">

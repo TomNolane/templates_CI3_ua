@@ -184,3 +184,8 @@ font-weight:normal;font-style:normal}.fa{display:inline-block;font:normal normal
     text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
   }
 }
+@media (max-width: 600px) {
+    .adsence_about_desctop{
+        display: none !important;
+    }    
+}

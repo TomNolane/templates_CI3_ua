@@ -60,7 +60,7 @@
             </div>
         </div>
     </div>
-    <div class="ex-articles">
+    <div class="ex-articles adsence_about_desctop">
         <div class="container">
         <?php echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Микроденьги -->
@@ -73,7 +73,7 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
         '; ?>
-            <h2 class="text-center">Статьи</h2>
+            <h2 class="text-center ">Статьи</h2>
             <div class="row">
                 <a href="/delay">
                 <div class="col-md-4">
@@ -127,7 +127,7 @@
             </div>
         </div>
     </div>
-    <div class="ex-about">
+    <div class="ex-about adsence_about_desctop">
         <div class="container">
             <h2 class="text-center">Отзывы о нас</h2>
             <div class="row">

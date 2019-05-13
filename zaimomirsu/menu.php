@@ -74,7 +74,7 @@
     </div>
 </div>
 <!-- zaimomir.su adsence-->
-<ins class="adsbygoogle"
+<ins class="adsbygoogle adsence_about_desctop"
     style="display:block"
     data-ad-client="ca-pub-4970738258373085"
     data-ad-slot="3043058324"

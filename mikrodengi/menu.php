@@ -130,7 +130,7 @@
     </div>
      <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <!-- Микроденьги adsence -->
-    <ins class="adsbygoogle"
+    <ins class="adsbygoogle adsence_about_desctop"
          style="display:block"
          data-ad-client="ca-pub-4970738258373085"
          data-ad-slot="4467713186"
