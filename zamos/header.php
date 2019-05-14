@@ -15,6 +15,16 @@
         case 'e': $domen = "email-".$this->uri->segment(1).'_'.date("d").'_'.date("m"); break;
         default; $domen = "sms-".$this->uri->segment(1).'_'.date("d").'_'.date("m"); break;
     }
+    
+    function getDomainUrl()
+    {
+        $CI =& get_instance();
+        
+        return preg_replace("/^[\w]{2,6}:\/\/([\w\d\.\-]+).*$/","$1", $CI->config->slash_item('base_url'));
+    }
+
+    $maindomain = getDomainUrl();
+    $email = "info@".$maindomain;
 
 ?>
 <!DOCTYPE html>
@@ -22,7 +32,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php if($this->uri->segment(1) != 'index' && $this->uri->segment(1) != '') echo $my_title; else echo 'zamos доступные займы';?></title>
+    <title><?php if($this->uri->segment(1) != 'index' && $this->uri->segment(1) != '') echo $my_title; else echo $maindomain.' доступные займы';?></title>
     <meta name="description" content="<?=$description?>">
     <meta property="og:url" content="https://zamos.su/">
     <meta property="og:title" content="Вам одобрено!">
@@ -111,13 +121,6 @@ li > a {
 }
     </style>
 </head>
-<?php
-$previous = '';
-
-if(isset($_SERVER['HTTP_REFERER'])) {
-    $previous = $_SERVER['HTTP_REFERER'];
-
-}?>
 <body class="t-body" style="margin: 0px;">
     <header style="margin: 0 20px; top: 0;">
     <nav class="navbar">
@@ -173,17 +176,6 @@ if(isset($_SERVER['HTTP_REFERER'])) {
 		</div>
 	</nav>  
   </header>
-  <?php if(!empty($previous) && $previous != 'https://zamos.su/') { 
-      if($this->uri->segment(1) != '/' && $this->uri->segment(1) != '' && $this->uri->segment(1) != ' ') { ?>
-  <!-- zamos.su adsence --> 
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({
-google_ad_client: "ca-pub-4970738258373085",
-enable_page_level_ads: true
-});
-</script>
- <?php } }?>
-    <!--allrecords-->
+ <?php require 'adsence.php';?>
     <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="663907"
         data-tilda-page-id="3385037" data-tilda-page-alias="push" data-tilda-formskey="93c3cbd6dbbe2328e90d7d614020b440">

@@ -9,6 +9,16 @@
     else 
         $link = str_replace("#name#", $domen, $link);
     require 'templates/common/new2/php/check_bot.php';
+
+    function getDomainUrl()
+    {
+        $CI =& get_instance();
+        
+        return preg_replace("/^[\w]{2,6}:\/\/([\w\d\.\-]+).*$/","$1", $CI->config->slash_item('base_url'));
+    }
+
+    $maindomain = getDomainUrl();
+    $email = "info@".$maindomain;
 ?>
 <!DOCTYPE html>
 <html lang="ru">
@@ -315,14 +325,7 @@ li > a {
             data-screen-min="640px">
         </div>
         <br class="hidden-xs"><br class="hidden-xs">
-        <!-- adsense -->
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({
-google_ad_client: "ca-pub-4970738258373085",
-enable_page_level_ads: true
-});
-</script>
+        <?php require 'adsence.php';?>
         <div id="rec63469080" class="r t-rec t-rec_pt_90 t-rec_pb_75" style="padding-top:35px;padding-bottom:75px;background-color:#ffffff; "
             data-record-type="490" data-bg-color="#ffffff" data-animationappear="off">
             <!-- t490 -->
@@ -434,7 +437,7 @@ enable_page_level_ads: true
                 </div> 
                 <div class="ex-info-block">
                     <h3>Документы и разрешительная документация</h3>
-                    <p>Услуги на проекте «Сервис» оказываются юридическим лицомТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, info@zamos.su. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.
+                    <p>Услуги на проекте «Сервис» оказываются юридическим лицомТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <?=$email?>. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.
                     </p>
                     <p class="ex-hidden">
                         Проект осуществляет только подбор микрозаймов для клиентов, а именно, между клиентом который желает взять займ, и кредитным
@@ -545,14 +548,7 @@ enable_page_level_ads: true
             </script>
         </div>
         <?php if($setting_array['is_mobile'] != 'мобила') { ?>
-         <!-- zamos adsence --> 
-         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({
-google_ad_client: "ca-pub-4970738258373085",
-enable_page_level_ads: true
-});
-</script>
+          <?php require 'adsence.php';?>
         <br><br>
         <?php } ?>
         <div id="rec63469085" class="r t-rec t-rec_pt_30 t-rec_pb_90" style="padding-top:30px;padding-bottom:90px;background-color:#3b3b3b;" data-animationappear="off" data-record-type="420" data-bg-color="#3b3b3b">
@@ -562,7 +558,7 @@ enable_page_level_ads: true
                     <img src="/templates/zamos/img/zamos-logo.png" alt="zamos-logo.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
                     <p style="padding: 10px 10px 0 10px; color:#ffffff;font-size:15px;margin:0;">Сайт НЕ является представительством МФО или банком, не выдает займов и кредитов. Персональные данные пользователей не собираются и не хранятся. Все рекомендуемые на сайте кредитные учреждения имеют соответствующие лицензии. Условия неуплаты можно уточнить на сайте МФО.</p>
                     <p  style="padding: 0 10px;"><span style="color:#ffffff;font-size:15px;"> Максимальная процентная ставка по займу составляет 2% в день
-Пример расчета: при сумме займа в 1000 грн., проценты за пользование средствами составят 20 грн. в день, что примерно составляет 2% в день. APR — 730%. Никаких дополнительных комиссий и платежей за пользование кредитом Компания не взимает. Условия продления финансирования (займа): Заёмщик вправе продлить срок займа, оплатив только проценты за пользование. Никаких дополнительных комиссий и платежей Компания не взимает. Минимальный срок погашения долга – 61 день, а максимальный — 3 года. <br>ТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, info@zamos.su. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.</span></p>
+Пример расчета: при сумме займа в 1000 грн., проценты за пользование средствами составят 20 грн. в день, что примерно составляет 2% в день. APR — 730%. Никаких дополнительных комиссий и платежей за пользование кредитом Компания не взимает. Условия продления финансирования (займа): Заёмщик вправе продлить срок займа, оплатив только проценты за пользование. Никаких дополнительных комиссий и платежей Компания не взимает. Минимальный срок погашения долга – 61 день, а максимальный — 3 года. <br>ТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <?=$email?>. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.</span></p>
                 </div>
             </div>
         </div>

@@ -10,14 +10,7 @@
                  }
              }
          </style>
-         <!-- vamos.su adsence -->
-         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-         <script>
-             (adsbygoogle = window.adsbygoogle || []).push({
-                 google_ad_client: "ca-pub-4970738258373085",
-                 enable_page_level_ads: true
-             });
-         </script>
+        <?php require 'adsence.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
@@ -210,7 +203,13 @@
              <!-- T420 -->
              <div class="t420">
                  <div class="t-container">
-                     <img src="/templates/vamos/img/vamos.png" style="margin: 0 20px;" class="t338__logo t-img">
+
+                    <?php if($maindomain != 'zaimnow.su') {?>
+					    <img src="/templates/vamos/img/vamos.png" style="margin: 0 20px;" class="t338__logo t-img">
+                    <?php } else { ?>
+                        <img src="/templates/vamos/img/zaimnow.png" style="margin: 0 20px;" class="t338__logo t-img">
+                    <?php }?>
+
                      <p style="padding: 10px 10px 0 10px; color:#ffffff;font-size:15px;margin:0;">Сайт НЕ является
                          представительством МФО или банком, не выдает займов и кредитов. Персональные данные
                          пользователей не собираются и не хранятся. Все рекомендуемые на сайте кредитные учреждения
@@ -223,7 +222,7 @@
                              (займа): Заёмщик вправе продлить срок займа, оплатив только проценты за пользование.
                              Никаких дополнительных комиссий и платежей Компания не взимает. Минимальный срок погашения
                              долга – 1 день, а максимальный — 3 года. <br>ТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032,
-                             г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, info@zaimomir.su. Лицензия выдана
+                             г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <?=$email?>. Лицензия выдана
                              Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.</p>
                  </div>
              </div>
@@ -254,126 +253,7 @@
          </div>
          </div>
          <script>
-             function checkMe() {
-                 var e = document.getElementById("agree");
-                 null != e && (e.checked ? $("#my_btn").css("display", "block") : $("#my_btn").css("display", "none"))
-             }
-
-             function checkMee() {
-                 var e = document.getElementById("agree");
-                 null != e && (e.checked ? $("#next1f").css("visibility", "visible") : $("#next1f").css("visibility",
-                     "hidden"))
-             } <
-             ? php require 'templates/common/new2/js/bootstrap.min.js'; ? >
-             function getParameterByName(e, n) {
-                 n || (n = window.location.href), e = e.replace(/[\[\]]/g, "\\$&");
-                 var r = new RegExp("[?&]" + e + "(=([^&#]*)|&|#|$)"),
-                     a = r.exec(n);
-                 return a ? a[2] ? decodeURIComponent(a[2].replace(/\+/g, " ")) : "" : null
-             }
-
-             function checkMe() {
-                 var e = document.getElementById("agree");
-                 null != e && (e.checked ? $("#my_btn").css("display", "block") : $("#my_btn").css("display", "none"))
-             }
-
-             function checkMee() {
-                 var e = document.getElementById("agree");
-                 null != e && (e.checked ? $("#next1f").css("visibility", "visible") : $("#next1f").css("visibility",
-                     "hidden"))
-             }
-             var equalheight = function (e) {
-                 var n, t = 0,
-                     a = 0,
-                     s = new Array;
-                 $(e).each(function () {
-                     n = $(this), $(n).height("auto");
-                     var e = n.position().top;
-                     if (a != e) {
-                         for (var p = 0; p < s.length; p++) s[p].height(t);
-                         s.length = 0, a = e, t = n.height(), s.push(n)
-                     } else s.push(n), t = t < n.height() ? n.height() : t;
-                     for (p = 0; p < s.length; p++) s[p].height(t)
-                 })
-             };
-             $(document).ready(function () {
-                 equalheight(".ex-section-3 .ex-wrapper"), $(document).on("click", function (e) {
-                     $(e.target).is(".panel-body") || $(".collapse").collapse("hide")
-                 });
-                 var e = $(".dropdown-toggle"),
-                     n = $(".dropdown-menu"),
-                     t = $(".ex-ask-question"),
-                     a = $(".ex-sticky-footer").outerHeight();
-                 $(document).on("click", function () {
-                     e.hasClass("ex-on-off") ? e.removeClass("ex-on-off") : ""
-                 }), e.on("click", function (e) {
-                     $(this).toggleClass("ex-on-off"), $(this).parent().css("position", "initial")
-                 }), n.on("click", function (e) {
-                     e.stopPropagation()
-                 }), t.on("click", function (e) {
-                     $("#askQuestion").modal(), $(".dropdown.open .dropdown-toggle").dropdown("toggle")
-                 }), $(".ex-sticky").css("padding-bottom", a), $(window).resize(function () {
-                     var e = $(".ex-sticky-footer").outerHeight();
-                     $(".ex-sticky").css("padding-bottom", e)
-                 })
-             }), $(document).ready(function () {
-                 var e = getParameterByName("amount");
-                 if ("undefined" != typeof $("#amount").val()) {
-                     var n = parseInt($("#amount").val().trim().length < 1 ? 2e4 : $("#amount").val());
-                     null != e && ((e > 1e5 || e < 1e3) && (e = 2e4), n = e);
-                     var t = parseInt(n),
-                         a = $("#rangeSlider"),
-                         s = 13,
-                         p = "от 1.27%",
-                         o = $(".ex-slider-val"),
-                         i = $(".ex-current-val"),
-                         l = $(".ex-time"),
-                         c = $(".ex-bet"),
-                         r = $(".ex-Commission"),
-                         d = $(".ex-total"),
-                         h = $(".irs-single"),
-                         g = $(".ex-prob"),
-                         m = 95,
-                         u = "130-200 дней",
-                         f = t * s / 100,
-                         x = t + f,
-                         v = function () {
-                             t >= 3e4 && t < 5e4 ? (m = 85, h.text("вероятность " + m).append("%"), g.html(
-                                     "<span>" + m + "%</span>")) : t >= 5e4 && t < 8e4 ? (m = 77, h.text(
-                                     "вероятность " + m).append("%"), g.html("<span>" + m + "%</span>")) : t >=
-                                 8e4 ? (m = 65, h.text("вероятность " + m).append("%"), g.html("<span>" + m +
-                                     "%</span>")) : t <= 25e3 && (m = 95, h.text("вероятность " + m).append(
-                                     "%"), g.html("<span>" + m + "%</span>"))
-                         },
-                         y = function () {
-                             t < 2e4 && (u = "100-130 дней", l.html("<span>" + u + "</span>")), t < 8e3 && (u =
-                                     "61-100 дней", l.html("<span>" + u + "</span>")), t >= 2e4 && t < 3e4 && (
-                                     u = "130-200 дней", l.html("<span>" + u + "</span>")), t > 3e4 && t <
-                                 5e4 && (u = "200-250 дней", l.html("<span>" + u + "</span>")), t > 5e4 && (u =
-                                     "250-365 дней", l.html("<span>" + u + "</span>"))
-                         };
-                     setDynamicBet = function () {
-                         t > 3e4 ? (p = "от 0,2%", c.html(p)) : (p = "от 1.27%", c.html(p))
-                     }, o.append("<span>" + t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") +
-                         "</span><i></i>"), i.append("<span>" + t.toString().replace(
-                         /\B(?=(\d{3})+(?!\d))/g, " ") + " рублей</span>"), l.append("<span>" + u +
-                         "</span>"), c.html(p), r.append("<span>" + f.toString().replace(
-                         /\B(?=(\d{3})+(?!\d))/g, " ") + " рублей</span>"), d.append("<span>" + x.toString()
-                         .replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " рублей</span>"), h.text("").append(
-                         "<span>вероятность " + m + "%</span>"), g.text("").append("<span>" + m +
-                         "%</span>"), a.on("change", function () {
-                         h.css("margin-left", "0"), t = parseInt($(this).prop("value")), f = t * s /
-                             100, x = t + f;
-                         var e = t.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "),
-                             n = f.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "),
-                             a = x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
-                         o.html("<span>" + e + "</span><i></i>"), i.html("<span>" + e +
-                             " рублей</span>"), r.html("<span>" + n + " рублей</span>"), d.html(
-                             "<span>" + a + " рублей</span>"), v(), y(), setDynamicBet()
-                     })
-                 }
-             }); <
-             ? php require 'templates/common/new2/js/popup_modal.js'; ? >
+        <?php require 'templates/common/new2/js/popup_modal.js'; ?>
          </script>
          <!-- Yandex.Metrika counter -->
          <script type="text/javascript">

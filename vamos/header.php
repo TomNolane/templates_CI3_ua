@@ -22,15 +22,25 @@
         $link = str_replace("#name#", implode('',$this->input->get())."_".$domen, $link);
     else 
         $link = str_replace("#name#", $domen, $link);
+
+    function getDomainUrl()
+    {
+        $CI =& get_instance();
+        
+        return preg_replace("/^[\w]{2,6}:\/\/([\w\d\.\-]+).*$/","$1", $CI->config->slash_item('base_url'));
+    }
+
+    $maindomain = getDomainUrl();
+    $email = "info@".$maindomain;
 ?>
 <!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php if($this->uri->segment(1) != 'index' && $this->uri->segment(1) != '') echo $my_title; else echo 'Vamos доступные займы';?></title>
+    <title><?php if($this->uri->segment(1) != 'index' && $this->uri->segment(1) != '') echo $my_title; else echo $maindomain.' доступные займы';?></title>
     <meta name="description" content="<?=$description?>">
-    <meta property="og:url" content="https://vamos.su/">
+    <meta property="og:url" content="https://<?=$maindomain?>.su/">
     <meta property="og:title" content="Вам одобрено!">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
@@ -122,22 +132,19 @@ $previous = '';
 if(isset($_SERVER['HTTP_REFERER'])) {
     $previous = $_SERVER['HTTP_REFERER'];
 
-}?>
-<body class="t-body" style="margin: 0px;">
-<?php
-// if(empty($previous) || $previous == 'https://vamos.su/' || $previous == 'https://vamos.su/faq' || $previous == 'https://vamos.su/about' || $previous == 'https://vamos.su/oferta'
-//     || $previous == 'https://vamos.su/soglasie' || $previous == 'https://vamos.su/rules' || $previous == 'https://vamos.su/personal-data' || $previous == 'https://vamos.su/calls'
-//     || $previous == 'https://vamos.su/regulation' || $previous == 'https://vamos.su/safety' || $previous == 'https://vamos.su/zaim-card' || $previous == 'https://vamos.su/zaim-yandex'
-//     || $previous == 'https://vamos.su/zaim-contact' || $previous == 'https://vamos.su/zaim-qiwi' || $previous == 'https://vamos.su/zaim-bank' || $previous == 'https://vamos.su/offerwall')
-if(1 == 1)
-{
+}
 ?>
+<body class="t-body" style="margin: 0px;">
     <header style="margin: 0 20px; top: 0;">
     <nav class="navbar">
 		<div class="col-md-12">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="/be">
-					<img src="/templates/vamos/img/vamos.png" class="t338__logo t-img">
+				<a class="navbar-brand">
+                    <?php if($maindomain != 'zaimnow.su') {?>
+					    <img src="/templates/vamos/img/vamos.png" class="t338__logo t-img">
+                    <?php } else { ?>
+                        <img src="/templates/vamos/img/zaimnow.png" class="t338__logo t-img">
+                    <?php }?>
 				</a>
 			</div>
 			<div class="navbar-collapsem hidden-xs" id="navbar-collapse-1">
@@ -186,25 +193,9 @@ if(1 == 1)
 		</div>
 	</nav>  
   </header>
-  <?php if(!empty($previous) && $previous != 'https://vamos.su/') { 
-      if($this->uri->segment(1) != '/' && $this->uri->segment(1) != '' && $this->uri->segment(1) != ' ') { ?>
-  <!-- vamos.su adsence --> 
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-4970738258373085",
-          enable_page_level_ads: true
-     });
-</script>
- <?php } }?>
-    <!--allrecords-->
-<?php } else { ?>
-<!-- <header  style="margin: 20px 0 0 0;  text-align: center">
-    <a class="" href="/">
-        <img src="/templates/vamos/img/vamos.png" class="t-img">
-    </a> 
-  </header> -->
-<?php }?>
+  <?php if(!empty($previous) && $previous != 'https://vamos.su/') { ?>
+      <?php require 'adsence.php'; ?>
+    <?php  }?>
   
     <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="663907"
         data-tilda-page-id="3385037" data-tilda-page-alias="push" data-tilda-formskey="93c3cbd6dbbe2328e90d7d614020b440"
