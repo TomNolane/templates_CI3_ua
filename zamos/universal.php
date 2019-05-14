@@ -27,32 +27,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$my_title?></title>
     <meta name="description" content="<?=$description?>">
-    <meta property="og:url" content="https://zamos.su/<?=$main?>">
+    <meta property="og:url" content="https://<?=$maindomain?>/<?=$main?>">
     <meta property="og:title" content="Вам одобрено!">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="/templates/zamos/img/universal/<?=$main?>_header.jpg">
+    <meta property="og:image" content="/templates/<?=$maindomain?>/img/universal/<?=$main?>_header.jpg">
     <meta name="format-detection" content="telephone=no">
-    <link rel="canonical" href="https://zamos.su/<?=$main?>">
-    <link rel="shortcut icon" href="/templates/zamos/img/universal/<?=$main?>.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/templates/zamos/css/universal/<?=$universal_folder?>/tilda-grid-3.0.min.css"  media="all">
-    <link rel="stylesheet" href="/templates/zamos/css/universal/<?=$universal_folder?>/tilda-blocks-2.12.css"  media="all">
-    <link rel="stylesheet" href="/templates/zamos/css/universal/<?=$universal_folder?>/tilda-animation-1.0.min.css"  media="all">
-    <link rel="stylesheet" href="/templates/zamos/css/universal/<?=$universal_folder?>/tilda-slds-1.4.min.css"  media="all">
-    <link rel="stylesheet" href="/templates/zamos/css/universal/<?=$universal_folder?>/tilda-zoom-2.0.min.css"  media="all">
-    <link rel="stylesheet"  href="/templates/zamos/css/universal/<?=$universal_folder?>/custom.css">
-	<script src="/templates/zamos/js/universal/jquery-1.10.2.min.js"></script>
-    <script src="/templates/zamos/js/universal/osd.js"></script>
-    <script  async="" id="tildastatscript" src="/templates/zamos/js/universal/tildastat-0.2.min.js"></script>
-    <script  async="" id="topmailru-code" src="/templates/zamos/js/universal/code.js"></script>
-    <script src="/templates/zamos/js/universal/tilda-scripts-2.8.min.js"></script>
-    <script src="/templates/zamos/js/universal/tilda-blocks-2.7.js"></script>
-    <script src="/templates/zamos/js/universal/lazyload-1.3.min.js" ></script>
-    <script src="/templates/zamos/js/universal/tilda-animation-1.0.min.js" ></script>
-    <script src="/templates/zamos/js/universal/typed.min.js" ></script>
-    <script src="/templates/zamos/js/universal/tilda-slds-1.4.min.js" ></script>
-    <script src="/templates/zamos/js/universal/hammer.min.js" ></script>
-    <script src="/templates/zamos/js/universal/tilda-zoom-2.0.min.js" ></script>
+    <link rel="canonical" href="https://<?=$maindomain?>/<?=$main?>">
+    <link rel="shortcut icon" href="/templates/<?=$maindomain?>/img/universal/<?=$main?>.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/tilda-grid-3.0.min.css"  media="all">
+    <link rel="stylesheet" href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/tilda-blocks-2.12.css"  media="all">
+    <link rel="stylesheet" href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/tilda-animation-1.0.min.css"  media="all">
+    <link rel="stylesheet" href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/tilda-slds-1.4.min.css"  media="all">
+    <link rel="stylesheet" href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/tilda-zoom-2.0.min.css"  media="all">
+    <link rel="stylesheet"  href="/templates/<?=$maindomain?>/css/universal/<?=$universal_folder?>/custom.css">
+	<script src="/templates/<?=$maindomain?>/js/universal/jquery-1.10.2.min.js"></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/osd.js"></script>
+    <script  async="" id="tildastatscript" src="/templates/<?=$maindomain?>/js/universal/tildastat-0.2.min.js"></script>
+    <script  async="" id="topmailru-code" src="/templates/<?=$maindomain?>/js/universal/code.js"></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/tilda-scripts-2.8.min.js"></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/tilda-blocks-2.7.js"></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/lazyload-1.3.min.js" ></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/tilda-animation-1.0.min.js" ></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/typed.min.js" ></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/tilda-slds-1.4.min.js" ></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/hammer.min.js" ></script>
+    <script src="/templates/<?=$maindomain?>/js/universal/tilda-zoom-2.0.min.js" ></script>
     <script charset="UTF-8" src="//cdn.sendpulse.com/js/push/0ee74fbc4228957b39649f18cf337ed7_1.js" async></script>
     <style>
     <?php
@@ -208,7 +208,7 @@ li > a {
 <body class="t-body" style="margin: 0px;">
     <header class="hidden" style="margin: 0 20px; top: 0; text-align: center">
         <a class="navbar-brand" href="/">
-                <img src="/templates/zamos/img/universal/<?=$main?>_logo.png" class="t338__logo t-img" alt="t338__logo t-img">
+                <img src="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png" class="t338__logo t-img" alt="t338__logo t-img">
             </a> 
   </header>
     <!--allrecords-->
@@ -218,10 +218,10 @@ li > a {
         <div id="rec63469314" class="r t-rec t-screenmin-480px" style=" " data-animationappear="off" data-record-type="338"
             data-screen-min="480px">
             <!-- cover -->
-            <div class="t-cover" id="recorddiv63469314"  style="height:100vh; background-image:url(&#39;/templates/zamos/img/universal/<?=$main?>_header.jpg&#39;);">
+            <div class="t-cover" id="recorddiv63469314"  style="height:100vh; background-image:url(&#39;/templates/<?=$maindomain?>/img/universal/<?=$main?>_header.jpg&#39;);">
                 <div class="t-cover__carrier loaded" id="coverCarry63469314" data-content-cover-id="63469314"
-                    data-content-cover-bg="/templates/zamos/img/universal/<?=$main?>_header.jpg"
-                    data-content-cover-height="100vh" data-content-cover-parallax="" style="height: 100vh; background-attachment: scroll; background-image: url(&quot;/templates/zamos/img/universal/<?=$main?>_header.jpg&quot;);"
+                    data-content-cover-bg="/templates/<?=$maindomain?>/img/universal/<?=$main?>_header.jpg"
+                    data-content-cover-height="100vh" data-content-cover-parallax="" style="height: 100vh; background-attachment: scroll; background-image: url(&quot;/templates/<?=$maindomain?>/img/universal/<?=$main?>_header.jpg&quot;);"
                     ></div>
                 <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=&#39;#fe000000&#39;, endColorstr=&#39;#fe000000&#39;);"></div>
                 <div class="t338">
@@ -232,8 +232,8 @@ li > a {
                                     <div data-hook-content="covercontent">
                                         <div class="t339__wrapper"> <a href="<?=$link?>"
                                                 target="_blank"><img class="t338__logo t-img loaded" id="spec" alt="t338__logo t-img" data-tu-max-width="800"
-                                                    data-tu-max-height="800" style="max-width:250px;" src="/templates/zamos/img/universal/<?=$main?>_logo.png"
-                                                    data-original="/templates/zamos/img/universal/<?=$main?>_logo.png"
+                                                    data-tu-max-height="800" style="max-width:250px;" src="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png"
+                                                    data-original="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png"
                                                      data-hook-clogo="coverlogo"></a>
                                               <div class="t338__title t-title t-title_xxs" style="" >
                                                 <div style="text-align: center;font-size:52px;text-shadow: 1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000,1px 1px 1px #000, 1px 1px 1px #000" data-customstyle="yes">Вам одобрено 4000 гривен после заявки.<br> Жмите получить деньги.<br>
@@ -262,7 +262,7 @@ li > a {
         <div id="rec63581518" class="r t-rec t-screenmax-480px" style=" " data-animationappear="off" data-record-type="338"
             data-screen-max="480px">
             <!-- cover -->
-            <div class="t-cover" id="recorddiv63581518"  style="height:100vh; background-image:url(&#39;/templates/zamos/img/universal/<?=$main?>_header.jpg&#39;);">
+            <div class="t-cover" id="recorddiv63581518"  style="height:100vh; background-image:url(&#39;/templates/<?=$maindomain?>/img/universal/<?=$main?>_header.jpg&#39;);">
                <div class="t-cover__filter" style="height:100vh;background-image: -moz-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -webkit-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -o-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: -ms-linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));background-image: linear-gradient(to top, rgba(0,0,0,0.0), rgba(0,0,0,0.0));filter: progid:DXImageTransform.Microsoft.gradient(startColorStr=&#39;#fe000000&#39;, endColorstr=&#39;#fe000000&#39;);"></div>
                 <div class="t338">
                     <div class="t-container">
@@ -274,7 +274,7 @@ li > a {
                                                 target="_blank"><img class="t338__logo t-img t-animate t-animate_started"
                                                     data-animate-style="fadeindown" id="spec2" data-animate-group="yes"
                                                     data-tu-max-width="800" data-tu-max-height="800" style="max-width:330px;"
-                                                    src="/templates/zamos/img/universal/<?=$main?>_logo.png" data-original="/templates/zamos/img/universal/<?=$main?>_logo.png"
+                                                    src="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png" data-original="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png"
                                                     data-hook-clogo="coverlogo" alt="t338__logo t-img"></a>
                                             <div class="t338__title t-title t-title_xxs t-animate t-animate_started"
                                                 data-animate-style="fadeinleft" data-animate-group="yes" style="transition-delay: 0.5s;"
@@ -350,11 +350,11 @@ li > a {
                 <div class="text-center"> 
                     <?php if($setting_array['site'] != 'kreditker.ru') { ?>
                     <a href="<?=$link?>" target="_blank">
-                        <img src="/templates/zamos/img/universal/<?=$main?>_body.jpg" data-original="/templates/zamos/img/universal/<?=$main?>_body.jpg"
+                        <img src="/templates/<?=$maindomain?>/img/universal/<?=$main?>_body.jpg" data-original="/templates/<?=$maindomain?>/img/universal/<?=$main?>_body.jpg"
                                 class="t-img loaded" alt="t-img loaded"  style="width:100%;">
                     </a>
                     <?php } else { ?>
-                        <div class="flex-container"><div><img alt="" src="/templates/zamos/img/universal/0/ico1.png"><p class="px22">Низкая ставка: <br><span class="prcb pink">1,5%</span></p></div><div><img alt="" src="/templates/zamos/img/universal/0/ico2.png"><p class="px22">Быстрое одобрение: <br><span class="prcb pink">15&nbsp;минут</span></p></div><div><img alt="" src="/templates/zamos/img/universal/0/ico3.png"><p class="px22">Срок кредитования: <br><span class="prcb pink">до 30 дней</span></p></div><div><img alt="" src="/templates/zamos/img/universal/0/ico4.png"><p class="px22">На сумму: <br><span class="prcb pink">до 10 000 гривен</span></p></div><div><img alt="" src="/templates/zamos/img/universal/0/ico5.png"><p class="px22">Нужен <br><span class="prcb pink">только паспорт</span></p></div><div><img alt="" src="/templates/zamos/img/universal/0/ico6.png"><p class="px22">Переводим сразу на карту <br><span class="prcb pink">Не надо никуда ехать</span></p></div></div>
+                        <div class="flex-container"><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico1.png"><p class="px22">Низкая ставка: <br><span class="prcb pink">1,5%</span></p></div><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico2.png"><p class="px22">Быстрое одобрение: <br><span class="prcb pink">15&nbsp;минут</span></p></div><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico3.png"><p class="px22">Срок кредитования: <br><span class="prcb pink">до 30 дней</span></p></div><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico4.png"><p class="px22">На сумму: <br><span class="prcb pink">до 10 000 гривен</span></p></div><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico5.png"><p class="px22">Нужен <br><span class="prcb pink">только паспорт</span></p></div><div><img alt="" src="/templates/<?=$maindomain?>/img/universal/0/ico6.png"><p class="px22">Переводим сразу на карту <br><span class="prcb pink">Не надо никуда ехать</span></p></div></div>
                     <?php } ?>
                 </div> 
                 <div class="t-section__container t-container">
@@ -390,7 +390,7 @@ li > a {
             <div class="col-xs-12 hidden-xs">
                 <div class="ex-info-block ">
                     <h3>О проекте</h3> 
-                    <p>zamos - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря используемым
+                    <p><?=$maindomain?> - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря используемым
                         принципам обработки данных нашим клиентом может стать любой Украины. Даже если вы пенсионер,
                         студент или у вас плохая кредитная история, не бойтесь обратиться за помощью. Мы оперативно решим
                         ваши финансовые проблемы. Вы получите займ мгновенно - буквально через 15 минут - и сможете распоряжаться
@@ -514,7 +514,7 @@ li > a {
                 <div class="t-section__container t-container">
                     <div class="t-col t-col_12">
                         <div class="t-section__topwrapper t-align_center click_offer">
-                            <a href="<?=$link?>" target="_blank"> <img  class="t-img loaded"  style="width:100%; max-width:300px;" alt="t-img loaded" src="/templates/zamos/img/universal/<?=$main?>_logo.png"></a>
+                            <a href="<?=$link?>" target="_blank"> <img  class="t-img loaded"  style="width:100%; max-width:300px;" alt="t-img loaded" src="/templates/<?=$maindomain?>/img/universal/<?=$main?>_logo.png"></a>
                         </div>
                     </div>
                 </div>
@@ -555,7 +555,7 @@ li > a {
             <!-- T420 -->
             <div class="t420">
                 <div class="t-container">
-                    <img src="/templates/zamos/img/zamos-logo.png" alt="zamos-logo.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
+                    <img src="/templates/<?=$maindomain?>/img/<?=$maindomain?>-logo.png" alt="<?=$maindomain?>-logo.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
                     <p style="padding: 10px 10px 0 10px; color:#ffffff;font-size:15px;margin:0;">Сайт НЕ является представительством МФО или банком, не выдает займов и кредитов. Персональные данные пользователей не собираются и не хранятся. Все рекомендуемые на сайте кредитные учреждения имеют соответствующие лицензии. Условия неуплаты можно уточнить на сайте МФО.</p>
                     <p  style="padding: 0 10px;"><span style="color:#ffffff;font-size:15px;"> Максимальная процентная ставка по займу составляет 2% в день
 Пример расчета: при сумме займа в 1000 грн., проценты за пользование средствами составят 20 грн. в день, что примерно составляет 2% в день. APR — 730%. Никаких дополнительных комиссий и платежей за пользование кредитом Компания не взимает. Условия продления финансирования (займа): Заёмщик вправе продлить срок займа, оплатив только проценты за пользование. Никаких дополнительных комиссий и платежей Компания не взимает. Минимальный срок погашения долга – 61 день, а максимальный — 3 года. <br>ТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <?=$email?>. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.</span></p>

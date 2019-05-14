@@ -47,7 +47,7 @@
     <meta property="og:image" content="/templates/vamos/img/universal/">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
-    <link rel="canonical" href="https://vamos.su/">
+    <link rel="canonical" href="https://<?=$maindomain?>/">
     <link rel="shortcut icon" href="/templates/vamos/img/vamos.ico" type="image/x-icon">
     <link rel="stylesheet" href="/templates/vamos/css/universal/0/tilda-grid-3.0.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/templates/vamos/css/universal/0/tilda-blocks-2.12.css" type="text/css" media="all">
@@ -139,7 +139,7 @@ if(isset($_SERVER['HTTP_REFERER'])) {
     <nav class="navbar">
 		<div class="col-md-12">
 			<div class="navbar-header">
-				<a class="navbar-brand">
+				<a href="/" class="navbar-brand">
                     <?php if($maindomain != 'zaimnow.su') {?>
 					    <img src="/templates/vamos/img/vamos.png" class="t338__logo t-img">
                     <?php } else { ?>
@@ -192,11 +192,8 @@ if(isset($_SERVER['HTTP_REFERER'])) {
 			</div>
 		</div>
 	</nav>  
-  </header>
-  <?php if(!empty($previous) && $previous != 'https://vamos.su/') { ?>
-      <?php require 'adsence.php'; ?>
-    <?php  }?>
-  
+  </header> 
+    <?php require 'adsence.php'; ?> 
     <div id="allrecords" class="t-records" data-hook="blocks-collection-content-node" data-tilda-project-id="663907"
         data-tilda-page-id="3385037" data-tilda-page-alias="push" data-tilda-formskey="93c3cbd6dbbe2328e90d7d614020b440"
         style="overflow-x: hidden;">

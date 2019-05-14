@@ -34,14 +34,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php if($this->uri->segment(1) != 'index' && $this->uri->segment(1) != '') echo $my_title; else echo $maindomain.' доступные займы';?></title>
     <meta name="description" content="<?=$description?>">
-    <meta property="og:url" content="https://zamos.su/">
+    <meta property="og:url" content="https://<?=$maindomain?>/">
     <meta property="og:title" content="Вам одобрено!">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/templates/zamos/img/universal/">
     <meta name="format-detection" content="telephone=no">
     <meta http-equiv="x-dns-prefetch-control" content="on">
-    <link rel="canonical" href="https://zamos.su/">
+    <link rel="canonical" href="https://<?=$maindomain?>/">
     <link rel="shortcut icon" href="/templates/zamos/img/zamos.ico" type="image/x-icon">
     <link rel="stylesheet" href="/templates/zamos/css/universal/0/tilda-grid-3.0.min.css" type="text/css" media="all">
     <link rel="stylesheet" href="/templates/zamos/css/universal/0/tilda-blocks-2.12.css" type="text/css" media="all">
@@ -126,7 +126,7 @@ li > a {
     <nav class="navbar">
 		<div class="col-md-12">
 			<div class="navbar-header">
-				<a class="navbar-brand" >
+				<a href="/" class="navbar-brand" >
 					<img src="/templates/zamos/img/zamos-logo.png" class="t338__logo t-img">
 				</a>
 			</div>

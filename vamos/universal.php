@@ -27,13 +27,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$my_title?></title>
     <meta name="description" content="<?=$description?>">
-    <meta property="og:url" content="https://vamos.su/<?=$main?>">
+    <meta property="og:url" content="https://<?=$maindomain?>/<?=$main?>">
     <meta property="og:title" content="Вам одобрено!">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
     <meta property="og:image" content="/templates/vamos/img/universal/<?=$main?>_header.jpg">
     <meta name="format-detection" content="telephone=no">
-    <link rel="canonical" href="https://vamos.su/<?=$main?>">
+    <link rel="canonical" href="https://<?=$maindomain?>/<?=$main?>">
     <link rel="shortcut icon" href="/templates/vamos/img/universal/<?=$main?>.ico" type="image/x-icon">
     <link rel="stylesheet" href="/templates/vamos/css/universal/<?=$universal_folder?>/tilda-grid-3.0.min.css"  media="all">
     <link rel="stylesheet" href="/templates/vamos/css/universal/<?=$universal_folder?>/tilda-blocks-2.12.css"  media="all">
