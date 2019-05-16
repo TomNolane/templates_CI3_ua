@@ -61,10 +61,10 @@
             </div>
         </div>
 
-        <div class="ex-why-zaim adsence_about_desctop">
+        <!--div class="ex-why-zaim adsence_about_desctop">
             <div class="container">
                 
-         <!-- zaimomir.su -->
+         
         <ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-4970738258373085"
@@ -115,9 +115,9 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
         <!-- zaimomir.su -->
-        <ins class="adsbygoogle"
+        <ins class="adsbygoogle "
             style="display:block"
             data-ad-client="ca-pub-4970738258373085"
             data-ad-slot="3043058324"
@@ -170,12 +170,12 @@
                 </div>
                 <div class="row justify-content-center">
                     <div class="col-md-4">
-                        <button class="ex-main-btn">Выбрать сумму займа</button>
+                        <button id="ex-main-btn2" class="ex-main-btn"> Получить деньги </button>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="ex-newsletter">
+        <!--div class="ex-newsletter">
             <div class="container">
                 <h2 class="text-center">Подпишитесь на рассылку</h2>
                 <p class="text-center">
@@ -246,7 +246,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div-->
     </main>
     <div id="ex-up-button"></div>
 </form>

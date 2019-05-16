@@ -1,6 +1,6 @@
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?php $from = '4';
-if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'offerwall' && $this->uri->segment(1) != 'lk' && $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3')
+if( $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3')
 {
     echo '
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

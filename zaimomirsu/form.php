@@ -64,7 +64,7 @@ if(isset($_SERVER['HTTP_REFERER'])){
 </style>
 <main class="ex-form">
     <div class="container">
-        <h1 class="text-center" id="form-steps">До одобрения займа вас отделяют всего 1 шаг</h1>
+        <h1 class="text-center" id="form-steps">Заполнив 1-й шаг, получите +30% к вероятности одобрения заявки</h1>
         <div class="row justify-content-center text-center">
             <div class="col-lg-6">
                 <ul class="ex-tab-steps ">

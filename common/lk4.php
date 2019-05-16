@@ -2,9 +2,10 @@
     $my_title = "Мгновенные займы на карту";
     $site = str_replace("www.", "", $site);
     $site = str_replace(".tomnolane", "", $site);
+    $site = str_replace("bzaim5", "bzaim", $site);
+    $site = str_replace("zaimomir", "zaimomirsu", $site);
     $site = str_replace("zaimnow", "zaimnowsu", $site);
-    $site = str_replace("mikrodengisu", "mikrodengi", $site);
-    $site = str_replace(".ru", "", str_replace(".su", "",str_replace(".info", "", str_replace(".com", "", $site))));
+    $site = str_replace("zaimcoin", "zaimcoinsu", $site);
 
     require realpath(__DIR__ . '/..').'/'.$site.'/header.php';
     $this->load->model('offers/offers_model', 'offers');
@@ -813,7 +814,7 @@ tr>td:first-child {
     }
     .hh4 {
         padding-top: 0;
-        font-size: 1.4em;
+        font-size: 1em;
     }
     .imgg {
         width: 100%;
@@ -827,8 +828,8 @@ tr>td:first-child {
  
 
 <div class="row container3"><div class="col-md-12">
-<h2 class="text-center hh hh4"> Вам предварительно <span class="gold_font">одобрен займ</span> в этих организациях:</h2>
-<h2 class="text-center hh hh4 grey" style="font-size: 19px;">Для 100% вероятности получения денег, заполните заявки во всех компаниях ниже</h2>
+<h2 class="text-center hh hh4"> Вам предварительно одобрен займ в этих организациях:</h2>
+<h2 class="text-center hh hh4 grey">Для 100% вероятности получения денег, заполните заявки во всех компаниях ниже</h2>
     <br>
     <div class="row" id="for_google"></div>
     

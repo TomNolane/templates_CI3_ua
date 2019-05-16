@@ -88,8 +88,8 @@ if(isset($_SERVER['HTTP_REFERER'])){
 }
 </style>
 <main class="ex-form">
-    <h1 class="text-center" id="form-steps">До одобрения кредита вас отделяют всего 1 шаг</h1>
-    <p>для оформления потребуется паспорт</p>
+    <h1 class="text-center" id="form-steps">Заполнив 1-й шаг, получите +30% к вероятности одобрения заявки</h1>
+    <!--p>для оформления потребуется паспорт</p--><hr/>
     <div class="container">
     <form id="anketa" action="/lk" method="post" class="form-horizontal" onsubmit="return validate();" autocomplete="off">
                 <input type="hidden" name="display" id="display" value="0">

@@ -141,7 +141,7 @@ body {
   left: 0;
   height: 24px;
   width: 24px;
-  border: none;
+  border: solid 1px #000;
   background-color: #f4f4f4;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -157,7 +157,7 @@ body {
   top: 4px;
   width: 5px;
   height: 10px;
-  border: solid #c8cfce;
+  border: solid #000;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   -moz-border-radius: 4px;

@@ -2,16 +2,18 @@
     $my_title = "Вам персональное предложение";
     $site = str_replace("www.", "", $site);
     $site = str_replace(".tomnolane", "", $site);
+    $site = str_replace("bzaim5", "bzaim", $site);
+    $site = str_replace("zaimomir", "zaimomirsu", $site);
     $site = str_replace("zaimnow", "zaimnowsu", $site);
-    $site = str_replace("mikrodengisu", "mikrodengi", $site);
-    $site = str_replace(".ru", "", str_replace(".su", "",str_replace(".info", "", str_replace(".com", "", $site))));
+    $site = str_replace("zaimcoin", "zaimcoinsu", $site);
+    //$site = str_replace(".ru", "", str_replace(".su", "",str_replace(".info", "", str_replace(".com", "", $site))));
     
     require realpath(__DIR__ . '/..').'/'.$site.'/header.php';
     $this->load->model('offers/offers_model', 'offers');
     
     (isset($_GET['loan']) && $_GET['loan']) ? $loan = 0 : $loan = 0;
     
-    $data = $this->offers->all(4, 0);
+    $data = $this->offers->all(8, 0);
         
     // IP
     $this->load->helper('ip');

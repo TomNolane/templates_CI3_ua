@@ -139,7 +139,7 @@ body {
   top: 4px;
   width: 5px;
   height: 10px;
-  border: solid #c8cfce;
+  border: solid #000;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
   -moz-border-radius: 4px;
@@ -5503,7 +5503,7 @@ input[type="search"], #askQuestion .modal-dialog .modal-content .modal-body text
 }
 /* line 2631, ../sass/library/_bootstrap.scss */
 .form-group {
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
 }
 
 /* line 2634, ../sass/library/_bootstrap.scss */
@@ -14018,4 +14018,700 @@ main.ex-offerta .ex-offers-content .ex-off-block .ex-main-btn {
 }
 li>a {
   color: #fff !important;
+}
+/* line 204, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+@media (max-width: 991px) {
+  /* line 204, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+}
+/* line 211, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money h2 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
+/* line 217, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline {
+  list-style: none;
+  padding: 20px 0 20px;
+  position: relative;
+}
+/* line 222, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline:before {
+  content: " ";
+  position: absolute;
+  width: 3px;
+  height: 60%;
+  top: 60px;
+  bottom: 0;
+  left: 50%;
+  background-color: #9b9b9b;
+}
+/* line 233, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li {
+  margin-bottom: 20px;
+  position: relative;
+}
+/* line 238, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li:before,
+.ex-home .ex-why-get-money .timeline > li:after {
+  content: " ";
+  display: table;
+}
+/* line 244, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li:after {
+  clear: both;
+}
+/* line 248, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li:before,
+.ex-home .ex-why-get-money .timeline > li:after {
+  content: " ";
+  display: table;
+}
+/* line 254, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li:after {
+  clear: both;
+}
+/* line 257, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li .timeline-panel {
+  right: 45px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 257, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li .timeline-panel {
+    right: 20px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 257, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li .timeline-panel {
+    right: 0;
+  }
+}
+/* line 266, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-panel {
+  position: relative;
+  width: 360px;
+  float: left;
+  border-radius: 2px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(231, 244, 246, 0.9);
+  border: 1px solid #00d7ff;
+  background-color: #ffffff;
+}
+@media (max-width: 1199px) and (min-width: 768px) {
+  /* line 266, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li > .timeline-panel {
+    width: 274px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 266, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li > .timeline-panel {
+    padding: 15px;
+  }
+}
+/* line 281, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-panel h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+@media (max-width: 991px) {
+  /* line 281, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li > .timeline-panel h4 {
+    font-size: 18px;
+  }
+}
+/* line 288, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-panel p {
+  color: #546066;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+  letter-spacing: 0.1px;
+}
+@media (max-width: 991px) {
+  /* line 288, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li > .timeline-panel p {
+    font-size: 14px;
+  }
+}
+/* line 299, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-panel:before {
+  position: absolute;
+  top: 26px;
+  right: -15px;
+  display: inline-block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid #00d7ff;
+  border-right: 0 solid #00d7ff;
+  border-bottom: 15px solid transparent;
+  content: " ";
+}
+/* line 310, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-panel:after {
+  position: absolute;
+  top: 27px;
+  right: -14px;
+  display: inline-block;
+  border-top: 14px solid transparent;
+  border-left: 14px solid #fff;
+  border-right: 0 solid #fff;
+  border-bottom: 14px solid transparent;
+  content: " ";
+}
+/* line 321, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-badge {
+  line-height: 50px;
+  font-size: 1.4em;
+  text-align: center;
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  margin-left: -28px;
+  z-index: 100;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 0 10px 40px rgba(211, 228, 230, 0.9);
+  border: 4px solid #ffffff;
+  background-color: #71d379;
+}
+/* line 339, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-badge i {
+  display: block;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* line 344, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-badge i.ex-timline-icon1 {
+  width: 24px;
+  height: 24px;
+  background-image: url("/templates/zaimomirsu/assets/img/icons/calculator.png");
+  background-position: center;
+}
+/* line 350, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-badge i.ex-timline-icon2 {
+  width: 18px;
+  height: 23px;
+  background-image: url("/templates/zaimomirsu/assets/img/icons/apply.png");
+}
+/* line 355, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li > .timeline-badge i.ex-timline-icon3 {
+  width: 24px;
+  height: 20px;
+  background-image: url("/templates/zaimomirsu/assets/img/icons/estimate.png");
+}
+/* line 362, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li.timeline-inverted > .timeline-panel {
+  float: right;
+  left: 45px;
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+  /* line 362, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li.timeline-inverted > .timeline-panel {
+    left: 20px;
+  }
+}
+@media (max-width: 991px) {
+  /* line 362, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money .timeline > li.timeline-inverted > .timeline-panel {
+    left: 0;
+  }
+}
+/* line 372, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li.timeline-inverted > .timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+/* line 379, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline > li.timeline-inverted > .timeline-panel:after {
+  border-left-width: 0;
+  border-right-width: 14px;
+  left: -14px;
+  right: auto;
+}
+/* line 386, ../sass/desktop/_start.scss */
+.ex-home .ex-why-get-money .timeline-title {
+  margin-top: 0;
+  color: inherit;
+}
+@media (max-width: 767px) {
+  /* line 391, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline:before {
+    left: 40px;
+  }
+  /* line 395, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline > li > .timeline-panel {
+    width: calc(100% - 90px);
+    width: -moz-calc(100% - 90px);
+    width: -webkit-calc(100% - 90px);
+  }
+  /* line 400, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline > li > .timeline-badge {
+    left: 15px;
+    margin-left: 0;
+    top: 16px;
+  }
+  /* line 405, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline > li > .timeline-panel {
+    float: right;
+  }
+  /* line 408, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline > li > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+  }
+  /* line 414, ../sass/desktop/_start.scss */
+  .ex-home .ex-why-get-money ul.timeline > li > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+  }
+}
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive::before {
+  display: block;
+  content: "";
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive-21by9::before {
+  padding-top: 42.857143%;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive-16by9::before {
+  padding-top: 56.25%;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive-4by3::before {
+  padding-top: 75%;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.embed-responsive-1by1::before {
+  padding-top: 100%;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-row {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: row !important;
+  flex-direction: row !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-column {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: normal !important;
+  -ms-flex-direction: column !important;
+  flex-direction: column !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-row-reverse {
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: reverse !important;
+  -ms-flex-direction: row-reverse !important;
+  flex-direction: row-reverse !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-column-reverse {
+  -webkit-box-orient: vertical !important;
+  -webkit-box-direction: reverse !important;
+  -ms-flex-direction: column-reverse !important;
+  flex-direction: column-reverse !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-wrap {
+  -ms-flex-wrap: wrap !important;
+  flex-wrap: wrap !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-nowrap {
+  -ms-flex-wrap: nowrap !important;
+  flex-wrap: nowrap !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.flex-wrap-reverse {
+  -ms-flex-wrap: wrap-reverse !important;
+  flex-wrap: wrap-reverse !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.justify-content-start {
+  -webkit-box-pack: start !important;
+  -ms-flex-pack: start !important;
+  justify-content: flex-start !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.justify-content-end {
+  -webkit-box-pack: end !important;
+  -ms-flex-pack: end !important;
+  justify-content: flex-end !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.justify-content-between {
+  -webkit-box-pack: justify !important;
+  -ms-flex-pack: justify !important;
+  justify-content: space-between !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.justify-content-around {
+  -ms-flex-pack: distribute !important;
+  justify-content: space-around !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-items-start {
+  -webkit-box-align: start !important;
+  -ms-flex-align: start !important;
+  align-items: flex-start !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-items-end {
+  -webkit-box-align: end !important;
+  -ms-flex-align: end !important;
+  align-items: flex-end !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-items-baseline {
+  -webkit-box-align: baseline !important;
+  -ms-flex-align: baseline !important;
+  align-items: baseline !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-items-stretch {
+  -webkit-box-align: stretch !important;
+  -ms-flex-align: stretch !important;
+  align-items: stretch !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-start {
+  -ms-flex-line-pack: start !important;
+  align-content: flex-start !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-end {
+  -ms-flex-line-pack: end !important;
+  align-content: flex-end !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-center {
+  -ms-flex-line-pack: center !important;
+  align-content: center !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-between {
+  -ms-flex-line-pack: justify !important;
+  align-content: space-between !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-around {
+  -ms-flex-line-pack: distribute !important;
+  align-content: space-around !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-content-stretch {
+  -ms-flex-line-pack: stretch !important;
+  align-content: stretch !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-auto {
+  -ms-flex-item-align: auto !important;
+  align-self: auto !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-start {
+  -ms-flex-item-align: start !important;
+  align-self: flex-start !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-end {
+  -ms-flex-item-align: end !important;
+  align-self: flex-end !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-center {
+  -ms-flex-item-align: center !important;
+  align-self: center !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-baseline {
+  -ms-flex-item-align: baseline !important;
+  align-self: baseline !important;
+}
+
+/* line 6, ../sass/library/_bootstrap.scss */
+.align-self-stretch {
+  -ms-flex-item-align: stretch !important;
+  align-self: stretch !important;
+}
+
+@media (min-width: 576px) {
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-row {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-row-reverse {
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: row-reverse !important;
+    flex-direction: row-reverse !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-column-reverse {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: reverse !important;
+    -ms-flex-direction: column-reverse !important;
+    flex-direction: column-reverse !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-wrap {
+    -ms-flex-wrap: wrap !important;
+    flex-wrap: wrap !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-nowrap {
+    -ms-flex-wrap: nowrap !important;
+    flex-wrap: nowrap !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .flex-sm-wrap-reverse {
+    -ms-flex-wrap: wrap-reverse !important;
+    flex-wrap: wrap-reverse !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .justify-content-sm-start {
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+    justify-content: flex-start !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .justify-content-sm-end {
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+    justify-content: flex-end !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .justify-content-sm-center {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: center !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .justify-content-sm-between {
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .justify-content-sm-around {
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-items-sm-start {
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+    align-items: flex-start !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-items-sm-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-items-sm-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-items-sm-baseline {
+    -webkit-box-align: baseline !important;
+    -ms-flex-align: baseline !important;
+    align-items: baseline !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-items-sm-stretch {
+    -webkit-box-align: stretch !important;
+    -ms-flex-align: stretch !important;
+    align-items: stretch !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-start {
+    -ms-flex-line-pack: start !important;
+    align-content: flex-start !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-end {
+    -ms-flex-line-pack: end !important;
+    align-content: flex-end !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-center {
+    -ms-flex-line-pack: center !important;
+    align-content: center !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-between {
+    -ms-flex-line-pack: justify !important;
+    align-content: space-between !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-around {
+    -ms-flex-line-pack: distribute !important;
+    align-content: space-around !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-content-sm-stretch {
+    -ms-flex-line-pack: stretch !important;
+    align-content: stretch !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-auto {
+    -ms-flex-item-align: auto !important;
+    align-self: auto !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-start {
+    -ms-flex-item-align: start !important;
+    align-self: flex-start !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-end {
+    -ms-flex-item-align: end !important;
+    align-self: flex-end !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-center {
+    -ms-flex-item-align: center !important;
+    align-self: center !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-baseline {
+    -ms-flex-item-align: baseline !important;
+    align-self: baseline !important;
+  }
+
+  /* line 6, ../sass/library/_bootstrap.scss */
+  .align-self-sm-stretch {
+    -ms-flex-item-align: stretch !important;
+    align-self: stretch !important;
+  }
 }

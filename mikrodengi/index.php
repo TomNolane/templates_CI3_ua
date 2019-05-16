@@ -60,11 +60,11 @@
             </div>
         </div>
     </div>
-    <div class="ex-articles adsence_about_desctop">
+    <div class="ex-articles">
         <div class="container">
         <?php echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- Микроденьги -->
-        <ins class="adsbygoogle text-center"
+        <ins class="adsbygoogle text-center desctop-only"
              style="display:block"
              data-ad-client="ca-pub-2018999784099007"
              data-ad-slot="1587330252"
@@ -73,6 +73,56 @@
         (adsbygoogle = window.adsbygoogle || []).push({});
         </script>
         '; ?>
+            
+                <div class="ex-why-get-money">
+                <h2>Как получить деньги?</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <ul class="timeline">
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge d-flex align-items-center justify-content-center">
+                                    <!--i class="ex-timline-icon1"></i-->
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Выберите сумму займа</h4>
+                                        <p>Поставьте курсор в онлайн кулькулятре на комфортных вам значениях.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-badge d-flex align-items-center justify-content-center">
+                                    <!--i class="ex-timline-icon2"></i-->
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Заполните анкету</h4>
+                                        <p>Для этого нужен лишь мобильный телефон и ваш email.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-badge d-flex align-items-center justify-content-center">
+                                    <!--i class="ex-timline-icon3"></i-->
+                                </div>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="timeline-title">Получите деньги</h4>
+                                        <p>Удобные варианты получения: на карту или наличными.</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 col-lg-offset-4">
+                        <button id="ex-main-btn2" class="ex-main-btn"> Получить деньги </button>
+                    </div>
+                </div>
+            </div>         
+            
+            <!--
             <h2 class="text-center ">Статьи</h2>
             <div class="row">
                 <a href="/delay">
@@ -125,9 +175,10 @@
                 </div>
                 </a>
             </div>
+            -->
         </div>
     </div>
-    <div class="ex-about adsence_about_desctop">
+    <!-- div class="ex-about adsence_about_desctop">
         <div class="container">
             <h2 class="text-center">Отзывы о нас</h2>
             <div class="row">
@@ -189,7 +240,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div -->
     </form> 
 </main>
 <?php require 'footer.php'; ?>

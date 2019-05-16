@@ -22,7 +22,7 @@ $(document).on('click','.main-btn-offerwall',function(){
     );
     return false;
 });
-document.querySelectorAll("#ex-main-btn").forEach((item, i) => {
+document.querySelectorAll("#ex-main-btn, #ex-main-btn2").forEach((item, i) => {
     item.onclick = function () {
         window.location.href = '/offerwall';
         window.open(

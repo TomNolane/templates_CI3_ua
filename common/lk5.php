@@ -2,9 +2,10 @@
     $my_title = "Мгновенные займы на карту";
     $site = str_replace("www.", "", $site);
     $site = str_replace(".tomnolane", "", $site);
+    $site = str_replace("bzaim5", "bzaim", $site);
+    $site = str_replace("zaimomir", "zaimomirsu", $site);
     $site = str_replace("zaimnow", "zaimnowsu", $site);
-    $site = str_replace("mikrodengisu", "mikrodengi", $site);
-    $site = str_replace(".ru", "", str_replace(".su", "",str_replace(".info", "", str_replace(".com", "", $site))));
+    $site = str_replace("zaimcoin", "zaimcoinsu", $site);
 
     require realpath(__DIR__ . '/..').'/'.$site.'/header.php';
     $this->load->model('offers/offers_model', 'offers');
