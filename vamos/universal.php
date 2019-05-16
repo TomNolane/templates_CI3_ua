@@ -54,6 +54,11 @@
     <script src="/templates/vamos/js/universal/hammer.min.js" ></script>
     <script src="/templates/vamos/js/universal/tilda-zoom-2.0.min.js" ></script>
     <script  src="//cdn.sendpulse.com/js/push/33505121ee025ec05bae5fd44c7ba208_1.js" async></script>
+     <?php if($maindomain != 'zaimnow.su') {?>
+        <script src="//cdn.sendpulse.com/js/push/faf99f725c09282dc9ec8923302e3af9_1.js" async></script>
+    <?php } else { ?>
+        <script src="//cdn.sendpulse.com/js/push/107abe67dbf5da281944ecd48c0cba39_1.js" async></script>
+    <?php }?>
     <style>
     <?php
     echo '.t338__logo{float: unset;max-width: 220px !important;}.t338__title{margin-bottom: 40px;padding-top: 200px;text-align: center;} .t-prefix_1{padding-left: 0;padding-right: 0;}';
@@ -388,18 +393,6 @@ li > a {
                     <?php } ?>
                 </div>
 
-                 <!-- vamos.su -->
-            <!-- <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4970738258373085"
-            data-ad-slot="9321709999"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script> -->
-
-                              
                 <div class="t-section__container t-container">
                     <div class="t-col t-col_12">
                         <div class="t-section__bottomwrapper t-clear t-align_center click_offer"><a href="<?=$link?>"
