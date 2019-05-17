@@ -21,10 +21,12 @@ require 'templates/common/new2/php/modal.php';
         $temp = 1;
         foreach($data as $item)
         {
-             if (strpos($item['link'], 'guruleads'))
+            if (strpos($item['link'], 'guruleads'))
                 $item['link'] = $item['link'].'?sub1=Prelend';
             else if(strpos($item['link'], 'kviku'))
                 $item['link'] = $item['link'].'';
+            else if(strpos($item['link'], 'g24.me'))
+                $item['link'] = $item['link'].'?subid=Prelend';
             else if(strpos($item['link'], 'tech'))
                 $item['link'] = $item['link'].'&sub1=Prelend';
             else if(strpos($item['link'], 'leadgid'))

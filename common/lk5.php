@@ -592,11 +592,13 @@ tr>td:first-child {
         foreach($data as $item)
         {
             $domen = str_replace('www.','',$_SERVER['HTTP_HOST']);
-            
+
             if (strpos($item['link'], 'guruleads'))
                 $item['link'] = $item['link'].'?sub1=Offerwall';
             else if(strpos($item['link'], 'kviku'))
                 $item['link'] = $item['link'].'';
+            else if(strpos($item['link'], 'g24.me'))
+                $item['link'] = $item['link'].'?subid=Offerwall';
             else if(strpos($item['link'], 'tech'))
                 $item['link'] = $item['link'].'&sub1=Offerwall';
             else if(strpos($item['link'], 'leadgid'))
@@ -855,10 +857,14 @@ tr>td:first-child {
                 $item['link'] = $item['link'].'?sub1=Offerwall';
             else if(strpos($item['link'], 'kviku'))
                 $item['link'] = $item['link'].'';
+            else if(strpos($item['link'], 'g24.me'))
+                $item['link'] = $item['link'].'?subid=Offerwall';
             else if(strpos($item['link'], 'tech'))
                 $item['link'] = $item['link'].'&sub1=Offerwall';
             else if(strpos($item['link'], 'leadgid'))
                 $item['link'] = $item['link'].'?source=Offerwall';
+            else if(strpos($item['link'], 'leadbrothers'))
+                $item['link'] = $item['link'].'?s1=Offerwall';
             else
                 $item['link'] = $item['link'].'?source=Offerwall';
 

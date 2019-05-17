@@ -7,7 +7,7 @@
     
     (isset($_GET['loan']) && $_GET['loan']) ? $loan = 0 : $loan = 0;
     
-    $data = $this->offers->all(6, 0);
+    $data = $this->offers->all(11, 0);
     
     // IP
     $this->load->helper('ip');

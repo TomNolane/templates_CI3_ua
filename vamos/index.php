@@ -9,7 +9,7 @@
     
     (isset($_GET['loan']) && $_GET['loan']) ? $loan = 0 : $loan = 0;
     
-    $data = $this->offers->all(6, 0);
+    $data = $this->offers->all(11, 0);
     
     // IP
     $this->load->helper('ip');
@@ -462,10 +462,12 @@ tr>td:first-child {
         {
             $domen = str_replace('www.','',$_SERVER['HTTP_HOST']);
 
-             if (strpos($item['link'], 'guruleads'))
+            if (strpos($item['link'], 'guruleads'))
                 $item['link'] = $item['link'].'?sub1=Prelend';
             else if(strpos($item['link'], 'kviku'))
                 $item['link'] = $item['link'].'';
+            else if(strpos($item['link'], 'g24.me'))
+                $item['link'] = $item['link'].'?subid=Prelend';
             else if(strpos($item['link'], 'tech'))
                 $item['link'] = $item['link'].'&sub1=Prelend';
             else if(strpos($item['link'], 'leadgid'))

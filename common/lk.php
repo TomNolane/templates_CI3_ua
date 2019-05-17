@@ -372,6 +372,8 @@ tr>td:first-child {
                 $item['link'] = $item['link'].'?sub1=Vitrina';
             else if(strpos($item['link'], 'kviku'))
                 $item['link'] = $item['link'].'';
+            else if(strpos($item['link'], 'g24.me'))
+                $item['link'] = $item['link'].'?subid=Vitrina';
             else if(strpos($item['link'], 'tech'))
                 $item['link'] = $item['link'].'&sub1=Vitrina';
             else if(strpos($item['link'], 'leadgid'))
