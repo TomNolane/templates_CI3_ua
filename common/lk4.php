@@ -12,7 +12,7 @@
     
     (isset($_GET['loan']) && $_GET['loan']) ? $loan = 0 : $loan = 0;
     
-    $data = $this->offers->all(18, 0);
+    $data = $this->offers->all(18, 0, '2'); //offers2 - offerwall
     
     // IP
     $this->load->helper('ip');
