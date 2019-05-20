@@ -133,7 +133,7 @@
     </div>
          <?php } ?>
 
-
+<?php require 'adsence.php'; ?>
          <div id="rec63469085" class="r t-rec t-rec_pt_30 t-rec_pb_90"
              style="padding-top:30px;padding-bottom:90px;background-color:#3b3b3b; " data-animationappear="off"
              data-record-type="420" data-bg-color="#3b3b3b">
@@ -142,9 +142,9 @@
                  <div class="t-container">
 
                     <?php if($maindomain != 'zaimnow.su') {?>
-					    <img src="/templates/vamos/img/vamos.png" style="margin: 0 20px;" class="t338__logo t-img">
+					    <img src="/templates/vamos/img/vamos.png" alt="t338__logo t-img" style="margin: 0 20px;" class="t338__logo t-img">
                     <?php } else { ?>
-                        <img src="/templates/vamos/img/zaimnow.png" style="margin: 0 20px;" class="t338__logo t-img">
+                        <img src="/templates/vamos/img/zaimnow.png" alt="t338__logo t-img" style="margin: 0 20px;" class="t338__logo t-img">
                     <?php }?>
 
                      <p style="padding: 10px 10px 0 10px; color:#ffffff;font-size:15px;margin:0;">Сайт НЕ является

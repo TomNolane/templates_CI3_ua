@@ -168,7 +168,6 @@ li > a {
     </style>
 
     <style>ins#aswift_0_expand{outline:2px solid transparent !important;}</style>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 
 
 
@@ -269,6 +268,11 @@ li > a {
                                                         </tbody>
                                                     </table>
                                                 </a></div>
+                                                <?php if($setting_array['is_mobile'] != 'мобила') { ?> 
+                                                    <br>
+                                                    <?php require 'adsence.php'; ?>
+                                                    <br><br> 
+                                                <?php } ?>
                                         </div>
                                     </div>
                                 </div>
@@ -349,15 +353,9 @@ li > a {
             data-screen-min="640px">
         </div>
         <br class="hidden-xs"><br class="hidden-xs">
-          <ins class="adsbygoogle"
-            style="display:block"
-            data-ad-client="ca-pub-4970738258373085"
-            data-ad-slot="9321709999"
-            data-ad-format="auto"
-            data-full-width-responsive="true"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
+         <?php if($setting_array['is_mobile'] == 'мобила') { ?> 
+           <?php require 'adsence.php'; ?>
+        <?php } ?>
         <div id="rec63469080" class="r t-rec t-rec_pt_90 t-rec_pb_75" style="padding-top:35px;padding-bottom:75px;background-color:#ffffff; "
             data-record-type="490" data-bg-color="#ffffff" data-animationappear="off">
             <!-- t490 -->
@@ -369,6 +367,10 @@ li > a {
                                 <div style="font-size:40px;line-height:18px;font-family:&#39;Circe&#39;;"
                                     data-customstyle="yes"><span style="font-weight: 400;">Как получить займ <br></span><br></div>
                             </div>
+                             <?php if($setting_array['is_mobile'] != 'мобила') { ?> 
+                                <?php require 'adsence.php'; ?>
+                            <?php } ?>
+                             <br class="hidden-xs"><br class="hidden-xs">
                             <div class="t-section__descr t-descr t-descr_xl t-margin_auto" >
                                 <div style="font-size:20px;line-height:24px;font-family:&#39;Circe&#39;;"
                                     data-customstyle="yes">Получить займ онлайн очень просто: нужен паспорт и
@@ -641,15 +643,17 @@ li > a {
                 });
             </script>
         </div>
-        <?php if($setting_array['is_mobile'] != 'мобила') { ?>
          <?php require 'adsence.php';?>
         <br><br>
-        <?php } ?>
         <div id="rec63469085" class="r t-rec t-rec_pt_30 t-rec_pb_90" style="padding-top:30px;padding-bottom:90px;background-color:#3b3b3b;" data-animationappear="off" data-record-type="420" data-bg-color="#3b3b3b">
             <!-- T420 -->
             <div class="t420">
                 <div class="t-container">
-                    <img src="/templates/vamos/img/vamos.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
+                    <?php if($maindomain != 'zaimnow.su') {?>
+					    <img src="/templates/vamos/img/vamos.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
+                    <?php } else { ?>
+                        <img src="/templates/vamos/img/zaimnow.png" style="margin: 0 20px;" alt="t338__logo t-img" class="t338__logo t-img">
+                    <?php }?>
                     <p style="padding: 10px 10px 0 10px; color:#ffffff;font-size:15px;margin:0;">Сайт НЕ является представительством МФО или банком, не выдает займов и кредитов. Персональные данные пользователей не собираются и не хранятся. Все рекомендуемые на сайте кредитные учреждения имеют соответствующие лицензии. Условия неуплаты можно уточнить на сайте МФО.</p>
                     <p  style="padding: 0 10px;"><span style="color:#ffffff;font-size:15px;"> Максимальная процентная ставка по займу составляет 2% в день
 Пример расчета: при сумме займа в 1000 грн., проценты за пользование средствами составят 20 грн. в день, что примерно составляет 2% в день. APR — 730%. Никаких дополнительных комиссий и платежей за пользование кредитом Компания не взимает. Условия продления финансирования (займа): Заёмщик вправе продлить срок займа, оплатив только проценты за пользование. Никаких дополнительных комиссий и платежей Компания не взимает. Минимальный срок погашения долга – 1 день, а максимальный — 3 года. <br>ТОВ «СПОЖИВЧИЙ ЦЕНТР», ЄДРПОУ 37356833, 01032, г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <?=$email?>. Лицензия выдана Нацкомфинуслуг, распоряжение от 28.02.2017 р. №438.</span></p>

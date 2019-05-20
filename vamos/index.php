@@ -440,7 +440,6 @@ tr>td:first-child {
 </div> 
 
 <div class="row container3"><div class="col-md-12">
-<?php require 'adsence.php'; ?>
 <h2 class="text-center hh hh4"> Для вас подобраны организации для <span class="gold_font">получения займа или кредита</span> в Украине:</h2>
  <h2 class="text-center hh hh4 grey" style="font-size: 18px;line-height:initial">На нашем сайте вы можете найти нужную информацию о кредитах и займах, которые можно получить в Украине. <br>Все публикуемые на сайте организации имеют лицензии и внесены в реестр кредитных организаций.</h2>
     <br>
