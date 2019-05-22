@@ -196,7 +196,7 @@ if($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $this->u
     gtag(\'js\', new Date());
     gtag(\'config\', \'AW-770053270\');
     </script>
-    ';
+    <!-- Global site tag (gtag.js) - Google Ads: 770053270 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-770053270"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(\'js\', new Date()); gtag(\'config\', \'AW-770053270\'); </script> ';
 }
 ?>
 </body>
