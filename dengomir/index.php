@@ -1,9 +1,9 @@
 <?php require 'header.php'; ?>
 <main>
     <form id="anketa" action="/form<?=$utm;?>" method="post">
-        <input type="hidden" id="amount" name="amount" value="20000" />
-        <input type="hidden" id="period" name="period" value="21" />
-        <input type="hidden" id="form_slrd" name="form_slrd" value="15" />
+        <input type="hidden" id="amount" name="amount" value="600" />
+        <input type="hidden" id="period" name="period" value="7" />
+        <input type="hidden" id="form_slrd" name="form_slrd" value="4" />
         <input type="hidden" name="fingerprint" id="fingerprint" value="">
         <input type="hidden" name="ip" id="ip" value="<?php echo $ip;?>">
         <input type="hidden" name="referer" value="<?php if (isset($_SERVER['HTTP_REFERER'])) echo $_SERVER['HTTP_REFERER']; ?>">
@@ -20,7 +20,7 @@
                                 <p class="ex-slider-val"></p>
                                 <div id="ex-main-slider-range">
                                     <figure class="ex-range-slider">
-                                        <input type="text" id="rangeSlider" name="rangeSlider" value="20000" />
+                                        <input type="text" id="rangeSlider" name="rangeSlider" value="600" />
                                     </figure>
                                 </div>
                             </div>
@@ -89,7 +89,7 @@
                              <?php if($setting_array['is_mobile'] != 'мобила') { ?>
                             <br><br><br><br>
                              <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                    <!-- dengomir -->
+                    <!-- dengomir 
                     <ins class="adsbygoogle"
                         style="display:block"
                         data-ad-client="ca-pub-4970738258373085"
@@ -98,7 +98,7 @@
                         data-full-width-responsive="true"></ins>
                     <script>
                     (adsbygoogle = window.adsbygoogle || []).push({});
-                    </script>
+                    </script>-->
                              <?php } ?>
                         </div>
                        
@@ -259,5 +259,18 @@
         </section>
     </form>
 </main>
+<style>
+@media (max-width: 991.98px) {
+    .ex-section-1 {
+        margin-top: 35px;
+    }
+    .ex-section-1 p {
+        margin-bottom: 0px;
+    }
+    .ex-range-slider-block .ex-mb {
+        margin-bottom: 9px;
+    }
+}
+</style>
 <a class="anchor" name="id5"></a>
 <?php require 'footer.php'; ?>

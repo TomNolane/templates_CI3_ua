@@ -2,7 +2,7 @@
 if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3' && $this->uri->segment(1) != 'offerwall')
 {
     if ($this->uri->segment(1) != ' ' && $this->uri->segment(1) != '' && $this->uri->segment(1) != 'index') {
-        echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        /*echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
         <!-- dengomir -->
         <ins class="adsbygoogle"
             style="display:block"
@@ -12,9 +12,9 @@ if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->
             data-full-width-responsive="true"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>';
+        </script>';*/
     }
-    echo '<ins class="adsbygoogle"
+    /*echo '<ins class="adsbygoogle"
             style="display:block"
             data-ad-client="ca-pub-4970738258373085"
             data-ad-slot="4639511728"
@@ -22,7 +22,7 @@ if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->
             data-full-width-responsive="true"></ins>
         <script>
         (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>';
+        </script>';*/
     echo '<a href="#0" class="cd-top">Наверх</a>';
 } 
 ?>
@@ -139,52 +139,31 @@ if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->
         {  
             switch($this->input->get('amount'))
             {
-                case '1000': $from = '0' ; break;
-                case '2000': $from = '1' ; break;
-                case '3000': $from = '2' ; break;
-                case '4000': $from = '3' ; break;
-                case '5000': $from = '4' ; break;
-                case '6000': $from = '5' ; break;
-                case '7000': $from = '6' ; break;
-                case '8000': $from = '7' ; break;
-                case '9000': $from = '8' ; break;
-                case '10000': $from = '9' ; break;
-                case '11000': $from = '10' ; break;
-                case '12000': $from = '11' ; break;
-                case '13000': $from = '12' ; break;
-                case '14000': $from = '13' ; break;
-                case '15000': $from = '14' ; break;
-                case '20000': $from = '15' ; break;
-                case '25000': $from = '16' ; break;
-                case '30000': $from = '17' ; break;
-                case '40000': $from = '18' ; break;
-                case '50000': $from = '19' ; break;
-                case '80000': $from = '20' ; break;
-                case '100000': $from = '21' ; break;
-                case '110000': $from = '22' ; break;
-                case '120000': $from = '23' ; break;
-                case '130000': $from = '24' ; break;
-                case '140000': $from = '25' ; break;
-                case '150000': $from = '26' ; break;
-                case '160000': $from = '27' ; break; 
-                case '170000': $from = '28' ; break;
-                case '180000': $from = '29' ; break;
-                case '190000': $from = '30' ; break;
-                case '200000': $from = '31' ; break;
-                case '250000': $from = '32' ; break;
-                case '300000': $from = '33' ; break;
-                case '400000': $from = '34' ; break;
-                case '500000': $from = '35' ; break;
-                case '600000': $from = '36' ; break;
-                case '700000': $from = '37' ; break;
-                case '800000': $from = '38' ; break;
-                case '900000': $from = '39' ; break;
-                case '1000000': $from = '40' ; break;
+                case '600': $from = '0' ; break;
+                case '700': $from = '1' ; break;
+                case '800': $from = '2' ; break;
+                case '900': $from = '3' ; break;
+                case '1000': $from = '4' ; break;
+                case '1100': $from = '5' ; break;
+                case '1200': $from = '6' ; break;
+                case '1300': $from = '7' ; break;
+                case '1400': $from = '8' ; break;
+                case '1500': $from = '9' ; break;
+                case '2000': $from = '10' ; break;
+                case '2500': $from = '11' ; break;
+                case '3000': $from = '12' ; break;
+                case '4000': $from = '13' ; break;
+                case '5000': $from = '14' ; break;
+                case '6000': $from = '15' ; break;
+                case '7000': $from = '16' ; break;
+                case '8000': $from = '17' ; break;
+                case '9000': $from = '18' ; break;
+                case '10000': $from = '19' ; break;
             }
             echo $from; 
         }
         elseif($this->input->post('form_slrd') == '') echo '15'; else echo $this->input->post('form_slrd'); ?>,
-        values: [1000, 2000, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000, 11000, 12000, 13000, 14000, 15000, 20000, 25000, 30000, 40000, 50000, 80000, 100000],
+        values: [600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 2000, 2500, 3000, 4000, 5000, 6000, 7000, 8000, 9000, 10000],
         onFinish: function (data) {
             $('#amount').val(data.from_value);
             $('#form_slrd').val(data.from);
@@ -251,52 +230,12 @@ if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->
         var slider = $('#rangeSlider').data('ionRangeSlider');
         var slider_plus = true;
         var n = 10;
-        var slider_init = setInterval(function () {
-            if (slider_plus) {
-                n++;
-            } else {
-                n--;
-            }
-            if (n == 21 && n != <?php echo $from; ?>) {
-                slider_plus = false;
-            }else if (n == <?php echo $from; ?> && slider_plus == false) {
-                clearInterval(slider_init);
-            }else if (n == 21 && n == <?php echo $from; ?>) {
-                clearInterval(slider_init);
-            }
 
-            slider.update({
-                from: n
-            });
+        slider.update({
+            from: 4
+        });
+        $('#amount').val(1000);
 
-            if (n <= 9) {
-            $('#period').val('7');
-            $('#period2').val('От 61 до 130 дней');
-            $('#percent').val('95');
-            } else if (n <= 14 && n > 9) {
-                $('#period').val('14');
-                $('#period2').val('От 61 до 130 дней');
-                $('#percent').val('95');
-            } else if (n <= 15 && n > 14) {
-                $('#period').val('21');
-                $('#period2').val('От 61 до 130 дней');
-                $('#percent').val('95');
-            } else if (n <= 17 && n > 15) {
-                $('#period').val('21');
-                $('#period2').val('От 61 до 130 дней');
-                $('#percent').val('85');
-            } else if (n <= 19 && n > 17) {
-                $('#period').val('30');
-                $('#period2').val('От 130 до 250 дней');
-                $('#percent').val('77');
-            } else if (n > 19) {
-                $('#period').val('30');
-                $('#period2').val('От 250 до 365 дней');
-                $('#percent').val('65');
-            }
-            $('#amount').val(slider.result.from_value);
-            $("#form_slrd").val(slider.result.from);
-        }, 50); 
         traffic("dengomir.su",0);
 <?php }
 }

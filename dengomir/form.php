@@ -67,9 +67,9 @@ if(!isset($my_title))
 include "templates/common/new/php/form_header.php";
 include "header.php";
 ?>
-<div class="ex-form">
+<div class="ex-form" style="">
 <div class="container" id="to_scroll">
-    <h2 class="text-center">До одобрения займа вас отделяют всего 1 шаг</h2>
+    
     <div class="ex-bg-form">
             <?php $period; ?>
             <form id="anketa" action="/lk" method="post" class="form-horizontal" novalidate autocomplete="off">
@@ -91,6 +91,30 @@ include "header.php";
                 <div id="thirdStep" class="tab-pane fade">
                     <?php //require 'form3.php';?>
                 </div>
+                <style>
+                    #firstStep {
+                        padding: 22px 32px 13px 38px;
+                        margin-bottom: 15px;
+                        box-shadow: 0 2px 4px rgba(103,129,231,.73);
+                        border-radius: 10px 10px 10px 10px;
+                        background-color: #fff; 
+                    }
+                    .ex-form {
+                        padding-top: 15px;
+                    }
+                    @media (max-width: 991.98px) {
+                        #firstStep {
+                            padding: 16px 25px 13px 26px !important;
+                            margin-bottom: 15px;
+                            box-shadow: 0 2px 4px rgba(103,129,231,.73);
+                            border-radius: 10px 10px 10px 10px;
+                            background-color: #fff; 
+                        }
+                        .ex-form {
+                            padding-top: 15px !important;
+                        }
+                    }
+                </style>
             </div>
         </form>
     </div>

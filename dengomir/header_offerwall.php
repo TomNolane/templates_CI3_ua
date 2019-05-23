@@ -28,23 +28,9 @@ if(!isset($description))
     <meta name="twitter:url" content="https://dengomir.su/"/>
     <meta name="twitter:domain" content="dengomir.su"/>
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/templates/dengomir/favicon/favicon-16x16.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/templates/dengomir/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/templates/dengomir/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/templates/dengomir/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/templates/dengomir/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/templates/dengomir/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/templates/dengomir/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/templates/dengomir/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/templates/dengomir/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/templates/dengomir/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/templates/dengomir/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/templates/dengomir/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/templates/dengomir/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/templates/dengomir/favicon/favicon-16x16.png">
+    <link rel="shortcut icon" href="/templates/dengomir/img/favicon.png" type="image/png">
     <link rel="manifest" href="/templates/dengomir/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/templates/dengomir/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> 
     <!-- Styles -->
     <link rel="stylesheet" href="/templates/dengomir/assets/css/bootstrap.min.css">
@@ -111,7 +97,7 @@ if(!isset($description))
 <!-- /header -->
 
 <!-- adsense -->
-<!-- Dengomir -->
+<!-- Dengomir 
 <div class="container text-center mt-3">
     <ins class="adsbygoogle"
          style="display:block"
@@ -122,5 +108,5 @@ if(!isset($description))
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
     </script>    
-</div>
+</div>-->
 <!-- /adsense -->

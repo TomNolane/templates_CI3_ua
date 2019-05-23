@@ -1,6 +1,7 @@
 <section class="ex-main-form">
+    <h2 class="text-center" style="margin-bottom:30px;">Заполнив 1-й шаг, получите <span style="color: #754fa0;">+30%</span> к вероятности одобрения заявки</h2>
     <div class="row">
-        <div class="col-md-8 col-md-offset-1">
+        <div class="col-md-12 col-lg-9">
             <div class="form-group has-feedback hidden">
                 <label class="control-label col-md-4" for="f">Фамилия</label>
                 <div class="col-md-8">
@@ -97,7 +98,7 @@
                 <div class="col-md-8">
                     <div class="ex-wrapper">
                         <input type="tel" class="form-control ec tip special_form" name="phone" id="phone" placeholder="Введите свой номер телефона"
-                            title="Введите свой номер телефона" data-validation-error-msg="Введите номер телефона" style="text-align:center;" required>
+                            title="Введите свой номер телефона" data-validation-error-msg="Введите номер телефона" style="height: 55px;text-align:center;" required>
                         <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <p class="text-muted helpblock" style="float:center;">Пример: 095 725 09 99</p>
                     </div>
@@ -108,7 +109,7 @@
                 <div class="col-md-8">
                     <div class="ex-wrapper">
                         <input type="email" class="form-control ec tip special_form" name="email" id="email" title="Введите свой email адрес" placeholder="Email"
-                            data-validation="email" data-validation-error-msg="Введите свой email" style="text-align:center;" required>
+                            data-validation="email" data-validation-error-msg="Введите свой email" style="height: 55px;text-align:center;" required>
                             <p class="text-muted helpblock" style="float:center;">Пример: email@mail.ru</p>
                     </div>
                 </div>
