@@ -97,7 +97,7 @@
          || $this->uri->segment(1) == 'index' 
          || $this->uri->segment(1) == ' ') 
         {
-            require 'templates/common/new2/js/for_index.js';
+            require 'templates/common/new/js/for_index.js';
         }
     } 
 

@@ -98,7 +98,7 @@
          || $this->uri->segment(1) == 'index' 
          || $this->uri->segment(1) == ' ') 
         {
-            echo '<script src="/templates/common/new2/js/for_index.js"></script>';
+            echo '<script src="/templates/common/new/js/for_index.js"></script>';
         }
     } 
 

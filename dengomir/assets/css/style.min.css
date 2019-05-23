@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url("/templates/common/new2/fonts/glyphicons-halflings-regular.eot");
-    src: url("/templates/common/new2/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
+    src: url("/templates/common/new/fonts/glyphicons-halflings-regular.eot");
+    src: url("/templates/common/new/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/templates/common/new/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/templates/common/new/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/templates/common/new/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format("svg");
   }
   @font-face {
     font-family: 'HelveticaNeue';
-    src: url("/templates/common/new2/fonts/HelveticaNeue.eot");
-    src: url("/templates/common/new2/fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("/templates/common/new2/fonts/HelveticaNeue.woff") format("woff"), url("/templates/common/new2/fonts/HelveticaNeue.ttf") format("truetype");
+    src: url("/templates/common/new/fonts/HelveticaNeue.eot");
+    src: url("/templates/common/new/fonts/HelveticaNeue.eot?#iefix") format("embedded-opentype"), url("/templates/common/new/fonts/HelveticaNeue.woff") format("woff"), url("/templates/common/new/fonts/HelveticaNeue.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
   }
@@ -1965,8 +1965,8 @@
   }
   @font-face {
     font-family: 'Glyphicons Halflings';
-    src: url("/templates/common/new2/fonts/glyphicons-halflings-regular.eot");
-    src: url("/templates/common/new2/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/templates/common/new2/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
+    src: url("/templates/common/new/fonts/glyphicons-halflings-regular.eot");
+    src: url("/templates/common/new/fonts/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("/templates/common/new/fonts/glyphicons-halflings-regular.woff2") format("woff2"), url("/templates/common/new/fonts/glyphicons-halflings-regular.woff") format("woff"), url("/templates/common/new/fonts/glyphicons-halflings-regular.ttf") format("truetype"), url("/templates/common/new/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg");
   }
   /* line 269, ../sass/library/_bootstrap.scss */
   .glyphicon {
@@ -13871,7 +13871,7 @@
     overflow: hidden;
     text-indent: 100%;
     white-space: nowrap;
-    background: url(/templates/common/new2/img/cd-top-arrow.png) center 50% no-repeat #30323e;
+    background: url(/templates/common/new/img/cd-top-arrow.png) center 50% no-repeat #30323e;
     border-radius: 15px;
     visibility: hidden;
     opacity: 0;
