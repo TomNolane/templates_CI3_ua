@@ -1,5 +1,5 @@
 <!-- adsense -->
-<!-- Микроденьги -->
+<!-- Микроденьги 
 <div class="container text-center my-3">
     <ins class="adsbygoogle"
          style="display:block"
@@ -9,7 +9,7 @@
          data-full-width-responsive="true"></ins>
     <script>
     (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>    
+    </script>-->    
 </div>
 <!-- /adsense -->
 

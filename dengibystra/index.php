@@ -29,13 +29,13 @@
             <div class="ex-range-scope">
                 <div class="row">
                 <form id="anketa" action="/form<?=$utm;?>" method="post"> 
-                <input type="hidden" id="period" name="period" value="21" />
-                <input type="hidden" id="form_slrd" name="form_slrd" value="15" /> 
+                <input type="hidden" id="period" name="period" value="7" />
+                <input type="hidden" id="form_slrd" name="form_slrd" value="4" /> 
                 <input type="hidden" name="fingerprint" id="fingerprint" value="">
                 <input type="hidden" name="ip" id="ip" value="<?php echo $ip;?>">
                 <input type="hidden" name="referer" value="<?php if (isset($_SERVER['HTTP_REFERER'])) echo $_SERVER['HTTP_REFERER']; ?>"> 
                 <?php if (!empty($_REQUEST['ad_id'])) echo '<input type="hidden" name="ad_id" value="'.$_REQUEST['ad_id'].'">'; ?> 
-                    <input type="hidden" class="amount" id="amount" name="amount" value="20000" />
+                    <input type="hidden" class="amount" id="amount" name="amount" value="600" />
                     <input type="hidden" class="sldr" id="sldr" name="sldr" value="15" />
                     <input type="hidden" class="percent" id="percent" name="percent" value="95" />
                     <div class="col-sm-7">
@@ -56,17 +56,9 @@
             </div>
             <?php if($setting_array['is_mobile'] != 'мобила') { ?>
                 <br><br><br>
-               <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- dengybistra -->
-                <ins class="adsbygoogle"
-                    style="display:block"
-                    data-ad-client="ca-pub-4970738258373085"
-                    data-ad-slot="9919758561"
-                    data-ad-format="auto"
-                    data-full-width-responsive="true"></ins>
-                <script>
-                (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+                <?php
+                    //require 'adsence.php';
+                ?>
             <?php } ?>
         </div>
     </div>
@@ -74,21 +66,10 @@
 <div class="ex-get-money">
     <div class="container">
         <div class="row">
-            <a class="anchor" name="id2"></a>
             <h1 class="hidden-xs hidden-sm visible-md visible-lg">Как получить деньги сейчас?</h1> 
             <h1 class="hidden-md hidden-lg visible-xs visible-sm special_ind42">Как получить деньги сейчас?</h1>
             <?php if($setting_array['is_mobile'] == 'мобила') {
-            echo '<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            <!-- dengybistra -->
-            <ins class="adsbygoogle"
-                style="display:block"
-                data-ad-client="ca-pub-4970738258373085"
-                data-ad-slot="9919758561"
-                data-ad-format="auto"
-                data-full-width-responsive="true"></ins>
-            <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>';
+                //require 'adsence.php';
             } ?>
             <br><br><br>
             <div class="col-md-6 hidden-xs hidden-sm visible-md visible-lg">
@@ -154,8 +135,7 @@
                     <h3>Получите деньги</h3>
                     <p>На карту VISA, MAESTRO, QIWI кошелёк, Яндекс.Деньги, через систему CONTACT, банковский счёт</p>
                 </div>
-            </div> 
-           <a class="anchor" name="id3"></a>
+            </div>
 			<div class="col-md-6 hidden-md hidden-lg visible-xs visible-sm special_ind34">
                 <div class="ex-get-money-steps special_ind35">
                     <span class="special_ind36">3</span>
@@ -178,7 +158,7 @@
                 <div class="ex-info-block hidden-xs hidden-sm visible-md visible-lg">
                     <h3>О проекте</h3> 
                     <p>Dengibystra - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря используемым
-                        принципам обработки данных нашим клиентом может стать любой гражданин Украины. Даже если вы пенсионер,
+                        принципам обработки данных нашим клиентом может стать любой гражданин России. Даже если вы пенсионер,
                         студент или у вас плохая кредитная история, не бойтесь обратиться за помощью. Мы оперативно решим
                         ваши финансовые проблемы. Вы получите займ мгновенно - буквально через 15 минут - и сможете распоряжаться
                         им по собственному усмотрению.</p>
@@ -186,7 +166,7 @@
 				<div class="ex-info-block hidden special_ind33">
                     <h3 id="special_ind34">О проекте</h3> 
                     <p>Dengibystra - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря используемым
-                        принципам обработки данных нашим клиентом может стать любой гражданин Украины. Даже если вы пенсионер,
+                        принципам обработки данных нашим клиентом может стать любой гражданин России. Даже если вы пенсионер,
                         студент или у вас плохая кредитная история, не бойтесь обратиться за помощью. Мы оперативно решим
                         ваши финансовые проблемы. Вы получите займ мгновенно - буквально через 15 минут - и сможете распоряжаться
                         им по собственному усмотрению.</p>
@@ -230,7 +210,6 @@
                         </div>
                     </div>
                 </div>
-                <a class="anchor" name="id4"></a>
                 <div class="ex-info-block hidden-xs hidden-sm">
                     <h3>Документы и разрешительная документация</h3>
                     <p>Услуги на проекте «Сервис» оказываются юридическим лицом ИП «Бабакова К.К.» ОГРНИП 316222500122426 ИНН
@@ -268,5 +247,4 @@
         </div>
     </div>
 </div>
-<a class="anchor" name="#A5"></a>
 <?php include 'footer.php';?>

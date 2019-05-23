@@ -61,7 +61,7 @@ elseif($this->input->post('percent', TRUE) != '')
 
 if(!isset($my_title))
 {
-    $my_title = 'Подача Заявки на Получение Займа Онлайн | Сервис bzaim';
+    $my_title = 'Подача Заявки на Получение Займа Онлайн';
     $description = 'Хотите получить денежный заем в сжатые сроки?Тогда заполните несложную форму заявка на нашем онлайн-сервисе по выдаче денежных займов в России';
 }
 include "templates/common/new/php/form_header.php";
@@ -69,8 +69,7 @@ include "header.php";
 ?>
 <input type="hidden" class="percent" id="percent" name="percent" value="<?= $percent;?>" />
 <div class="ex-bounds"></div>
-<div class="container ex-form">
-    <h1 class="text-center" id="to_scroll">Заполните анкету</h1>  
+<div class="container ex-form"> 
     <form class="tab-content" id="anketa" method="post" autocomplete="off" novalidate>
         <input type="hidden" name="referer" value="<?=$referer?>">
         <input type="hidden" name="id" value="">
@@ -84,10 +83,10 @@ include "header.php";
             <?php require 'form1.php'; ?>
         </div>
         <div role="tabpanel" class="ex-anketa2-block tab-pane col-xs-12" id="secondTabContent">
-            <?php require 'form2.php'; ?>
+            <?php //require 'form2.php'; ?>
         </div>
         <div role="tabpanel" class="ex-anketa3-block tab-pane col-xs-12" id="lastTabContent">
-            <?php require 'form3.php'; ?>
+            <?php //require 'form3.php'; ?>
         </div>
     </form>
 </div> 

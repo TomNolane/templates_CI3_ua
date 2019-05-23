@@ -1,13 +1,13 @@
-<div class="ex-anketa-head">
+<div class="ex-anketa-head" style="margin-top: 40px;">
     <p class="text-conf text-center">
-        Личные данные (всего 1 шаг)
+        Заполнив 1-й шаг, получите +30% к вероятности одобрения заявки
     </p>
 </div>
 <div class="ex-anketa-main">
     <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
             <!-- слайдер -->
-            <div class="ex-calc-wraper">
+            <div class="ex-calc-wraper hidden">
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="ex-range-scope">
@@ -28,35 +28,35 @@
                 </div>
             </div>
             <!-- /слайдер -->
-            <div class="row">
+            <div class="row hidden">
                 <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback">
+                    <div class="form-group has-feedback hidden">
                         <label class="control-label col-md-4 label-required" for="f">Фамилия</label>
                         <input type="text" class="form-control ec tip" name="f" id="f" placeholder="Фамилия" title="Укажите свою фамилию" data-sanitize="capitalize"
                             data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свою фамилию"
-                            required>
+                            >
                         <span id="fstatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <p class="help-block2">Нужно указать фамилию</p>
                         <p class="text-muted helpblock">Пример: Иванова</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row hidden">
                 <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback">
+                    <div class="form-group has-feedback hidden">
                         <label class="control-label col-md-4 label-required" for="i">Имя</label>
                         <input type="text" class="form-control ec tip" name="i" id="i" placeholder="Имя" title="Укажите свое имя" data-sanitize="capitalize"
                             data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свое имя"
-                            required>
+                            >
                         <span id="istatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <p class="help-block2">Нужно указать имя</p> 
                         <p class="text-muted helpblock">Пример: Лариса</p>
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row hidden">
                 <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback">
+                    <div class="form-group has-feedback hidden">
                         <label class="control-label col-md-4 label-required" for="o">Отчество</label>
                         <input type="text" class="form-control ec tip sp_push_custom_data" name="o" id="o" placeholder="Отчество" title="Укажите свое отчество"
                             data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свое отчество"
@@ -68,12 +68,12 @@
                 </div>
             </div>
             <input type="hidden" id="gender" value="1" name="gender">
-            <div class="row">
+            <div class="row" style="margin-top: 5px;">
                 <div class="col-sm-12">
                     <div class="form-group has-feedback">
                         <label class="label-required" for="phone">Номер телефона</label>
                         <input type="tel" class="form-control ec tip" name="phone" id="phone" placeholder="Телефон" title="Укажите свой телефон"
-                            data-validation="custom" data-validation-regexp="^[8]\s\([0-9]{3}\)\s[0-9]{3}\s[0-9]{4}$" data-validation-error-msg="Укажите телефон"
+                             data-validation-error-msg="Укажите телефон"
                             required>
                         <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
                         <p class="help-block2">Нужно указать номер телефона</p>
@@ -153,7 +153,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12">
-                    <div class="form-group ex-arrow-on">
+                    <div class="form-group ex-arrow-on hidden">
                         <label for="credit">Кредитная история</label>
                         <select class="form-control" id="credit">
                             <option selected>Никогда не брал кредитов</option>
@@ -179,7 +179,7 @@
                     <i></i>
                 </label>
             </div>    
-            <div class="col-sm-8 col-xs-12 ex-agreement-check">
+            <div class="col-sm-8 col-xs-12 ex-agreement-check hidden">
                 <label class="checkbox-inline">
                     <span class="font12">Я согласен на получение рекламных сообщений</span>
                     <input type="checkbox" value="" id="marketing" checked>
@@ -187,14 +187,13 @@
                 </label>
             </div>
             <div class="col-sm-4 col-xs-12">
-                <button class="ex-main-btn" id="next1" type="button"> Получить займ </button>
+                <button class="ex-main-btn" id="submitOne"> Получить займ </button>
             </div>
         </div>
     </div>
 </div>
 <br><br>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- dengybistra -->
+<!-- dengybistra 
 <ins class="adsbygoogle"
     style="display:block"
     data-ad-client="ca-pub-4970738258373085"
@@ -203,5 +202,5 @@
     data-full-width-responsive="true"></ins>
 <script>
 (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+</script>-->
 <br><br>
