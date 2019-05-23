@@ -104,7 +104,7 @@ if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->
                     <div class="col-sm-12">
                     <p class="black">
                         Сервис по подбору выгодных онлайн займов находящийся по адресу:
-                    Россия, Ленинградская обл. г. Санкт-Петербург, ул. Осипенко, 12, оф 201 email: support@dengomir.su <span class="hidden-xs hidden-sm">| +7(495) 006 19 61</span>
+                    г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, <a href="mailto:support@dengomir.su" target="_blank">info@dengomir.su</a>
                     </p>
                 </div>';
                 } ?>
