@@ -15,7 +15,7 @@ var fingerprint0 = $("#fingerprint").val(), ip = $("#ip").val(), my_timer = 0; $
 function start_check() { 
 } 
 $(document).on('click','.main-btn-offerwall',function(){
-    window.location.href = '/offerwall';
+    window.location.href = '/pixell';
     window.open(
         '/form/',
         '_blank'
@@ -24,7 +24,7 @@ $(document).on('click','.main-btn-offerwall',function(){
 });
 document.querySelectorAll("#ex-main-btn, #ex-main-btn2").forEach((item, i) => {
     item.onclick = function () {
-        window.location.href = '/offerwall';
+        window.location.href = '/pixell';
         window.open(
             '/form/',
             '_blank'
@@ -34,7 +34,7 @@ document.querySelectorAll("#ex-main-btn, #ex-main-btn2").forEach((item, i) => {
 });
 document.querySelectorAll("a[href='/form']").forEach((item, i) => {
     item.onclick = function () {
-        window.location.href = '/offerwall';
+        window.location.href = '/pixell';
         window.open(
             '/form/',
             '_blank'

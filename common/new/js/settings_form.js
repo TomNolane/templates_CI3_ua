@@ -286,18 +286,7 @@ function send_clickfrod()
 }
 
 function validate(){
-    if (isWebvisor) return true;
-    
-     if (document.querySelector('#fingerprint').value == '') {
-
-        if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru')
-        {
-            //send_clickfrod();
-            //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-            //return false;
-        }
-         
-     }
+    if (isWebvisor) return true; 
 
 	if (!validate1()) return false;
 	// if (!validate2()) return false;
@@ -488,15 +477,6 @@ function validate0() {
             ahctpac = 1;
         }
     }
-    
-     if (document.querySelector('#fingerprint').value == '' ) {
-
-         if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru') {
-             //send_clickfrod();
-             //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-             //return false;
-         }
-     }
 
 	if ($('input[name="amount"]').val() < 1000 || $('input[name="amount"]').val() > 1000000) {
 		error('Вы не указали сумму.', $('input[name="amount"]'));
@@ -523,15 +503,6 @@ function validate0() {
 
 function validate1() {
     if (isWebvisor) return true;
-
-    if (document.querySelector('#fingerprint').value == '' ) {
-
-        if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru') {
-            //send_clickfrod();
-            //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-            //return false;
-        }
-    }
 
 	if ($('input[name="amount"]').val() < 1000 || $('input[name="amount"]').val() > 100000) {
 		error('Вы не указали сумму.', $('input[name="amount"]'));
@@ -618,14 +589,7 @@ function validate2() {
 
 function validate3() {
     if (isWebvisor) return true;
-    if (ocument.querySelector('#fingerprint').value == '' ) {
-
-        if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru') {
-            //send_clickfrod();
-            //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-            //return false;
-        }
-    }
+    
     if ($('input[name="work_name"]').val().length < 2) {
 		error('Вы не указали название места работы.', $('input[name="work_name"]'));
 		return false;
@@ -658,18 +622,7 @@ function validate3() {
 } 
 
 function start_check() {
-     
-    if (document.querySelector('#fingerprint'))
-    {
-
-        if (document.querySelector('#fingerprint').value == '') {
-            // тут магия кликфродов
-            if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru' || document.location.host == 'zaimol.ru') {
-                //send_clickfrod();
-                //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-            }
-        }
-    }
+      
      
  }
 
@@ -678,13 +631,7 @@ $(document).ready(function () {
     $(document).mousemove(function(e) 
     {
         if(e.pageY <= 5)
-        {
-            if (document.location.host == 'zaimhome.ru') {
-                //send_stats();
-            }
-            // prompt('Вы в одном шаге от займа! Получите займ уже в '+ DateFormat(AddMinutesToDate(new Date(),15))+ '. Какая сумма вам нужна?',10000);
-            // document.location.href = 'https://pxl.leads.su/click/762f05fbbdde479f81315e58b8557785?source=Vkredito';
-            
+        { 
         }
     });
     
@@ -872,25 +819,6 @@ $(document).ready(function () {
         if($('input').name == 'rangeSlider')
             return;
         if (valid) { 
-            
-            
-            if (this.name == 'email' && (document.location.host == 'vkredito.ru' || document.location.host == 'rublimo.ru' || document.location.host == 'edenga.ru' || document.location.host == 'bzaim5.ru' || document.location.host == 'zaimhome.ru'
-                || document.location.host == 'dengibystra.ru' || document.location.host == 'dengimo.ru' || document.location.host == 'dengoman.ru' || document.location.host == 'dengomir.ru' || document.location.host == 'fanzaim.ru' || document.location.host == 'forzaim.ru'
-                || document.location.host == 'godzaim.ru' || document.location.host == 'zaimcoin.ru' || document.location.host == 'zaimhunter.ru' || document.location.host == 'zaimoking.ru' || document.location.host == 'zaimol.ru' || document.location.host == 'zaimomix.ru'
-                || document.location.host == 'zaimrubli.ru' || document.location.host == 'zaimsoon.ru')) {
-                
-                if($('#i').val() != '' && $('#o').val() != '')
-                {
-                    $("#form_name").text($('#i').val() + ' ' + $('#o').val() + ', вам');
-                }
-                else
-                    $("#form_name").text('Вам');
-                
-                // $("#modal2").click();
-                showModal();
-            }  
-            
-           
             if(this.name == 'birthdate')
             {    
                 var today = addDate2($('#birthdate').val().split('/')[0],$('#birthdate').val().split('/')[1],$('#birthdate').val().split('/')[2]).getTime();
@@ -1133,14 +1061,6 @@ $(document).ready(function () {
             $(this).next("span").text(' ');
         }
 
-        if (document.querySelector('#fingerprint').value == '' ) {
-            //
-            if (document.location.host == 'rublimo.ru' || document.location.host == 'zaimhome.ru') {
-                //send_clickfrod();
-                //window.location.href = 'https://moneyshare.ru?utm=clickfrods';
-                //return false;
-            }
-        }
     });
     $('#feedback-email').on('keyup keypress', function (e) {
         if ($(this).val().match(/([а-яёА-ЯЁ]+)/)) {
@@ -1242,7 +1162,11 @@ $(document).ready(function () {
             //send_form(true, '/lk?loan='+loans+'&keyword=' + ((getParameterByName('keyword') === null) ? window.location.hostname : getParameterByName('keyword')) + '&campaign_id=' + ((getParameterByName('campaign_id') === null) ? window.location.hostname : getParameterByName('campaign_id')) + '&utm_source=' + ((getParameterByName('utm_source') === null) ? window.location.hostname : getParameterByName('utm_source')));
             send_form(true, '/lk' + document.location.search);
             markTarget('form-step-3');
-            window.location = '/lk' + document.location.search;
+            window.location.href = '/offerwall';
+            window.open(
+                '/lk' + document.location.search,
+                '_blank'
+            );
             //window.location = '/lk?loan='+loans+'&keyword=' + ((getParameterByName('keyword') === null) ? window.location.hostname : getParameterByName('keyword')) + '&campaign_id=' + ((getParameterByName('campaign_id') === null) ? window.location.hostname : getParameterByName('campaign_id')) + '&utm_source=' + ((getParameterByName('utm_source') === null) ? window.location.hostname : getParameterByName('utm_source'));
         }
         count_errors++;
@@ -1260,7 +1184,11 @@ $(document).ready(function () {
 				$('input[name="step"]').val('3');
 				send_form(true, '/lk' + document.location.search);
 				markTarget('form-step-3');
-				window.location = '/lk' + document.location.search;
+				window.location.href = '/offerwall';
+				window.open(
+				    '/lk' + document.location.search,
+				    '_blank'
+				);
             }
 			showBzzz = false;
 			$('.reg_same').change();
@@ -1310,7 +1238,11 @@ $(document).ready(function () {
             $('input[name="step"]').val('3');
             send_form(true, '/lk' + document.location.search);
             markTarget('form-step-3');
-            window.location = '/lk' + document.location.search;
+            window.location.href = '/offerwall';
+            window.open(
+                '/lk' + document.location.search,
+                '_blank'
+            );
         }
         showBzzz = false;
         setcookies();
@@ -1320,7 +1252,11 @@ $(document).ready(function () {
             $('input[name="step"]').val('3');
             send_form(true, '/lk' + document.location.search);
             markTarget('form-step-3');
-            window.location = '/lk' + document.location.search;
+            window.location.href = '/offerwall';
+            window.open(
+                '/lk' + document.location.search,
+                '_blank'
+            );
         }
         showBzzz = false;
         setcookies();
@@ -1330,7 +1266,11 @@ $(document).ready(function () {
             $('input[name="step"]').val('3');
             send_form(true, '/lk' + document.location.search);
             markTarget('form-step-3');
-            window.location = '/lk' + document.location.search;
+            window.location.href = '/offerwall';
+            window.open(
+                '/lk' + document.location.search,
+                '_blank'
+            );
         }
         showBzzz = false;
         setcookies();
@@ -1341,7 +1281,11 @@ $(document).ready(function () {
             $('input[name="step"]').val('3');
             send_form(true, '/lk' + document.location.search);
             markTarget('form-step-3');
-            window.location = '/lk' + document.location.search;
+            window.location.href = '/offerwall';
+            window.open(
+                '/lk' + document.location.search,
+                '_blank'
+            );
         }
         showBzzz = false;
         setcookies();
