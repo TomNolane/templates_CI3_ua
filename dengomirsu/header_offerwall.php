@@ -18,37 +18,37 @@ if(!isset($description))
     <meta name="copyright" lang="ru" content="dengomir.ru" /> 
     <meta property="og:title" content="Срочные займы круглосуточно без проверок Онлайн" />
     <meta property="og:description" content="Dengomir - лучший онлайн сервис по выдаче мгновенных займов и кредитов без проверки вашей кредитной истории.Только у нас лучшие кредитные предложения!"/>
-    <meta property="og:image" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
+    <meta property="og:image" content="https://dengomir.ru/templates/dengomirsu/assets/img/creditcard.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:url" content="https://dengomir.ru/" />
-    <meta name="twitter:card" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
+    <meta name="twitter:card" content="https://dengomir.ru/templates/dengomirsu/assets/img/creditcard.png"/>
     <meta name="twitter:title" content="Срочные займы круглосуточно без проверок Онлайн"/>
     <meta name="twitter:description" content="Dengomir - лучший онлайн сервис по выдаче мгновенных займов и кредитов без проверки вашей кредитной истории.Только у нас лучшие кредитные предложения!"/>
-    <meta name="twitter:image:src" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
+    <meta name="twitter:image:src" content="https://dengomir.ru/templates/dengomirsu/assets/img/creditcard.png"/>
     <meta name="twitter:url" content="https://dengomir.ru/"/>
     <meta name="twitter:domain" content="dengomir.ru"/>
     <!-- Favicons -->
-    <link rel="shortcut icon" href="/templates/dengomir/favicon/favicon-16x16.png" type="image/png">
-    <link rel="apple-touch-icon" sizes="57x57" href="/templates/dengomir/favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/templates/dengomir/favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/templates/dengomir/favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/templates/dengomir/favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/templates/dengomir/favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/templates/dengomir/favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/templates/dengomir/favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/templates/dengomir/favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/templates/dengomir/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/templates/dengomir/favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/templates/dengomir/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/templates/dengomir/favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/templates/dengomir/favicon/favicon-16x16.png">
-    <link rel="manifest" href="/templates/dengomir/favicon/manifest.json">
+    <link rel="shortcut icon" href="/templates/dengomirsu/favicon/favicon-16x16.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/templates/dengomirsu/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/templates/dengomirsu/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/templates/dengomirsu/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/templates/dengomirsu/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/templates/dengomirsu/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/templates/dengomirsu/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/templates/dengomirsu/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/templates/dengomirsu/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/templates/dengomirsu/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/templates/dengomirsu/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/templates/dengomirsu/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/templates/dengomirsu/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/templates/dengomirsu/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/templates/dengomirsu/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/templates/dengomir/favicon/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage" content="/templates/dengomirsu/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff"> 
     <!-- Styles -->
-    <link rel="stylesheet" href="/templates/dengomir/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/templates/dengomir/assets/css/pixelstyle.css">
+    <link rel="stylesheet" href="/templates/dengomirsu/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/templates/dengomirsu/assets/css/pixelstyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="//cdn.sendpulse.com/js/push/2e801fea168aa576cb7129e36291c8e6_1.js" async></script>
     <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
@@ -61,7 +61,7 @@ if(!isset($description))
     <div class="container">
         <nav class="navbar navbar-expand-md">
             <a class="navbar-brand" href="/">
-                <img src="/templates/dengomir/assets/img/icons/logo-header.png" height="40" alt="image">
+                <img src="/templates/dengomirsu/assets/img/icons/logo-header.png" height="40" alt="image">
             </a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav3" aria-controls="navbarNav3" aria-expanded="false" aria-label="Toggle navigation">
