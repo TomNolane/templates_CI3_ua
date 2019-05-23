@@ -1,4 +1,7 @@
- var agree = 0;
+if (typeof _show_modal_timer === "undefined") {
+    _show_modal_timer = 3000;
+}
+var agree = 0;
  $('#agree').change(function () {
      if (agree == 1) {
          $('#submitOne').removeClass('btn3').addClass('btn2');

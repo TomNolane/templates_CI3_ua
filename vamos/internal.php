@@ -6,7 +6,7 @@ if ($this->uri->segment(1) == 'robots.txt'){
     
     $universal_folder = 0; $price = "4 000"; 
 
-   if (!in_array($this->uri->segment(1), array('about', 'faq', 'oferta', 'soglasie', 'rules', 'personal-data', 'calls', 'regulation', 'zaim-card', 'zaim-yandex', 'zaim-qiwi', 'zaim-bank', 'zaim-contact'))) 
+   if (!in_array($this->uri->segment(1), array('about', 'faq', 'form', 'oferta', 'soglasie', 'rules', 'personal-data', 'calls', 'regulation', 'zaim-card', 'zaim-yandex', 'zaim-qiwi', 'zaim-bank', 'zaim-contact'))) 
     {
         $params = array('prelend' => $this->uri->segment(1));
         $ch = curl_init("https://zaimomir.su/getprelend");

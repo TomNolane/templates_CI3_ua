@@ -16,7 +16,7 @@
             <div class="col-xs-12">
                 <div class="ex-info-block ">
                     <h3>О проекте</h3>
-                    <p>Vamos - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря
+                    <p><?=$maindomain?> - это самый удобный и выгодный сервис по получению онлайн-займов. Благодаря
                         используемым
                         принципам обработки данных нашим клиентом может стать любой гражданин Украины. Даже если вы
                         пенсионер,
@@ -193,7 +193,7 @@
         <?php require 'templates/common/new/js/popup_modal.js'; ?>
          </script>
          <!-- Yandex.Metrika counter -->
-         <script type="text/javascript">
+         <script>
              (function (m, e, t, r, i, k, a) {
                  m[i] = m[i] || function () {
                      (m[i].a = m[i].a || []).push(arguments)
@@ -211,10 +211,17 @@
              });
          </script>
          <noscript>
-             <div><img src="https://mc.yandex.ru/watch/53258287" style="position:absolute; left:-9999px;" alt="" />
+             <div><img src="https://mc.yandex.ru/watch/53258287" style="position:absolute; left:-9999px;" alt="sad" />
              </div>
          </noscript>
          <!-- /Yandex.Metrika counter -->
+         <script>
+        function markTarget(target,param, id){
+            if (typeof yaCounter53258287 == 'undefined') return;
+            if (typeof param == 'undefined') yaCounter53258287.reachGoal(target);
+            else yaCounter53258287.reachGoal(target,param);
+        }
+        </script>
          </body>
 
          </html>

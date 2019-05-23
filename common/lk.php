@@ -35,12 +35,12 @@
     $base_url = str_replace("http:","",$base_url);
     $pixel = $this->pixel->stat($base_url);
 	echo '<div><style scoped>';
-	require 'new2/css/lk2.php';
+	require 'new/css/lk2.php';
 	echo '</style></div>'; 
 ?> 
 <div>
 <style scoped>
-@font-face{font-family:"'Dosis'";src:url(/templates/common/new/fonts/Dosis-Regular.eot);src:url(/templates/common/nnew2/nts/Dosis-Regular.eot?#iefix) format("embedded-opentype"),url(/templates/common/nenew2/ts/Dosis-Regular.woff) format("woff"),url(/templates/common/newnew2/s/Dosis-Regular.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"'Dosis'";src:url(/templates/common/new/fonts/Dosis-Regular.eot);src:url(/templates/common/nnew/nts/Dosis-Regular.eot?#iefix) format("embedded-opentype"),url(/templates/common/nenew/ts/Dosis-Regular.woff) format("woff"),url(/templates/common/newnew/s/Dosis-Regular.ttf) format("truetype");font-weight:400;font-style:normal}
 .hh4 {
     font-family: Impact !important;
     font-size: 34px;
@@ -367,20 +367,7 @@ tr>td:first-child {
         {
             $domen = str_replace('www.','',$_SERVER['HTTP_HOST']);
 
-            if (strpos($item['link'], 'guruleads'))
-                $item['link'] = $item['link'].'?sub1=Vitrina';
-            else if(strpos($item['link'], 'kviku'))
-                $item['link'] = $item['link'].'';
-            else if(strpos($item['link'], 'g24.me'))
-                $item['link'] = $item['link'].'?subid=Vitrina';
-            else if(strpos($item['link'], 'tech'))
-                $item['link'] = $item['link'].'&sub1=Vitrina';
-            else if(strpos($item['link'], 'leadgid'))
-                $item['link'] = $item['link'].'?source=Vitrina';
-            else if(strpos($item['link'], 'leadbrothers'))
-                $item['link'] = $item['link'].'?s1=Vitrina';
-            else
-                $item['link'] = $item['link'].'?source=Vitrina';
+            $item['link'] = setUtm($item['link'],'Vitrina');
 
             $words = array (
                 '<div class="caption empty"><span></span></div>',

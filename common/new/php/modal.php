@@ -1,24 +1,24 @@
 <?php 
 require 'utm_mark.php';
 
-if ($this->uri->segment(1) == 'pixell' || getDomain() == 'ru-zaimo.ru' || getDomain() == 'sumas.ru' | getDomain() == 'dengos.ru') {
-  $this->load->model('analytics/forms_model', 'analytics');
-  $json = $this->analytics->popup10secGetJson2();
-}
-else if ($this->uri->segment(1) == 'offerwall')
-{
-  $this->load->model('analytics/forms_model', 'analytics');
-  $json = $this->analytics->popup10secGetJson3();
-}
-else
-{
-  $this->load->model('analytics/forms_model', 'analytics');
-  $json = $this->analytics->popup10secGetJson();
-}
+// if ($this->uri->segment(1) == 'pixell' || getDomain() == 'ru-zaimo.ru' || getDomain() == 'sumas.ru' | getDomain() == 'dengos.ru') {
+//   $this->load->model('analytics/forms_model', 'analytics');
+//   $json = $this->analytics->popup10secGetJson2();
+// }
+// else if ($this->uri->segment(1) == 'offerwall')
+// {
+//   $this->load->model('analytics/forms_model', 'analytics');
+//   $json = $this->analytics->popup10secGetJson3();
+// }
+// else
+// {
+//   $this->load->model('analytics/forms_model', 'analytics');
+//   $json = $this->analytics->popup10secGetJson();
+// }
 
-$text = $json[0]["text"];
-$img = trim($json[0]["header"]);
-$url = setUtm($json[0]["url"],'Popup');
+// $text = $json[0]["text"];
+// $img = trim($json[0]["header"]);
+// $url = setUtm($json[0]["url"],'Popup');
 
 $text = 'Вам одобрено 10 000 &#8372; <br> после заявки';
 
@@ -53,5 +53,5 @@ $url = 'https://track.leadbrothers.co/sensor/5ccfedf78a5da55786a735ad?s1=Popup';
 </table>
 </div>
 <script>
-var _show_modal_timer = (document.location.pathname != '/lk') ? <?=$json[0]["seconds_lk"]?> : <?=$json[0]["seconds"]?>;
+var _show_modal_timer = 3000;
 </script>

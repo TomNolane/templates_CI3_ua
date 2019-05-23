@@ -43,14 +43,14 @@
         case 'offerwall2': $logo_foot = 'templates/common/img/logo-edenga.png'; $email = 'support@edenga.ru'; break;
         default: break;
     }
-    require '/templates/common/php/utm_mark.php';
+    require_once 'templates/common/new/php/utm_mark.php';
 	echo '<div><style scoped>';
-    require 'new/css/lk2.php';
-    require 'new/css/offerwall.css';
+    require_once 'templates/common/new/css/lk2.php';
+    require 'templates/common/new/css/offerwall.css';
     echo '</style></div>';?> 
 
 <div class="row container3"><div class="col-md-12">
-<? if (!file_exists(realpath(__DIR__ . '/..').'/common/php/special-header-1.php')) : ?>
+<? if (!file_exists(realpath(__DIR__ . '/..').'/common/php/new/special-header-1.php')) : ?>
     <h2 class="text-center hh hh4"><span style="font-size: 32px; color: #000; font-family: Helvetica;">Согласно Вашим данным сформирован список онлайн займов со скидкой до 50%.</span><br>
         <span class="green_font">
             <span style="background-color: #e8392c; color: #FFF;">
@@ -59,7 +59,7 @@
                 <span style="color: #000 !important;">Оставьте заявку в трех компаниях и повысьте шанс получить займ до 99%.</span>
             </span>
     </h2>
-<? else : require(realpath(__DIR__ . '/..').'/common/php/special-header-1.php'); endif; ?>
+<? else : require(realpath(__DIR__ . '/..').'/common/new/php/special-header-1.php'); endif; ?>
     <br>
     <hr>
     <div class="row" id="for_google"></div>

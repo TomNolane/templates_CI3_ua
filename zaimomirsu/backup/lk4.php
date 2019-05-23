@@ -32,7 +32,7 @@
     $base_url = str_replace("http:","",$base_url);
     $pixel = $this->pixel->stat($base_url);
 	echo '<div><style scoped>';
-	require 'new2/css/lk2.php';
+	require 'new/css/lk2.php';
 	echo '</style></div>';
 ?> 
 <style scoped>

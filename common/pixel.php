@@ -8,6 +8,7 @@
     $site = str_replace(".ru", "", str_replace(".su", "",str_replace(".info", "", str_replace(".com", "", $site))));
 
     require realpath(__DIR__ . '/..').'/'.$site.'/header.php';
+    
     $this->load->model('offers/offers_model', 'offers');
     
     (isset($_GET['loan']) && $_GET['loan']) ? $loan = 0 : $loan = 0;
@@ -34,16 +35,18 @@
     $base_url = str_replace("https:","",$base_url);
     $base_url = str_replace("http:","",$base_url);
     $pixel = $this->pixel->stat($base_url);
-
+    
     $email = 'support@'.getDomain();
     $logo_foot = '/templates/common/img/logo-fanzaim.png';
+    
     switch ($this->uri->segment(1)) {
         case 'offerwall': $logo_foot = '/templates/common/img/logo-fanzaim.png'; $email = 'support@fanzaim.ru'; break;
         case 'pixell': $logo_foot = '/templates/common/img/logo-fanzaim.png'; $email = 'support@fanzaim.ru'; break;
         case 'offerwall2': $logo_foot = '/templates/common/img/logo-edenga.png'; $email = 'support@edenga.ru'; break;
         default: break;
     }
-    require '/templates/common/php/utm_mark.php';
+    
+    require_once 'templates/common/new/php/utm_mark.php';
 
 if($setting_array['is_mobile'] != 'мобила') 
     require 'pixel_desktop.php';

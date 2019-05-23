@@ -137,40 +137,6 @@ li > a {
 							О сервисе
 						</a>
 					</li>
-					<li>
-						<a href="/dineron" target="_blank">Получить деньги</a>
-					</li>
-					<!-- <li>
-						<a id="test" href="/faq">Вопросы-ответы</a>
-					</li>
-					<li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-							Документы
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="/oferta">Публичная оферта</a></li>
-                            <li><a href="/soglasie">Согласие на обработку данных</a></li>
-                            <li><a href="/rules">Условия пользования сайтом</a></li>
-                            <li><a href="/personal-data">Политика компании</a></li>
-                            <li><a href="/calls">Согласие на звонки</a></li> 
-                            <li><a href="/regulation">Персональные данные</a></li>
-                            <li><a href="/safety">Безопасность данных</a></li>
-						</ul>
-					</li> -->
-                    <li class="dropdown">
-						<a href="#" class="dropdown-toggle" data-toggle="dropdown" >
-							Способы получения займа
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-							<li><a href="/zaim-card">Банковская карта</a></li>
-                            <li><a href="/zaim-yandex">Яндекс.Деньги</a></li>
-                            <li><a href="/zaim-contact">Contact</a></li>
-                            <li><a href="/zaim-qiwi">QIWI VISA кошелек</a></li>
-                            <li><a href="/zaim-bank">Счет в банке</a></li>
-						</ul>
-					</li>
 				</ul>
 			</div>
 		</div>
