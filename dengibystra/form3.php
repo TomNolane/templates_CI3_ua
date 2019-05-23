@@ -69,11 +69,11 @@
                 </div>
                 <div class="col-sm-6">
                     <div class="form-group has-feedback">
-                        <label class="label-required" for="work_salary">Зарплата (в рублях)</label>
-                        <input type="tel" class="form-control ec tip" value="25000" name="work_salary" id="work_salary" placeholder="Зарплата (в рублях)" title="Введите вашу среднюю зарплату"
+                        <label class="label-required" for="work_salary">Зарплата (в гривнах)</label>
+                        <input type="tel" class="form-control ec tip" value="25000" name="work_salary" id="work_salary" placeholder="Зарплата (в гривнах)" title="Введите вашу среднюю зарплату"
                             data-validation="number" data-validation-error-msg="Введите среднюю зарплату" maxlength="6" required>
                         <span id="work_salarystatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2">Укажите месячную зарплату (в руб.)</p>
+                        <p class="help-block2">Укажите месячную зарплату (в грн.)</p>
                         <p class="text-muted helpblock">Пример: 25000</p>
                     </div>
                 </div>

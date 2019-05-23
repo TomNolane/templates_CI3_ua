@@ -1,5 +1,5 @@
 <?php 
-$sum = '20000'; $period = '21';$percent = '95';
+$sum = '600'; $period = '21';$percent = '95';
 if($this->input->get('amount', TRUE) != '') 
 { 
     $sum = $this->input->get('amount', TRUE);
@@ -62,7 +62,7 @@ elseif($this->input->post('percent', TRUE) != '')
 if(!isset($my_title))
 {
     $my_title = 'Подача Заявки на Получение Займа Онлайн';
-    $description = 'Хотите получить денежный заем в сжатые сроки?Тогда заполните несложную форму заявка на нашем онлайн-сервисе по выдаче денежных займов в России';
+    $description = 'Хотите получить денежный заем в сжатые сроки?Тогда заполните несложную форму заявка на нашем онлайн-сервисе по выдаче денежных займов в Украине';
 }
 include "templates/common/new/php/form_header.php";
 include "header.php";

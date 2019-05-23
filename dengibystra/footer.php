@@ -116,7 +116,7 @@ else if($this->uri->segment(1) == 'form' )
                 <div class="col-xs-12">
                     <div class="text-center">
                         <a href="/"><img src="/templates/dengibystra/assets/img/logo-foot.png" alt="logo-foot.png"></a>
-                        <p class="spec_footer4">Россия, Ленинградская обл. г. Санкт-Петербург, ул. Осипенко, 12, оф 201<br>'.$email.'</p>
+                        <p class="spec_footer4">г. Киев, ул. Саксаганского 133-А, тел. (044) 498 10 21, info@dengibystra.su</p>
                     </div>
                 </div>
                 <div class="col-sm-12">
@@ -219,17 +219,17 @@ if (in_array($this->uri->segment(1), array(' ', '', 'index', 'form')))
 
     <?php if (in_array($this->uri->segment(1), array(' ', '', 'index'))) 
     {
-        echo 'traffic("dengibystra.ru",0);'; 
+        echo 'traffic("dengibystra.su",0);'; 
     }
 }
 else if(in_array($this->uri->segment(1), array('lk', 'lk2', 'lk3', 'offerwall', 'pixell')))
 {
     include "templates/common/new/js/lk.js";
-    echo 'traffic("dengibystra.ru",4);';
+    echo 'traffic("dengibystra.su",4);';
 }
 else if($this->uri->segment(1) == '404')
 {
-    echo 'traffic("dengibystra.ru",9);';
+    echo 'traffic("dengibystra.su",9);';
 }
 echo "}";
 require 'templates/common/new/js/exeption.js';
