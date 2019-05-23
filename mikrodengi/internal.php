@@ -75,8 +75,6 @@ switch($this->uri->segment(1))
 		$my_title = 'Статьи о займах'; 
 		$description = 'Актуальные статьи о займах и кредитах. О том как правильно взять займ, погасить его, как  оформить заявку на кредит с плохой кредитной историей и многое другое.';
 		break;
-
-
 	case 'delay':
 		$my_title = 'Что такое отсрочка погашения займа?'; 
 		$description = 'При обращении в микрофинансовую организацию (МФО) будущий заёмщик надеется на своевременное закрытие
@@ -112,6 +110,5 @@ switch($this->uri->segment(1))
 	elseif ($this->uri->segment(1) == 'allarticles') require 'internal-allarticles.php';
 	elseif ($this->uri->segment(1) == 'refinancing') require 'internal-refinancing.php';
 	elseif($this->uri->segment(1) == '404') require 'internal-404.php';
-	elseif($this->uri->segment(1) == 'lk9') require 'internal-lk9.php';
 }
 ?>

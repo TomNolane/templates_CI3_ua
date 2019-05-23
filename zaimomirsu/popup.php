@@ -1,14 +1,9 @@
 <!-- popup08 -->
 <?php 
-function getDomain2()
-{
-    $CI =& get_instance();
-    return preg_replace("/^[\w]{2,6}:\/\/([\w\d\.\-]+).*$/","$1", $CI->config->slash_item('base_url'));
-}
 $text = 'Вам одобрено 10 000 <i class="fas fa-hryvnia"></i> <br> после заявки';
 $img = 'safezaim';
 $url = 'https://t.z24.tech/click?pid=29&offer_id=65&sub1=Popup';
-if ($this->uri->segment(1) == 'offerwall' || getDomain2() == 'vamos.su' || getDomain2() == 'zamos.su') {
+if ($this->uri->segment(1) == 'offerwall' || getDomain() == 'vamos.su' || getDomain() == 'zamos.su') {
     $text = 'Вам одобрено 10 000 &#8372;<br>после заявки';
     $img = 'visame';
     $url = 'https://track.leadbrothers.co/sensor/5ccfedf78a5da55786a735ad?s1=Popup';

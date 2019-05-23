@@ -1,20 +1,7 @@
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <?php $from = '4';
 if( $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3')
 {
-    echo '
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <!-- Микроденьги -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-4970738258373085"
-         data-ad-slot="4467713186"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-    (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    ';
+    require 'adsence.php';
 } 
 ?>
 <footer class="ex-main-footer">
@@ -45,14 +32,10 @@ if( $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3')
     echo 'try{';
     require 'footer_common_js.php';
     echo '/* private JS */';
+    require 'templates/mikrodengi/assets/js/main.js'; 
 
-if($this->uri->segment(1) == ' ' || $this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->uri->segment(1) == 'form') 
-{ 
-    require 'templates/mikrodengi/assets/js/loanCalculator.js';
-    if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->uri->segment(1) == ' ') {
-        require 'templates/common/new2/js/for_index.js';
-    } 
-?>
+if (in_array($this->uri->segment(1), array(' ', '', 'index', 'form'))) 
+{ ?>
 
     $(document).ready(function () 
     {
@@ -124,44 +107,18 @@ if($this->uri->segment(1) == ' ' || $this->uri->segment(1) == '' || $this->uri->
         },
     }); 
 });
-<?php } if ($this->uri->segment(1) == ' ' || $this->uri->segment(1) == '' || $this->uri->segment(1) == 'index') { ?>
+<?php } if (in_array($this->uri->segment(1), array(' ', '', 'index'))) { ?>
     $(document).ready(function () {
     //******  HOVER ARTICLE  *******//
     $(".ex-art-block").hover(function () {
         $(".ex-art-block").removeClass("ex-art-active");
         $(this).addClass("ex-art-active");
     });
-    var slider3 = $('#rangeSlider1').data('ionRangeSlider');
-    var slider4 = $('#rangeSlider2').data('ionRangeSlider');
-    var slider_plus = true;
-    var n = 4;
-    var slider_init = setInterval(function () {
-        if (slider_plus) {
-            n++;
-        } else {
-            n--;
-        }
-        if (n == 19 && n != <?php echo $from;?>) {
-            slider_plus = false;
-        }else if (n == <?php echo $from;?> && slider_plus == false) {
-            clearInterval(slider_init);
-        }else if (n == 19 && n == <?php echo $from;?>) {
-            clearInterval(slider_init);
-        }
-
-        slider3.update({
-            from: n
-        });
-
-        $('#form_slrd').val(n);
-        $('#amount').val(slider3.result.from_value);
-
-    }, 50);
 });
 <?php }
-elseif($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $this->uri->segment(1) == 'lk3' || $this->uri->segment(1) == 'offerwall')
+else if(in_array($this->uri->segment(1), array('lk', 'lk2', 'lk3', 'offerwall', 'pixell')))
 {  
-    include "templates/common/new2/js/lk.js";
+    include "templates/common/new/js/lk.js";
     echo 'traffic("mikrodengi.su",4);';
 }
 elseif($this->uri->segment(1) == '404')
@@ -171,7 +128,7 @@ elseif($this->uri->segment(1) == '404')
 else if($this->uri->segment(1) == 'form')
 { } 
 echo "}";
-require 'templates/common/new2/js/exeption.js';
+require 'templates/common/new/js/exeption.js';
 ?>  
 </script>
 <?php
@@ -179,25 +136,8 @@ require 'templates/common/new2/js/exeption.js';
  require 'googleanalytics.php';
  require 'google_tag_manager.php';
 
-if ($this->uri->segment(1) == 'form') 
-{
-    echo "";
-}
-if($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $this->uri->segment(1) == 'lk3')
-{
-    echo '
-   <!-- Global site tag (gtag.js) - Google Ads: 755948010 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-755948010"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(\'js\', new Date()); gtag(\'config\', \'AW-755948010\'); </script> 
-   <!-- Event snippet for Микроденьги conversion page --> <script> gtag(\'event\', \'conversion\', {\'send_to\': \'AW-755948010/tj6gCN2-t5oBEOqzu-gC\'}); </script> 
-    <!-- Global site tag (gtag.js) - Google Ads: 770053270 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-770053270"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag(\'js\', new Date());
-    gtag(\'config\', \'AW-770053270\');
-    </script>
-    <!-- Global site tag (gtag.js) - Google Ads: 770053270 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-770053270"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(\'js\', new Date()); gtag(\'config\', \'AW-770053270\'); </script> ';
-}
+if(in_array($this->uri->segment(1), array('lk', 'lk2', 'lk3')))
+        require 'google_lk.php';
 ?>
 </body>
 </html>

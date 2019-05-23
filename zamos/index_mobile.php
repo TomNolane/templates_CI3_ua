@@ -1,6 +1,6 @@
 <?php 
 require 'css/index_mobile_css.php'; 
-require 'templates/common/new2/php/modal.php'; 
+require 'templates/common/new/php/modal.php'; 
 ?>
 <div class="row container3"><div class="col-md-12">
 <h2 class="text-center hh hh4"> Для вас подобраны организации для <span class="orange_font">получения займа или кредита</span> в Украине:</h2>

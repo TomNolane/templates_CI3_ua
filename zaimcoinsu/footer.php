@@ -213,7 +213,7 @@ if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->
 }
 elseif($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $this->uri->segment(1) == 'lk3')
 {
-    include "templates/common/new2/js/lk.js";      
+    include "templates/common/new/js/lk.js";      
     echo 'traffic("zaimcoin.su",4);'; 
 
 }
@@ -224,7 +224,7 @@ elseif($this->uri->segment(1) == '404')
 else if($this->uri->segment(1) == 'form')
 { } 
 echo "}";
-require 'templates/common/new2/js/exeption.js';
+require 'templates/common/new/js/exeption.js';
 ?>
 </script>
 <?php

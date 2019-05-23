@@ -108,7 +108,7 @@ if(isset($_SERVER['HTTP_REFERER'])){
                     <li class="ex-step-counter ex-step-3" style="visibility:  hidden;">Заполните данные о работе</li>
                 </ul> -->
                 <div id="firstStep" class="tab-pane fade in active">
-                    <?php require 'full/form1.php'; ?>
+                    <?php require 'form1.php'; ?>
                 </div>
                 <div id="secondStep" class="tab-pane fade">
                    

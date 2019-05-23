@@ -67,7 +67,7 @@ if($this->uri->segment(1) == ' ' || $this->uri->segment(1) == '' || $this->uri->
     //require 'templates/zaimomirsu/assets/js/settings_form.js';
     require 'templates/zaimomirsu/assets/js/loanCalculator.js';
     if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->uri->segment(1) == ' ') {
-        require 'templates/common/new2/js/for_index.js';
+        require 'templates/common/new/js/for_index.js';
     } 
 ?> 
  
@@ -194,7 +194,7 @@ elseif($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $thi
         $(".ex-offerta-block ").removeClass("ex-offerta-active");
         $(this).addClass("ex-offerta-active");
     }); ';
-    include "templates/common/new2/js/lk.js";
+    include "templates/common/new/js/lk.js";
     echo 'traffic("zaimomir.su",4);'; 
 
 }
@@ -205,7 +205,7 @@ elseif($this->uri->segment(1) == '404')
 else if($this->uri->segment(1) == 'form')
 { } 
 echo "}";
-require 'templates/common/new2/js/exeption.js';
+require 'templates/common/new/js/exeption.js';
 ?>  
 </script>
 <?php

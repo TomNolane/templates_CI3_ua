@@ -34,12 +34,12 @@
     $base_url = str_replace("http:","",$base_url);
     $pixel = $this->pixel->stat($base_url);
 	echo '<div><style scoped>';
-	require 'templates/common/new2/css/lk2.php';
+	require 'templates/common/new/css/lk2.php';
 	echo '</style></div>'; 
 ?> 
 <div>
 <style scoped>
-@font-face{font-family:"'Dosis'";src:url(/templates/common/new2/fonts/Dosis-Regular.eot);src:url(/templates/common/new2/fonts/Dosis-Regular.eot?#iefix) format("embedded-opentype"),url(/templates/common/new2/fonts/Dosis-Regular.woff) format("woff"),url(/templates/common/new2/fonts/Dosis-Regular.ttf) format("truetype");font-weight:400;font-style:normal}
+@font-face{font-family:"'Dosis'";src:url(/templates/common/new/fonts/Dosis-Regular.eot);src:url(/templates/common/new/fonts/Dosis-Regular.eot?#iefix) format("embedded-opentype"),url(/templates/common/new/fonts/Dosis-Regular.woff) format("woff"),url(/templates/common/new/fonts/Dosis-Regular.ttf) format("truetype");font-weight:400;font-style:normal}
 .hh4 {
     font-family: Dosis !important;
     font-size: 34px;

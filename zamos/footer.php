@@ -221,8 +221,8 @@
     </div>
     <script>
     <?php 
-    require 'templates/common/new2/js/bootstrap.min.js';
-    require 'templates/common/new2/js/popup_modal.js'; 
+    require 'templates/common/new/js/bootstrap.min.js';
+    require 'templates/common/new/js/popup_modal.js'; 
     ?>
     </script>
     <!-- Yandex.Metrika counter -->

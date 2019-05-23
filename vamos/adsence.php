@@ -19,7 +19,7 @@ enable_page_level_ads: true
 </script>
 <?php } else if($maindomain == 'zaimnow.su') { ?>
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- Zaimnow adsence -->
+<!-- Zaimnow.su adsence -->
 <ins class="adsbygoogle"
 style="display:block"
 data-ad-client="ca-pub-4970738258373085"

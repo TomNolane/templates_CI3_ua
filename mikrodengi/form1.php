@@ -1,25 +1,24 @@
 <section class="ex-main-form">
     <div class="row">
-        <div class="col-md-9">
+        <div class="col-md-6 col-md-offset-2">
             <div class="form-group has-feedback hidden">
                 <label class="control-label col-md-4" for="f">Фамилия</label>
                 <div class="col-md-8">
                     <div class="ex-wrapper">
-                        <input type="text" class="form-control ec tip special_form" name="f" id="f" placeholder="Фамилия" title="Введите свою фамилию"
-                            data-sanitize="capitalize" value="Иванова" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свою фамилию"
-                            required>
-                            <p class="text-muted helpblock">Пример: Иванова</p>
+                        <input type="text" class="form-control ec tip special_form" value="Батейко" name="f" id="f" placeholder="Фамилия" title="Введите свою фамилию"
+                            data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свою фамилию">
+                            <p class="text-muted helpblock">Пример: Батейко</p>
                     </div>
                 </div>
             </div>
-            <div class="form-group has-feedback">
+            <div class="form-group has-feedback hidden">
                 <label class="control-label col-md-4" for="i">Имя</label>
                 <div class="col-md-8">
                     <div class="ex-wrapper">
-                        <input type="text" class="form-control ec tip special_form" name="i" id="i" placeholder="Имя" title="Введите свое имя" data-sanitize="capitalize"
-                            data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свое имя"
+                        <input type="text" class="form-control ec tip special_form" value="Олександр" name="i" id="i" placeholder="Имя" title="Введите свое имя" data-sanitize="capitalize"
+                            data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свое имя"
                             required>
-                            <p class="text-muted helpblock">Пример: Лариса</p>
+                            <p class="text-muted helpblock">Пример: Олександр</p>
                     </div>
                 </div>
             </div>
@@ -27,10 +26,9 @@
                 <label class="control-label col-md-4" for="o">Отчество</label>
                 <div class="col-md-8">
                     <div class="ex-wrapper">
-                        <input type="text" class="form-control ec tip special_form" name="o" id="o" placeholder="Отчество" title="Введите свое отчество"
-                            data-sanitize="capitalize" value="Ивановна" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Введите свое отчество"
-                            required>
-                            <p class="text-muted helpblock">Пример: Ивановна</p>
+                        <input type="text" class="form-control ec tip special_form" value="Дмитрович" name="o" id="o" placeholder="Отчество" title="Введите свое отчество"
+                            data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свое отчество">
+                            <p class="text-muted helpblock">Пример: Дмитрович</p>
                     </div>
                 </div>
             </div>
@@ -99,9 +97,9 @@
                 <div class="col-md-8">
                     <div class="ex-wrapper">
                         <input type="tel" class="form-control ec tip special_form" name="phone" id="phone" placeholder="Введите свой номер телефона"
-                            title="Введите свой номер телефона" data-validation-error-msg="Введите номер телефона" required>
+                            title="Введите свой номер телефона" data-validation-error-msg="Введите номер телефона" style="text-align:center;" required>
                         <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="text-muted helpblock">Пример: 8 (977) 777 7777</p>
+                        <p class="text-muted helpblock" style="float:center;">Пример: 095 725 09 99</p>
                     </div>
                 </div>
             </div>
@@ -110,8 +108,8 @@
                 <div class="col-md-8">
                     <div class="ex-wrapper">
                         <input type="email" class="form-control ec tip special_form" name="email" id="email" title="Введите свой email адрес" placeholder="Email"
-                            data-validation="email" data-validation-error-msg="Введите свой email" required>
-                            <p class="text-muted helpblock">Пример: email@mail.ru</p>
+                            data-validation="email" data-validation-error-msg="Введите свой email" style="text-align:center;" required>
+                            <p class="text-muted helpblock" style="float:center;">Пример: email@mail.ru</p>
                     </div>
                 </div>
             </div>
@@ -130,25 +128,22 @@
                     </div>
                 </div>
             </div>
-            <div class="row">                
+            <div class="row">
                 <div class="col-md-8 col-md-offset-4 ex-agreement-check">
                     <label class="checkbox-inline">
                         <span> Я согласен на <a href="https://mikrodengi.su/soglasie" target="_blank">обработку персональных данных</a> и с <a href="https://mikrodengi.su/oferta" target="_blank">публичной офертой</a></span>
-                        <input type="checkbox" id="agree" value="0" >
+                        <input type="checkbox" id="agree" value="1" checked>
                         <i></i>
+                    </label>
+                    <label class="hidden">
+                        <input type="checkbox" id="marketing" value="1" checked>
+                        <b>Я согласен(на) получать маркетинговые рассылки с предложениями микрозаймов</b>
                     </label>
                 </div>
-                <div class="col-md-8 col-md-offset-4">
-                    <label class="checkbox-inline">
-                        <span> Я согласен на получение рекламных сообщений</span>
-                        <input type="checkbox" id="marketing" value="1" >
-                        <i></i>
-                    </label>
-                </div>                
             </div>
             <div class="form-group has-feedback">
                 <div class="col-md-8 col-md-offset-4">
-                    <a id="next1f" class="ex-main-btn btn3 text-center" style="margin-top:  20px; position:  relative; display:  block;">Получить деньги</a>
+                    <a id="submitOne" class="ex-main-btn btn3 text-center">Получить деньги</a>
                 </div>
             </div>
         </div>

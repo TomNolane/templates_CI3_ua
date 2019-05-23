@@ -1,5 +1,5 @@
 <?php
-    require 'templates/common/new2/php/check_bot.php';
+    require 'templates/common/new/php/check_bot.php';
     $my_title = ''; $description = ''; $universal_folder = 0; $price = "4 000";
     
     $domen = str_replace('www.','',$_SERVER['HTTP_HOST']);
@@ -108,7 +108,7 @@
 }
 .t-col_12 {max-width: inherit !important;} 
 
-<?php require "templates/common/new2/css/common.css"; ?>
+<?php require "templates/common/new/css/common.css"; ?>
 li > a {
     font-size: 16px;
     color: #000;

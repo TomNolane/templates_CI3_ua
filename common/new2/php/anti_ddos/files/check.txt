@@ -1,1 +1,0 @@
-<?php $ad_end_defense =4656; ?>
