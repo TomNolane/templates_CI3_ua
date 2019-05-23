@@ -104,7 +104,7 @@ if($this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->
                     <div class="col-sm-12">
                     <p class="black">
                         Сервис по подбору выгодных онлайн займов находящийся по адресу:
-                    Россия, Ленинградская обл. г. Санкт-Петербург, ул. Осипенко, 12, оф 201 email: support@dengomir.ru <span class="hidden-xs hidden-sm">| +7(495) 006 19 61</span>
+                    Россия, Ленинградская обл. г. Санкт-Петербург, ул. Осипенко, 12, оф 201 email: support@dengomir.su <span class="hidden-xs hidden-sm">| +7(495) 006 19 61</span>
                     </p>
                 </div>';
                 } ?>
@@ -297,18 +297,18 @@ if ($this->uri->segment(1) == '' || $this->uri->segment(1) == 'index' || $this->
             $('#amount').val(slider.result.from_value);
             $("#form_slrd").val(slider.result.from);
         }, 50); 
-        traffic("dengomir.ru",0);
+        traffic("dengomir.su",0);
 <?php }
 }
 elseif($this->uri->segment(1) == 'lk' || $this->uri->segment(1) == 'lk2' || $this->uri->segment(1) == 'lk3')
 {
     include "templates/common/new/js/lk.js";      
-    echo 'traffic("dengomir.ru",4);'; 
+    echo 'traffic("dengomir.su",4);'; 
 
 }
 elseif($this->uri->segment(1) == '404')
 {
-    echo 'traffic("dengomir.ru",9);'; 
+    echo 'traffic("dengomir.su",9);'; 
 }
 else if($this->uri->segment(1) == 'form')
 { } 

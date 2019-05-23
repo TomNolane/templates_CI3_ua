@@ -15,18 +15,18 @@ if(!isset($description))
     <meta name="Description" content="<?php echo $description;?>" />
     <meta name="Keywords" content="моментальный заем, займы, онлайн, деньги" />
     <meta name="robots" content="all" />
-    <meta name="copyright" lang="ru" content="dengomir.ru" /> 
+    <meta name="copyright" lang="ru" content="dengomir.su" /> 
     <meta property="og:title" content="Срочные займы круглосуточно без проверок Онлайн" />
     <meta property="og:description" content="Dengomir - лучший онлайн сервис по выдаче мгновенных займов и кредитов без проверки вашей кредитной истории.Только у нас лучшие кредитные предложения!"/>
-    <meta property="og:image" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
+    <meta property="og:image" content="https://dengomir.su/templates/dengomir/assets/img/creditcard.png"/>
     <meta property="og:type" content="website"/>
-    <meta property="og:url" content="https://dengomir.ru/" />
-    <meta name="twitter:card" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
+    <meta property="og:url" content="https://dengomir.su/" />
+    <meta name="twitter:card" content="https://dengomir.su/templates/dengomir/assets/img/creditcard.png"/>
     <meta name="twitter:title" content="Срочные займы круглосуточно без проверок Онлайн"/>
     <meta name="twitter:description" content="Dengomir - лучший онлайн сервис по выдаче мгновенных займов и кредитов без проверки вашей кредитной истории.Только у нас лучшие кредитные предложения!"/>
-    <meta name="twitter:image:src" content="https://dengomir.ru/templates/dengomir/assets/img/creditcard.png"/>
-    <meta name="twitter:url" content="https://dengomir.ru/"/>
-    <meta name="twitter:domain" content="dengomir.ru"/>
+    <meta name="twitter:image:src" content="https://dengomir.su/templates/dengomir/assets/img/creditcard.png"/>
+    <meta name="twitter:url" content="https://dengomir.su/"/>
+    <meta name="twitter:domain" content="dengomir.su"/>
     <!-- Favicons -->
     <link rel="shortcut icon" href="/templates/dengomir/favicon/favicon-16x16.png" type="image/png">
     <link rel="apple-touch-icon" sizes="57x57" href="/templates/dengomir/favicon/apple-icon-57x57.png">
