@@ -1,0 +1,453 @@
+{
+    "availablecolors": [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "purple",
+        "white",
+        "black",
+        "gray"
+    ],
+    "hexesforcolors": [
+        {"color": "red", "hex": "#ff5858"},
+        {"color": "orange", "hex": "#e88023"},
+        {"color": "yellow", "hex": "#ffe101"},
+        {"color": "green", "hex": "#21bf16"},
+        {"color": "blue", "hex": "#2395e8"},
+        {"color": "purple", "hex": "#cb23e8"},
+        {"color": "white", "hex": "#FFF"},
+        {"color": "black", "hex": "#000"},
+        {"color": "gray", "hex": "#999"}
+    ],
+    "gradients": [
+        {"color": "white", "hex": "#FFF"},
+        {"color": "yellow", "hex": "#fefcea"},
+        {"color": "yellow", "hex": "#f1da36"},
+        {"color": "green", "hex": "#b7df2d"},
+        {"color": "green", "hex": "#9ecb2d"},
+        {"color": "blue", "hex": "#00b7ea"},
+        {"color": "blue", "hex": "#009ec3"},
+        {"color": "blue", "hex": "#e4f5fc"},
+        {"color": "orange", "hex": "#ffaf4b"},
+        {"color": "orange", "hex": "#ff920a"},
+        {"color": "purple", "hex": "#F99AF8"},
+        {"color": "red", "hex": "#febbbb"},
+        {"color": "red", "hex": "#ff5c5c"},
+        {"color": "gray", "hex": "#dbdce2"},
+        {"color": "gray", "hex": "#b8bac6"}
+    ],
+    "background": [
+        {
+            "inuse": 0,
+            "style": {
+                "background": "none",
+                "raw": "",
+                "_comment": "raw - это то, что внутри <style>...</style>"
+            },
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "24zaem_header.jpg", "raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "checkmoney_header.jpg", "raw": ""},
+            "color": ["blue", "gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "credilo_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "creditkasa_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "creditplus_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "creditstar_header.jpg", "raw": ""},
+            "color": ["blue", "red"]
+        },{
+            "inuse": 1,
+            "style": {"background": "deltazaim_header.jpg", "raw": ""},
+            "color": ["gray", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "dinero_header.jpg", "raw": ""},
+            "color": ["orange", "yellow", "red"]
+        },{
+            "inuse": 1,
+            "style": {"background": "getzaim_header.jpg", "raw": ""},
+            "color": ["blue", "green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "glavfinans_header.jpg", "raw": ""},
+            "color": ["gray", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "gutfin_header.jpg", "raw": ""},
+            "color": ["gray", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "hot-zaim_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "limezaim_header.jpg", "raw": ""},
+            "color": ["blue", "green", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "mangomoney_header.jpg", "raw": ""},
+            "color": ["orange"]
+        },{
+            "inuse": 1,
+            "style": {"background": "manimo_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "mazilla_header.jpg", "raw": ""},
+            "color": ["orange"]
+        },{
+            "inuse": 1,
+            "style": {"background": "migcredit_header.jpg", "raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "miloan_header.jpg", "raw": ""},
+            "color": ["green", "red"]
+        },{
+            "inuse": 1,
+            "style": {"background": "mkcredit_header.jpg", "raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "moneyman_header.jpg", "raw": ""},
+            "color": ["green", "blue"]
+        },{
+            "inuse": 1,
+            "style": {"background": "mycredit_header.jpg", "raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "style": {"background": "mywallet_header.jpg", "raw": ""},
+            "color": ["green", "purple", "blue"]
+        },{
+            "inuse": 1,
+            "style": {"background": "myzaim_header.jpg", "raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "style": {"background": "online-zaim_header.jpg", "raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "optimazaim_header.jpg", "raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "style": {"background": "safezaim_header.jpg", "raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "turbozaim_header.jpg", "raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "zaim365_header.jpg", "raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "style": {"background": "zanimalo_header.jpg", "raw": ""},
+            "color": ["orange"]
+        },{
+            "inuse": 1,
+            "style": {"background": "zaymer_header.jpg", "raw": ""},
+            "color": ["green", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "dozarplati_header.jpg", "raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "visame_header.jpg", "raw": ""},
+            "color": ["gray", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "ekapusta_header.jpg", "raw": ""},
+            "color": ["gray", "white"]
+        },{
+            "inuse": 1,
+            "style": {"background": "planetacash_header.jpg", "raw": ""},
+            "color": ["orange"]
+        },{
+            "inuse": 1,
+            "style": {"background": "webbankir_header.jpg", "raw": ""},
+            "color": ["blue", "green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "bigzaim_header.jpg", "raw": ""},
+            "color": ["blue", "green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "ezaimo_header.jpg", "raw": ""},
+            "color": ["blue", "green"]
+        },{
+            "inuse": 1,
+            "style": {"background": "onezaim_header.jpg", "raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "_comment": "rndentity означает, что данный бекграунд находится в папке рандом",
+            "style": {"background": "01_bg_desktop.jpg", "raw": ""},
+            "color": ["blue", "white"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "02_bg_desktop.jpg","raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "03_bg_desktop.jpg","raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "04_bg_desktop.jpg","raw": ""},
+            "color": ["blue", "gray"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "05_bg_desktop.jpg","raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "06_bg_desktop.jpg","raw": ""},
+            "color": ["green", "yellow", "orange"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "07_bg_desktop.jpg","raw": ""},
+            "color": ["yellow"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "08_bg_desktop.jpg","raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "09_bg_desktop.jpg","raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "10_bg_desktop.jpg","raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "11_bg_desktop.jpg","raw": ""},
+            "color": ["orange", "yellow", "red"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "12_bg_desktop.jpg","raw": ""},
+            "color": ["red"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "13_bg_desktop.jpg","raw": ""},
+            "color": ["green", "blue"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "14_bg_desktop.jpg","raw": ""},
+            "color": ["green", "red"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "15_bg_desktop.jpg","raw": ""},
+            "color": ["green"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "16_bg_desktop.jpg","raw": ""},
+            "color": ["white"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "17_bg_desktop.jpg","raw": ""},
+            "color": ["blue"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "18_bg_desktop.jpg","raw": ""},
+            "color": ["white", "gray"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "19_bg_desktop.jpg","raw": ""},
+            "color": ["orange"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "20_bg_desktop.jpg","raw": ""},
+            "color": ["orange", "yellow"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "21_bg_desktop.jpg","raw": ""},
+            "color": ["white", "blue"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "22_bg_desktop.jpg","raw": ""},
+            "color": ["orange", "yellow", "red"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "23_bg_desktop.jpg","raw": ""},
+            "color": ["orange", "red", "yellow"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "24_bg_desktop.jpg","raw": ""},
+            "color": ["yellow"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "25_bg_desktop.jpg","raw": ""},
+            "color": ["green", "yellow", "orange"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "26_bg_desktop.jpg","raw": ""},
+            "color": ["gray"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "27_bg_desktop.jpg","raw": ""},
+            "color": ["yellow", "orange"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "28_bg_desktop.jpg","raw": ""},
+            "color": ["red", "orange", "yellow"]
+        },{
+            "inuse": 1,
+            "rndentity": "true",
+            "style": {"background": "29_bg_desktop.jpg","raw": ""},
+            "color": ["green", "yellow"]
+        }
+    ],
+    "text": {
+        "summ_symbol": "%%yarr%%",
+        "_comment": "последовательность символов для замены на сумму",
+        "values": [
+        {
+            "_comment": "как пример",
+            "inuse": 0,
+            "text": "bla-%%yarr%%-bla",
+            "style": {
+                "raw": ""
+            }
+        },{
+            "inuse": 0,
+            "summ_symbol": "$",
+            "_comment": "для каждого конкретного 'текста' можно указать свою последовательность для замены",
+            "text": "bla-bla-bla $",
+            "style": {
+                "raw": ""
+            }
+        },{
+            "inuse": 1,
+            "text": "Вам подготовлено %%yarr%% гривен после заявки"
+        },{
+            "inuse": 1,
+            "text": "Вам предварительно одобрено %%yarr%% гривен после анкеты"
+        },{
+            "inuse": 1,
+            "text": "Для вас одобрено %%yarr%% гривен на сайте"
+        },{
+            "inuse": 1,
+            "text": "Заберите ваши %%yarr%% гривен после регистрации"
+        },{
+            "inuse": 1,
+            "text": "Получите %%yarr%% гривен онлайн после заполнения анкеты"
+        },{
+            "inuse": 1,
+            "text": "Подготовлен перевод %%yarr%% гривен после заявки"
+        },{
+            "inuse": 1,
+            "text": "Вам одобрено %%yarr%% гривен после регистрации"
+        },{
+            "inuse": 1,
+            "text": "Получите Ваши %%yarr%% гривен, подтвердив заявку на сайте"
+        },{
+            "inuse": 1,
+            "text": "Заполните короткую анкету и заберите %%yarr%% гривен"
+        },{
+            "inuse": 1,
+            "text": "Подтвердите перевод по заему, %%yarr%% гривен уже готовы!"
+        },{
+            "inuse": 1,
+            "text": "Заполните анкету сейчас, чтобы получить %%yarr%% гривен"
+        },{
+            "inuse": 1,
+            "text": "%%yarr%% гривен на любые цели уже в личном кабинете"
+        },{
+            "inuse": 1,
+            "text": "Вы прошли проверку. Вам одобрено %%yarr%% гривен после заявки"
+        }
+    ]},
+    "animatedtext": [
+        "Круглосуточно",
+        "Повсюду",
+        "Быстро",
+        "Безопасно",
+        "Одобрение 95%"
+    ],
+    "summ": [
+        1000,
+        2000,
+        3000,
+        4000,
+        5000,
+        6000,
+        7000,
+        8000,
+        9000,
+        10000,
+        11000,
+        12000,
+        13000,
+        14000,
+        15000
+    ],
+    "button": {
+        "style": [],
+        "text": [
+            "Забрать деньги",
+            "Получить деньги",
+            "Заполнить заявку",
+            "Оформить завку",
+            "Забрать займ",
+            "Получить займ"
+        ]
+    },
+    "default": {
+        "_comment": "пока не знаю зачем, но пусть будет",
+        "background": "",
+        "text": "",
+        "animatedtext": "",
+        "summ": "",
+        "button": ""
+    }
+}
