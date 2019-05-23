@@ -31,7 +31,7 @@ require 'menu.php';
 
 if($this->uri->segment(1) == 'form')
 {
-    require 'templates/common/new/php/modal2.php';
+    require 'templates/common/new/php/modal.php';
 }
 
 if ($this->uri->segment(1) != ' ' && $this->uri->segment(1) != '' && $this->uri->segment(1) != 'index' && $this->uri->segment(1) != 'form' && $this->uri->segment(1) != 'lk' && $this->uri->segment(1) != 'lk2' && $this->uri->segment(1) != 'lk3') {
