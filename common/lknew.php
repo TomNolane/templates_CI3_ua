@@ -9,7 +9,7 @@
     $site = str_replace("zaimcoin", "zaimcoinsu", $site);
 
     $this->load->model('offers/offers_model', 'pixelnaya');
-    $data = $this->pixelnaya->all(12, 0);
+    $data = $this->pixelnaya->all(4, 0);
 
     // IP
     $this->load->helper('ip');
