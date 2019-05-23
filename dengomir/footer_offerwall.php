@@ -19,7 +19,7 @@
         <div class="row align-items-top text-center text-md-left">
             <div class="col-12 col-sm-12 col-md-12 col-lg-3 text-center">
                 <a href="/">
-                    <img src="/templates/dengomirsu/assets/img/icons/logo-footer.png" alt="image">
+                    <img src="/templates/dengomir/assets/img/icons/logo-footer.png" alt="image">
                 </a>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-9 mt-4 mt-sm-0">
@@ -77,9 +77,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     window.jQuery || 
-    document.write('<script src="/templates/dengomirsu/assets/js/jquery-3.4.1.min.js"><\/script>')
+    document.write('<script src="/templates/dengomir/assets/js/jquery-3.4.1.min.js"><\/script>')
 </script>
-<script src="/templates/dengomirsu/assets/js/bootstrap-4.3.1.min.js"></script> 
+<script src="/templates/dengomir/assets/js/bootstrap-4.3.1.min.js"></script> 
 <!-- /scripts -->
 
 <?php 
