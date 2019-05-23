@@ -19,7 +19,7 @@
         <div class="row align-items-top text-center text-md-left">
             <div class="col-12 col-sm-12 col-md-12 col-lg-3">
                 <a href="/">
-                    <img src="/templates/dengibystrasu/assets/img/logo-foot.png" width="100%" alt="image">
+                    <img src="/templates/dengibystra/assets/img/logo-foot.png" width="100%" alt="image">
                 </a>
             </div>
             <div class="col-12 col-sm-12 col-md-12 col-lg-9 mt-4 mt-sm-0">
@@ -76,9 +76,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script>
     window.jQuery || 
-    document.write('<script src="/templates/dengibystrasu/assets/js/jquery-3.4.1.min.js"><\/script>')
+    document.write('<script src="/templates/dengibystra/assets/js/jquery-3.4.1.min.js"><\/script>')
 </script>
-<script src="/templates/dengibystrasu/assets/js/bootstrap-4.3.1.min.js"></script> 
+<script src="/templates/dengibystra/assets/js/bootstrap-4.3.1.min.js"></script> 
 <!-- /scripts -->
 
 <?php 
