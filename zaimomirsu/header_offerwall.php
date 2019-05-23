@@ -1,5 +1,5 @@
 <?php 
-//require 'templates/common/new/php/check_bot.php';
+//require 'templates/common/new2/php/check_bot.php';
 if(!isset($my_title)) 
 	$my_title = 'Срочные займы круглосуточно без проверок Онлайн';
 
@@ -51,6 +51,7 @@ if(!isset($description))
     <link rel="stylesheet" href="/templates/zaimomirsu/assets/css/pixelstyle.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
     <script src="//cdn.sendpulse.com/js/push/2e801fea168aa576cb7129e36291c8e6_1.js" async></script>
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 <body>
@@ -91,3 +92,19 @@ if(!isset($description))
     </div>
 </header>
 <!-- /header -->
+
+<!-- adsense -->
+<!-- zaimomir.su -->
+<div class="container text-center mt-3">
+    <!-- zaimomir.su -->
+    <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="ca-pub-4970738258373085"
+        data-ad-slot="3043058324"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script> 
+</div>
+<!-- /adsense -->

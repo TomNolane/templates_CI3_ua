@@ -1,3 +1,18 @@
+<!-- adsense -->
+<!-- zaimomir.su -->
+<div class="container text-center my-3">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-4970738258373085"
+         data-ad-slot="3043058324"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>    
+</div>
+<!-- /adsense -->
+
 <!-- footer -->
 <footer class="fdb-block footer-large bg-dark fp-active" data-block-type="footers">
     <div class="container">
@@ -67,7 +82,36 @@
 <script src="/templates/zaimomirsu/assets/js/bootstrap-4.3.1.min.js"></script> 
 <!-- /scripts -->
 
-<?php require 'popup.php'; ?>
+<?php 
+    require 'templates/common/popup.php'; 
+    require 'yandexmetrika.php';
+    require 'googleanalytics.php';
+    require 'google_tag_manager.php';
+
+    if ($this->uri->segment(1) == ' ' 
+     || $this->uri->segment(1) == '' 
+     || $this->uri->segment(1) == 'index' 
+     || $this->uri->segment(1) == 'form') 
+    { 
+        echo '<script src="/templates/zaimomirsu/assets/js/loanCalculator.js"></script>';
+
+        if ($this->uri->segment(1) == '' 
+         || $this->uri->segment(1) == 'index' 
+         || $this->uri->segment(1) == ' ') 
+        {
+            echo '<script src="/templates/common/new2/js/for_index.js"></script>';
+        }
+    } 
+
+    if ($this->uri->segment(1) == 'lk' 
+     || $this->uri->segment(1) == 'lk1' 
+     || $this->uri->segment(1) == 'lk2')
+    {
+        echo '
+        <!-- Global site tag (gtag.js) - Google Ads: 755948010 --> <script async src="https://www.googletagmanager.com/gtag/js?id=AW-755948010"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag(\'js\', new Date()); gtag(\'config\', \'AW-755948010\'); </script> 
+        <!-- Event snippet for Микроденьги conversion page --> <script> gtag(\'event\', \'conversion\', {\'send_to\': \'AW-755948010/tj6gCN2-t5oBEOqzu-gC\'}); </script>';
+    }
+?>
 
 </body>
 </html>

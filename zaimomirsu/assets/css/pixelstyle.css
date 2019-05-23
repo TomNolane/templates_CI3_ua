@@ -40,6 +40,11 @@ h1 {
 	font-size: 2.35rem;
 }
 
+/**
+ * --------------------------------------------------------
+ * Offerwall 
+ */
+
 @media (max-width: 575.98px) {
 	h1 {
 		font-size: 1.55rem;
@@ -515,5 +520,173 @@ h1 {
 	}
 	to {
 		text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
+	}
+}
+
+/**
+ * --------------------------------------------------------
+ * Pixell 
+ */
+.grid_pixell_offer_item a, .grid_pixell_offer_item a:hover {
+	text-decoration: none !important;
+	color: #000 !important;
+}
+
+.grid_pixell_offer_item a > div.d-block {
+	height: 80px;
+    background: #f8f8f8;
+    border-radius: 6px;
+    padding: 1rem 1.5rem;
+    border: 1px solid #eee;
+}
+
+.grid_pixell_offer_item a > div.d-block:hover {
+	box-shadow: 0px 1px 3px rgba(69, 101, 173, 0.1);
+    /* transform: translateY(-1px) scale(1.01); */
+}
+
+.grid_pixell_offer_img {
+	max-height: 60px;
+	max-width: 220px;
+}
+
+.grid_pixell_offer_img img {
+	height: 50px;
+	border-radius: 8px;
+}
+
+
+.grid_pixell_offer_button {
+	padding: 0.4rem 1.2rem;
+    height: 45px;
+    line-height: 2.2rem;
+    color: #ffffff;
+    background-color: #4da8fd;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 2.05rem;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-radius: 0.25rem;
+    text-shadow: 1px 1px 3px #0b4792;
+    background-color: #4da8fd;
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#0f75d5), to(#5db2ff));
+    background-image: -o-linear-gradient(bottom, #0f75d5, #5db2ff);
+    background-image: linear-gradient(to top, #0f75d5, #5db2ff);
+    -webkit-box-shadow: 0 2px 0px 0px #003464;
+    box-shadow: 0 2px 0px 0px #003464;}
+
+.grid_pixell_info div {
+text-transform: uppercase;
+    font-size: 0.7rem;
+    font-weight: normal;
+    color: #646464;
+    margin-left: 1px;
+}
+.grid_pixell_info {
+	color: #464646;
+	font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.grid_pixell_offer_title2_wrap {
+position: absolute;
+    top: -19px;
+    width: 100%;
+    left: 24px;
+}
+
+.grid_pixell_offer_title2_wrap div {
+    min-width: 225px;
+    display: inline-block;
+    font-size: 0.85rem;
+    line-height: 18px;
+    height: 20px;
+    text-align: center;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    background: #f8f8f8;
+    color: #fff;
+    text-shadow: 0px 1px 2px #00000066;
+}
+
+
+.grid_pixell_offer_title2_wrap .grid_title_red {
+	background-color: #f95c4b;
+	background-image: -webkit-linear-gradient(bottom, #f04b39, #ff604f);
+	background-image: -o-linear-gradient(bottom, #f04b39, #ff604f);
+	background-image: linear-gradient(to top, #f04b39, #ff604f);
+}
+
+.grid_pixell_offer_title2_wrap .grid_title_blue {
+	background-color: #036ec5;
+    background-image: -webkit-linear-gradient(bottom, #036ec5, #1a8ae6);
+    background-image: -o-linear-gradient(bottom, #036ec5, #1a8ae6);
+    background-image: linear-gradient(to top, #036ec5, #1a8ae6);
+}
+
+.grid_pixell_offer_title2_wrap .grid_title_green {
+	background-color: #82bf00;
+	background-image: -webkit-linear-gradient(bottom, #74aa00, #9fe802);
+	background-image: -o-linear-gradient(bottom, #74aa00, #9fe802);
+	background-image: linear-gradient(to top, #74aa00, #9fe802);
+
+}
+
+.grid_pixell_offer_title2_wrap .grid_title_yellow {
+	background-color: #fdce07;
+	background-image: -webkit-linear-gradient(bottom, #fd9407, #ffce00);
+	background-image: -o-linear-gradient(bottom, #fd9407, #ffce00);
+	background-image: linear-gradient(to top, #fd9407, #ffce00);
+}
+
+@media (max-width: 575.98px) {
+	
+}
+
+@media (max-width: 767.98px) {
+	.grid_pixell_offer_item a > div.d-block {
+		height: auto;
+	    background: #f8f8f8;
+	    padding-top: 10px;
+	}
+}
+
+@media (max-width: 991.98px) {
+	.grid_pixell_offer_item a > div.d-block {
+		height: auto;
+	    background: #f8f8f8;
+	    padding-top: 10px;
+	}
+	.grid_pixell_offer_title2_wrap div {
+		min-width: auto;
+		width: 80%;
+		margin: auto;
+		    display: block;
+		    overflow: hidden;
+	}
+	.grid_pixell_offer_title2_wrap {
+	    position: absolute;
+	    top: -16px;
+	    width: 100%;
+	    left: 0;
+	}
+	.grid_pixell_offer_img img {
+		height: auto;
+		width: 100%;
+	}
+
+	.grid_pixell_offer_button {
+		height: auto;
+    	line-height: 1.3rem;
+    	margin-top: 5px;
+	}
+	.lead.pixell-lead {
+	    font-size: 1.2rem;
+	    line-height: 1.4rem;
+	}
+	h1.pixell-h1 {
+	    font-size: 1.55rem;
+	    line-height: 2.1rem;
 	}
 }
