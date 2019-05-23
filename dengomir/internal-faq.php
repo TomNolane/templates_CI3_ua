@@ -52,7 +52,7 @@
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
                                         <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
-                                            На какие города России распространяется сервис Dengomir?
+                                            На какие города Украины распространяется сервис Dengomir?
                                         </a>
                                         <i class="ex-arrow-show"></i>
                                     </h4>
@@ -60,7 +60,7 @@
                                 <div id="collapse3" class="panel-collapse collapse">
                                     <div class="panel-body">
                                         <p>Наш сервис работает во всех городах страны. Мы предоставляем онлайн
-                                            микрозаймы для граждан России.</p>
+                                            микрозаймы для граждан Украины.</p>
                                     </div>
                                 </div>
                             </div>
