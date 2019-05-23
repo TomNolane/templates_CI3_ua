@@ -86,10 +86,10 @@ include "header.php";
                     <?php require 'form1.php';?>
                 </div>
                 <div id="secondStep" class="tab-pane fade">
-                    <?php require 'form2.php';?>
+                    <?php //require 'form2.php';?>
                 </div>
                 <div id="thirdStep" class="tab-pane fade">
-                    <?php require 'form3.php';?>
+                    <?php //require 'form3.php';?>
                 </div>
             </div>
         </form>
