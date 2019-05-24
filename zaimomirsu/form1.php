@@ -145,7 +145,7 @@
             <div class="form-group row">
                 <div class="col-md-9 offset-md-3">
                     <div class="row justify-content-center">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <button type="button" id="submitOne" class="nav nav-tabs ex-main-btn text-center"> Получить деньги </button>
                         </div>
                     </div>
@@ -154,3 +154,76 @@
         </div>
     </div>
 </section>
+<style>
+    .ex-form {
+        max-width: 700px;
+        padding-bottom: 0 !important;
+        padding: 0;
+        margin: 30px auto;
+        box-shadow: 0 20px 40px rgba(231, 244, 246, 0.9);
+        border-radius: 0.6rem;
+        border: 1px solid #76e3c3;
+        background-color: #ffffff;
+    }
+    .tab-content {
+        padding-top: 30px;
+        border-bottom-left-radius: 0.6rem;
+        border-bottom-right-radius: 0.6rem;
+    }
+    h1 {
+        text-align: center;
+        color: #ffffff !important;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 20px 24px;
+        background-color: #00af27;
+        background: -webkit-linear-gradient(#00af27, #00be2b);
+        background: -o-linear-gradient(#00af27, #00be2b);
+        background: linear-gradient(#00af27, #00be2b);
+        border-top-left-radius: 0.6rem;
+        border-top-right-radius: 0.6rem;
+        text-shadow: 0 2px 4px #037e0c;
+    }
+    .control-label {
+        font-weight: bold;
+    }
+    #submitOne {
+        background-color: #ffc400;
+        color: #2e3035;
+        padding: 20px 40px;
+    }
+    #submitOne:hover {
+        text-decoration: none;
+        color: #FFF;
+    }
+    .ex-form .ex-bg-form .tab-content .ex-main-form label {
+        text-align: left !important;
+    }
+    #firstStep {
+        padding-bottom: 30px;
+    }
+    @media (max-width: 767px) {
+        .ex-form p {
+            font-size: 14px;
+            margin-bottom: 15px !important;
+        }  
+        .ex-wrapper {
+            margin-bottom: 12px !important;
+        }
+
+        .ex-form {
+            margin: 10px 10px;
+            margin-bottom: 30px;
+        }
+        .ex-form h1 {
+            font-size: 20px;
+            margin-top: 0 !important;
+            line-height: 24px;
+        }
+
+    }
+
+</style>

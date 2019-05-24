@@ -63,18 +63,8 @@ if(isset($_SERVER['HTTP_REFERER'])){
 }
 </style>
 <main class="ex-form">
-    <div class="container">
+    <div class="">
         <h1 class="text-center" id="form-steps">Заполнив 1-й шаг, получите +30% к вероятности одобрения заявки</h1>
-        <div class="row justify-content-center text-center">
-            <div class="col-lg-6">
-                <ul class="ex-tab-steps ">
-                    <li class="ex-step-counter ex-step-active">
-                        <figure>Ваши данные</figure>
-                        <p><br></p>
-                    </li>
-                </ul>
-            </div>
-        </div>
         <!-- <div class="row justify-content-center">
             <div class="col-xl-8 ">
                 <div class="ex-calc-block">
@@ -108,7 +98,7 @@ if(isset($_SERVER['HTTP_REFERER'])){
         </div> -->
     </div>
     <div class="ex-bg-form">
-        <div class="container">
+        <div class="">
             <form id="anketa" action="/lk" method="post" class="form-horizontal" onsubmit="return validate();" autocomplete="off">
                 <input type="hidden" name="display" id="display" value="0">
                 <input type="hidden" name="referer" value="<?=$referer?>">
