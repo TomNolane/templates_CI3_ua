@@ -1,6 +1,6 @@
 <section class="ex-main-form">
     <div class="row">
-        <div class="col-md-6 col-md-offset-2">
+        <div class="col-md-8 col-md-offset-1">
             <div class="form-group has-feedback hidden">
                 <label class="control-label col-md-4" for="f">Фамилия</label>
                 <div class="col-md-8">
@@ -149,3 +149,61 @@
         </div>
     </div>
 </section>
+<style>
+    .ex-form {
+        max-width: 700px;
+        padding-bottom: 0 !important;
+        box-shadow: 0 1px 10px 0px #ccc;
+        border-radius: 0.6rem;
+        padding: 0;
+        margin: 30px auto;
+    }
+    .tab-content {
+        padding-top: 30px;
+        border-bottom-left-radius: 0.6rem;
+        border-bottom-right-radius: 0.6rem;
+    }
+    h1 {
+        text-align: center;
+        color: #ffffff !important;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 20px 24px;
+        background-color: #0e6c97;
+        border-top-left-radius: 0.6rem;
+        border-top-right-radius: 0.6rem;
+        text-shadow: 0 2px 4px #004469;
+    }
+    .control-label {
+        font-weight: bold;
+    }
+    #submitOne {
+        background-color: #296c97;
+        background: -webkit-linear-gradient(#296c97, #004768);
+        background: -o-linear-gradient(#296c97, #004768);
+        background: linear-gradient(#296c97, #004768);
+    }
+    #submitOne:hover {
+        text-decoration: none;
+        color: #FFF;
+    }
+    @media (max-width: 767px) {
+        .ex-form p {
+            font-size: 14px;
+            margin-bottom: 15px !important;
+        }  
+        .ex-wrapper {
+            margin-bottom: 12px !important;
+        }
+
+        .ex-form {
+            margin: 0 10px;
+            margin-bottom: 30px;
+        }
+
+    }
+
+</style>

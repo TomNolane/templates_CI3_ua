@@ -243,4 +243,17 @@
     </div -->
     </form> 
 </main>
+<style>
+    @media (max-width: 767px) {
+        .ex-home .ex-main-section .ex-main-left h1 {
+            font-size: 31px !important;
+            line-height: 40px !important;
+            margin-bottom: 10px !important;
+        }  
+        .ex-home .ex-main-section .ex-calc-block .ex-wrapper .ex-slider-block {
+            padding-bottom: 20px !important;
+        }      
+    }
+
+</style>
 <?php require 'footer.php'; ?>
