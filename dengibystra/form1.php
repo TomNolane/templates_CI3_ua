@@ -1,206 +1,190 @@
-<div class="ex-anketa-head" style="margin-top: 40px;">
-    <p class="text-conf text-center">
-        Заполнив 1-й шаг, получите +30% к вероятности одобрения заявки
-    </p>
-</div>
-<div class="ex-anketa-main">
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <!-- слайдер -->
-            <div class="ex-calc-wraper hidden">
-                <div class="row">
-                    <div class="col-sm-7">
-                        <div class="ex-range-scope">
-                            <div id="ex-main-slider-range">
-                                <figure class="ex-range-slider">
-                                    <input type="text" id="rangeSlider" name="rangeSlider" value="0" />
-                                    <span class="ex-probability"></span>
-                                </figure>
-                                <div class="ex-slider-info"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-5">
-                        <figure class="ex-val-block">
-                            <p id="ex-slider-val" class="text-center"></p>
-                        </figure>
+<section class="ex-main-form" style="    margin-bottom: 30px;">
+    <h2 class="text-center" style="margin-bottom:30px;">Заполнив 1-й шаг, получите <span style="font-weight: 400;">+30%</span> к вероятности одобрения заявки</h2>
+    <div class="row" style="    padding: 10px 20px;">
+        <div class="col-md-12 col-lg-9">
+            <div class="form-group has-feedback hidden">
+                <label class="control-label col-md-4" for="f">Фамилия</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="text" class="form-control ec tip special_form" value="Батейко" name="f" id="f" placeholder="Фамилия" title="Введите свою фамилию"
+                            data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свою фамилию">
+                            <p class="text-muted helpblock">Пример: Батейко</p>
                     </div>
                 </div>
             </div>
-            <!-- /слайдер -->
-            <div class="row hidden">
-                <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback hidden">
-                        <label class="control-label col-md-4 label-required" for="f">Фамилия</label>
-                        <input type="text" class="form-control ec tip" name="f" id="f" placeholder="Фамилия" title="Укажите свою фамилию" data-sanitize="capitalize"
-                            data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свою фамилию"
-                            >
-                        <span id="fstatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2">Нужно указать фамилию</p>
-                        <p class="text-muted helpblock">Пример: Иванова</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row hidden">
-                <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback hidden">
-                        <label class="control-label col-md-4 label-required" for="i">Имя</label>
-                        <input type="text" class="form-control ec tip" name="i" id="i" placeholder="Имя" title="Укажите свое имя" data-sanitize="capitalize"
-                            data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свое имя"
-                            >
-                        <span id="istatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2">Нужно указать имя</p> 
-                        <p class="text-muted helpblock">Пример: Лариса</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row hidden">
-                <div class="col-sm-12" style="height: 90px;">
-                    <div class="form-group has-feedback hidden">
-                        <label class="control-label col-md-4 label-required" for="o">Отчество</label>
-                        <input type="text" class="form-control ec tip sp_push_custom_data" name="o" id="o" placeholder="Отчество" title="Укажите свое отчество"
-                            data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[А-Яа-яЁё\-\s]+$" data-validation-error-msg="Укажите свое отчество"
+            <div class="form-group has-feedback hidden">
+                <label class="control-label col-md-4" for="i">Имя</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="text" class="form-control ec tip special_form" value="Олександр" name="i" id="i" placeholder="Имя" title="Введите свое имя" data-sanitize="capitalize"
+                            data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свое имя"
                             required>
-                        <span id="ostatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2">Нужно указать отчество</p> 
-                        <p class="text-muted helpblock">Пример: Ивановна</p>
+                            <p class="text-muted helpblock">Пример: Олександр</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group has-feedback hidden">
+                <label class="control-label col-md-4" for="o">Отчество</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="text" class="form-control ec tip special_form" value="Дмитрович" name="o" id="o" placeholder="Отчество" title="Введите свое отчество"
+                            data-sanitize="capitalize" data-validation="custom" data-validation-regexp="^[-А-я ЁёІіЇїҐґЄє']+$" data-validation-error-msg="Введите свое отчество">
+                            <p class="text-muted helpblock">Пример: Дмитрович</p>
                     </div>
                 </div>
             </div>
             <input type="hidden" id="gender" value="1" name="gender">
-            <div class="row" style="margin-top: 5px;">
-                <div class="col-sm-12">
-                    <div class="form-group has-feedback">
-                        <label class="label-required" for="phone">Номер телефона</label>
-                        <input type="tel" class="form-control ec tip" name="phone" id="phone" placeholder="Телефон" title="Укажите свой телефон"
-                             data-validation-error-msg="Укажите телефон"
-                            required>
-                        <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2">Нужно указать номер телефона</p>
-                        <p class="text-muted helpblock">Пример: 8 (977) 777 7777</p>
+            <!-- Скрываем старую форму даты рождения -->
+            <div class="form-group hidden">
+                <label class="col-sm-4 control-label label-required hidden-xs" for="birth_dd">Дата рождения*</label>
+                <div class="col-sm-2">
+                    <div class="shadow">
+                        <select size="1" class="form-control ec" id="birth_dd" name="birth_dd">
+                            <option>выбери</option>
+                            <option value="0">День</option>
+                            <?php for($i=1;$i<=31;$i++) echo '<option value="'.(($i<10)? '0' : '').$i.'">'.$i.'</option>'; ?>
+                        </select>
                     </div>
                 </div>
-                <!-- Скрываем старую форму даты рождения -->
-                <div class="form-group hidden">
-                    <label class="col-sm-4 control-label label-required hidden-xs" for="birth_dd">Дата рождения*</label>
-                    <div class="col-sm-2">
-                        <div class="shadow">
-                            <select size="1" class="form-control ec" id="birth_dd" name="birth_dd">
-                                <option>выбери</option>
-                                <option value="0">День</option>
-                                <?php for($i=1;$i<=31;$i++) echo '<option value="'.(($i<10)? '0' : '').$i.'">'.$i.'</option>'; ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="shadow">
-                            <label class="col-sm-4 control-label label-required hidden-xs" for="birth_mm">Дата рождения</label>
-                            <select size="1" class="form-control ec" id="birth_mm" name="birth_mm">
-                                <option>выбери</option>
-                                <option value="0">Месяц</option>
-                                <option value="01">Январь</option>
-                                <option value="02">Февраль</option>
-                                <option value="03">Март</option>
-                                <option value="04">Апрель</option>
-                                <option value="05">Май</option>
-                                <option value="06">Июнь</option>
-                                <option value="07">Июль</option>
-                                <option value="08">Август</option>
-                                <option value="09">Сентябрь</option>
-                                <option value="10">Октябрь</option>
-                                <option value="11">Ноябрь</option>
-                                <option value="12">Декабрь</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="shadow">
-                            <label class="col-sm-4 control-label label-required hidden-xs" for="birth_yyyy">Дата рождения</label>
-                            <select size="1" class="form-control ec" id="birth_yyyy" name="birth_yyyy">
-                                <option>выбери</option>
-                                <option value="0">Год</option>
-                                <?php
-				for($i=date('Y', strtotime('-80 years', time()));$i<=date('Y', strtotime('-18 years', time()));$i++)
-				echo '<option value="'.$i.'">'.$i.'</option>';
-				?>
-                            </select>
-                        </div>
+                <div class="col-sm-3">
+                    <div class="shadow">
+                        <label class="col-sm-4 control-label label-required hidden-xs" for="birth_mm">Дата рождения</label>
+                        <select size="1" class="form-control ec" id="birth_mm" name="birth_mm">
+                            <option>выбери</option>
+                            <option value="0">Месяц</option>
+                            <option value="01">Январь</option>
+                            <option value="02">Февраль</option>
+                            <option value="03">Март</option>
+                            <option value="04">Апрель</option>
+                            <option value="05">Май</option>
+                            <option value="06">Июнь</option>
+                            <option value="07">Июль</option>
+                            <option value="08">Август</option>
+                            <option value="09">Сентябрь</option>
+                            <option value="10">Октябрь</option>
+                            <option value="11">Ноябрь</option>
+                            <option value="12">Декабрь</option>
+                        </select>
                     </div>
                 </div>
-                <!-- Скрываем старую форму даты рождения -->
-                <div class="col-sm-6 hidden">
-                    <div class="form-group has-feedback">
-                        <label class="label-required" for="birthdate">Дата рождения</label>
-                        <input type="tel" class="form-control ec tip" id="birthdate" name="birthdate" placeholder="Дата рождения" title="Укажите свою дату рождения"
-                            data-validation="custom" value="06/02/2000" data-validation-regexp="^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" data-validation-error-msg="Укажите дату рождения"
-                            required>
-                        <span id="birthdatestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2"></p>
-                        <p class="text-muted helpblock">Пример: 06/02/2000</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12"> 
-                    <div class="form-group has-feedback">
-                        <label class="label-required" for="email">Электронная почта</label>
-                        <input type="email" class="form-control ec tip sp_push_custom_data" name="email" id="email" title="Укажите свой email адрес"
-                            placeholder="Укажите свой email адрес" data-validation="email" data-validation-error-msg="Укажите свой email адрес"
-                            required>
-                        <span id="emailstatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
-                        <p class="help-block2"></p>
-                        <p class="text-muted helpblock">Проверьте почту. Письмо могло попасть в папку "СПАМ"</p>
-                    </div>
-                </div>
-                <div class="col-sm-12">
-                    <div class="form-group ex-arrow-on hidden">
-                        <label for="credit">Кредитная история</label>
-                        <select class="form-control" id="credit">
-                            <option selected>Никогда не брал кредитов</option>
-                            <option>Кредиты закрыты, просрочек не было</option>
-                            <option>Кредиты есть, просрочек нет</option>
-                            <option>Кредиты закрыты, просрочки были</option>
-                            <option>Просрочки были, сейчас нет</option>
-                            <option>Просрочки сейчас есть</option>
+                <div class="col-sm-3">
+                    <div class="shadow">
+                        <label class="col-sm-4 control-label label-required hidden-xs" for="birth_yyyy">Дата рождения</label>
+                        <select size="1" class="form-control ec" id="birth_yyyy" name="birth_yyyy">
+                            <option>выбери</option>
+                            <option value="0">Год</option>
+                            <?php
+                for($i=date('Y', strtotime('-80 years', time()));$i<=date('Y', strtotime('-18 years', time()));$i++)
+                echo '<option value="'.$i.'">'.$i.'</option>';
+                ?>
                         </select>
                     </div>
                 </div>
             </div>
+            <!-- Скрываем старую форму даты рождения -->
+            <div class="form-group has-feedback hidden">
+                <label class="control-label col-md-4" for="birthdate">Дата рождения</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="text" class="form-control ec tip" id="birthdate" name="birthdate" placeholder="Дата рождения" title="Выберете свою дату рождения"
+                            data-validation="custom" value="06/02/2000" data-validation-regexp="^[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" data-validation-error-msg="Выберите дату рождения"
+                            required>
+                            <p class="text-muted helpblock">Пример: 06/02/2000</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="control-label col-md-4" for="phone">Телефон</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="tel" class="form-control ec tip special_form" name="phone" id="phone" placeholder="Введите свой номер телефона"
+                            title="Введите свой номер телефона" data-validation-error-msg="Введите номер телефона" style="height: 55px;text-align:center;" required>
+                        <span id="phonestatus" class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                        <p class="text-muted helpblock" style="float:center;">Пример: 095 725 09 99</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <label class="control-label col-md-4" for="email">Email</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper">
+                        <input type="email" class="form-control ec tip special_form" name="email" id="email" title="Введите свой email адрес" placeholder="Email"
+                            data-validation="email" data-validation-error-msg="Введите свой email" style="height: 55px;text-align:center;" required>
+                            <p class="text-muted helpblock" style="float:center;">Пример: email@mail.ru</p>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group has-feedback hidden">
+                <label class="control-label col-md-4" for="delays_type">Кредитная история</label>
+                <div class="col-md-8">
+                    <div class="ex-wrapper ex-arrow">
+                        <select class="form-control ec special_form99" name="delays_type" id="delays_type">
+                            <option selected value="never">Никогда не брал(а) кредитов</option>
+                            <option value="credit_closed_no_delay">Кредиты закрыты, просрочек не было</option>
+                            <option value="credit_open_no_delay">Кредиты есть, просрочек нет</option>
+                            <option value="credit_closed_had_delay">Кредиты закрыты, просрочки были</option>
+                            <option value="had_delay">Просрочки были, сейчас нет</option>
+                            <option value="has_delay">Просрочки сейчас есть</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-4 ex-agreement-check">
+                    <label class="checkbox-inline">
+                        <span> Я согласен на <a href="https://mikrodengi.su/soglasie" target="_blank">обработку персональных данных</a> и с <a href="https://mikrodengi.su/oferta" target="_blank">публичной офертой</a></span>
+                        <input type="checkbox" id="agree" value="1" checked>
+                        <i></i>
+                    </label>
+                    <label class="hidden">
+                        <input type="checkbox" id="marketing" value="1" checked>
+                        <b>Я согласен(на) получать маркетинговые рассылки с предложениями микрозаймов</b>
+                    </label>
+                </div>
+            </div>
+            <div class="form-group has-feedback">
+                <div class="col-md-8 col-md-offset-4">
+                    <a id="submitOne" class="ex-main-btn2 btn3 text-center">Получить деньги</a>
+                </div>
+            </div>
         </div>
     </div>
-</div>
-<div class="ex-anketa-foot">
-    <div class="row">
-        <div class="col-sm-8 col-sm-offset-2">
-            <div class="col-sm-8 col-xs-12 ex-agreement-check">
-                <label class="checkbox-inline">
-                    <span class="font12">Я согласен на обработку персональных данных и с публичной офертой</span>
-                    <input type="checkbox" value="" id="agree" onclick="checkMee();" checked>
-                    <i></i>
-                </label>
-            </div>    
-            <div class="col-sm-8 col-xs-12 ex-agreement-check hidden">
-                <label class="checkbox-inline">
-                    <span class="font12">Я согласен на получение рекламных сообщений</span>
-                    <input type="checkbox" value="" id="marketing" checked>
-                    <i></i>
-                </label>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <button class="ex-main-btn" id="submitOne"> Получить займ </button>
-            </div>
-        </div>
-    </div>
-</div>
-<br><br>
-<!-- dengybistra 
-<ins class="adsbygoogle"
-    style="display:block"
-    data-ad-client="ca-pub-4970738258373085"
-    data-ad-slot="9919758561"
-    data-ad-format="auto"
-    data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>-->
-<br><br>
+</section>
+
+<style>
+.ex-main-form {
+    margin-top: 30px;
+        box-shadow: 0 9px 16px 1px #c7c7c7;
+}
+    h2 {
+    box-shadow: 0 2px 0 #f0f2f7;
+    border-radius: 4px 4px 0 0;
+    background-color: #122a4a;
+    color: #FFF;
+    padding: 20px 30px;
+    margin-top: 0;
+}
+.ex-main-btn2 {
+    width: 100%;
+    outline: 0;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0,0,0,.09);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 4000;
+    color: #000;
+    background: #FFDD2D;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 10px 33px;
+    display: block;
+}
+.ex-main-btn:hover {
+    text-decoration: none;
+}
+</style>

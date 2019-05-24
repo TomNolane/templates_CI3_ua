@@ -233,7 +233,8 @@ else if($this->uri->segment(1) == '404')
 }
 echo "}";
 require 'templates/common/new/js/exeption.js';
-require 'templates/common/new/js/settings_form.js';
+//require 'templates/common/new/js/settings_form.js';
+echo 'isWebvisor = true;';
 ?>
 </script>
 <?php

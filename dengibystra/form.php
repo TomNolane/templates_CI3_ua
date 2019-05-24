@@ -70,7 +70,7 @@ include "header.php";
 <input type="hidden" class="percent" id="percent" name="percent" value="<?= $percent;?>" />
 <div class="ex-bounds"></div>
 <div class="container ex-form"> 
-    <form class="tab-content" id="anketa" method="post" autocomplete="off" novalidate>
+    <form class="tab-content" id="anketa" action="/lk" method="post" autocomplete="off" novalidate style="    max-width: 720px; margin: auto;">
         <input type="hidden" name="referer" value="<?=$referer?>">
         <input type="hidden" name="id" value="">
         <input type="hidden" name="step" value="1">
