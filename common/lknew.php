@@ -7,8 +7,8 @@
     $site = str_replace("zaimomir", "zaimomirsu", $site);
     $site = str_replace("zaimnow", "zaimnowsu", $site);
     $site = str_replace("zaimcoin", "zaimcoinsu", $site);
-    $site = str_replace("dengomir", "dengomirsu", $site);
-    $site = str_replace("dengibystra", "dengibystrasu", $site);
+    $site = str_replace("dengomirsu", "dengomir", $site);
+    $site = str_replace("dengibystrasu", "dengibystra", $site);
 
     $this->load->model('offers/offers_model', 'pixelnaya');
     $data = $this->pixelnaya->all(8, 0);
